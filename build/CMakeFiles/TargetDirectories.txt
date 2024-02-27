@@ -1,0 +1,9 @@
+/home/bigdatalab/workspace_lsm/sorting/build/CMakeFiles/Main.dir
+/home/bigdatalab/workspace_lsm/sorting/build/CMakeFiles/edit_cache.dir
+/home/bigdatalab/workspace_lsm/sorting/build/CMakeFiles/rebuild_cache.dir
+/home/bigdatalab/workspace_lsm/sorting/build/utility/CMakeFiles/Utility.dir
+/home/bigdatalab/workspace_lsm/sorting/build/utility/CMakeFiles/edit_cache.dir
+/home/bigdatalab/workspace_lsm/sorting/build/utility/CMakeFiles/rebuild_cache.dir
+/home/bigdatalab/workspace_lsm/sorting/build/sort_algorithms/CMakeFiles/SortAlgorithms.dir
+/home/bigdatalab/workspace_lsm/sorting/build/sort_algorithms/CMakeFiles/edit_cache.dir
+/home/bigdatalab/workspace_lsm/sorting/build/sort_algorithms/CMakeFiles/rebuild_cache.dir

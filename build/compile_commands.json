@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -DTBB_USE_DEBUG -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Main.dir/main.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/main.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/main.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/data_generator.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/utility/data_generator.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/utility/data_generator.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/thread_pool.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/utility/thread_pool.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/utility/thread_pool.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/utility.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/utility/utility.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/utility/utility.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/__/sort_algorithms/intro_sort_utility.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort_utility.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort_utility.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o sort_algorithms/CMakeFiles/SortAlgorithms.dir/insertion_sort.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/insertion_sort.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/insertion_sort.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort_utility.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort_utility.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort_utility.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o sort_algorithms/CMakeFiles/SortAlgorithms.dir/parallel_intro_sort.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/parallel_intro_sort.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/parallel_intro_sort.cpp"
+},
+{
+  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
+  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o sort_algorithms/CMakeFiles/SortAlgorithms.dir/thread_pool_parallel_intro_sort.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/thread_pool_parallel_intro_sort.cpp",
+  "file": "/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/thread_pool_parallel_intro_sort.cpp"
+}
+]
