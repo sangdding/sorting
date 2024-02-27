@@ -4,6 +4,7 @@
 #include "aips2o.hpp"
 #include "sort_algorithms.h"
 #include "data_generator.h"
+#include "skim_generator.h"
 #include "utility.h"
 #include "ips4o.hpp"
 #include <cstring>
@@ -16,8 +17,48 @@
 
 using namespace std;
 
+template<typename T>
+void sort_and_print(std::vector<T> &V) {
+
+    // auto start_time = std::chrono::high_resolution_clock::now();
+    // intro_sort(V.begin(), V.end());
+    // auto finish_time = std::chrono::high_resolution_clock::now();
+    // cout << "1. intro sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+    
+    // start_time = std::chrono::high_resolution_clock::now();
+    // parallel_intro_sort(V.begin(), V.end());
+    // finish_time = std::chrono::high_resolution_clock::now();
+    // cout << "2. parallel intro sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+
+    // start_time = std::chrono::high_resolution_clock::now();
+    // std::sort(V.begin(), V.end());
+    // finish_time = std::chrono::high_resolution_clock::now();
+    // cout << "3. STL sort (quick sort): " << get_pretty_time((finish_time - start_time).count()) << '\n';
+
+    // start_time = std::chrono::high_resolution_clock::now();
+    // std::stable_sort(V.begin(), V.end());
+    // finish_time = std::chrono::high_resolution_clock::now();
+    // cout << "4. STL stable sort (Merge sort): " << get_pretty_time((finish_time - start_time).count()) << '\n';
+
+    auto start_time = std::chrono::high_resolution_clock::now();
+    aips2o::sort(V.begin(), V.end());
+    auto finish_time = std::chrono::high_resolution_clock::now();
+    cout << "5. aips2o sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+
+    start_time = std::chrono::high_resolution_clock::now();
+    ips4o::sort(V.begin(), V.end());
+    finish_time = std::chrono::high_resolution_clock::now();
+    cout << "6. ips4o sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+
+    start_time = std::chrono::high_resolution_clock::now();
+    ips4o::parallel::sort(V.begin(), V.end());
+    finish_time = std::chrono::high_resolution_clock::now();
+    cout << "7. ips4o parallel sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+}
+
 //간단한 사용 예시입니다.
 int main() {
+    /*
     const int size = 100000000;
     data_generator *gen = new data_generator(size);
     int *data = new int[size];
@@ -84,5 +125,73 @@ int main() {
 
     delete gen;
     delete[] data;
+    */
+
+    size_t size;
+    int method;
+
+    cout << "Data Size : ";
+    cin >> size;
+
+    cout << "Generation Method" << endl;
+    cout << "1. uniform" << endl;
+    cout << "2. normal" << endl;
+    cout << "3. log_normal" << endl;
+    cout << "4. mix_gauss" << endl;
+    cout << "5. exponential" << endl;
+    cout << "6. chi_squard" << endl;
+    cout << "7. root_dups" << endl;
+    cout << "8. two_dups" << endl;
+
+    cout << "Select Method: ";
+    cin >> method;
+
+    std::vector<int> I(size);
+    std::vector<double> D(size);
+    skim_generator<int> *gen_i = new skim_generator<int>(I);
+    skim_generator<double> *gen_d = new skim_generator<double>(D);
+    switch (method)
+    {
+    case 1:
+        gen_i->uniform_distribution();
+        gen_i->apply_changes(I);
+        sort_and_print(I);
+        break;
+        case 2:        
+        gen_d->normal_distribution();
+        gen_d->apply_changes(D);
+        sort_and_print(D);
+        break;
+        case 3:
+        gen_d->log_normal_distribution();
+        gen_d->apply_changes(D);
+        sort_and_print(D);
+        break;
+        case 4:
+        gen_d->mix_gauss();
+        gen_d->apply_changes(D);
+        sort_and_print(D);
+        break;
+        case 5:
+        gen_d->exponential_distribution();
+        gen_d->apply_changes(D);
+        sort_and_print(D);
+        break;
+        case 6:
+        gen_d->chi_squared_distribution();
+        gen_d->apply_changes(D);
+        sort_and_print(D);
+        break;
+        case 7:
+        gen_i->root_dups();
+        gen_i->apply_changes(I);
+        sort_and_print(I);
+        break;
+        case 8:
+        gen_i->two_dups();
+        gen_i->apply_changes(I);
+        sort_and_print(I);
+        break;
+    }
     return 0;
 }

@@ -1,10 +1,8 @@
-
 #include "data_generator.h"
 
 data_generator::data_generator(long long s) : size(s), num_uni(-s, s), idx_uni(0, s - 1) {
     data = new int[size];
 }
-
 
 data_generator::~data_generator() {
     delete[] data;

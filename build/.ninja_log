@@ -1,0 +1,14 @@
+# ninja log v5
+2	28	1709015672911435049	sort_algorithms/CMakeFiles/SortAlgorithms.dir/insertion_sort.cpp.o	9e07c54fcabe73c3
+1	482	1709015673363434828	utility/CMakeFiles/Utility.dir/utility.cpp.o	ba8dd963b4d321bb
+3	519	1709015673403434808	sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort_utility.cpp.o	9297f27722248e07
+2	543	1709015673427434796	utility/CMakeFiles/Utility.dir/__/sort_algorithms/intro_sort_utility.cpp.o	1fd5caab36f7d038
+4	1054	1709015673935434548	sort_algorithms/CMakeFiles/SortAlgorithms.dir/parallel_intro_sort.cpp.o	b477fa0edc49ae3
+1054	1114	1709015673995434518	sort_algorithms/libSortAlgorithms.a	aa0e2facb1a36dc6
+3	636	1709015673519434752	sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort.cpp.o	a4111f23427b5387
+1	889	1709015673771434628	utility/CMakeFiles/Utility.dir/thread_pool.cpp.o	c104539f5d86bf00
+2042	2112	1709015674991434029	utility/libUtility.a	486f5196723fb6b5
+4	839	1709015673719434653	sort_algorithms/CMakeFiles/SortAlgorithms.dir/thread_pool_parallel_intro_sort.cpp.o	154693c5884d1c9e
+0	2041	1709015674919434065	utility/CMakeFiles/Utility.dir/data_generator.cpp.o	53f04d32ca5c6e90
+0	3137	1709015676015433525	CMakeFiles/Main.dir/main.cpp.o	52899aa0a3997385
+3138	3257	1709015676139433464	Main	5788021813e71698
