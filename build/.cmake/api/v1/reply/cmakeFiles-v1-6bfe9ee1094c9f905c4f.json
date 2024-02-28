@@ -194,9 +194,6 @@
 		},
 		{
 			"path" : "utility/CMakeLists.txt"
-		},
-		{
-			"path" : "sort_algorithms/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

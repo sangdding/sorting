@@ -65,34 +65,16 @@ CMAKE_BINARY_DIR = /home/bigdatalab/workspace_lsm/sorting
 # The main recursive "all" target.
 all: CMakeFiles/Main.dir/all
 all: utility/all
-all: sort_algorithms/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: utility/preinstall
-preinstall: sort_algorithms/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Main.dir/clean
 clean: utility/clean
-clean: sort_algorithms/clean
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory sort_algorithms
-
-# Recursive "all" directory target.
-sort_algorithms/all: sort_algorithms/CMakeFiles/SortAlgorithms.dir/all
-.PHONY : sort_algorithms/all
-
-# Recursive "preinstall" directory target.
-sort_algorithms/preinstall:
-.PHONY : sort_algorithms/preinstall
-
-# Recursive "clean" directory target.
-sort_algorithms/clean: sort_algorithms/CMakeFiles/SortAlgorithms.dir/clean
-.PHONY : sort_algorithms/clean
 
 #=============================================================================
 # Directory level rules for directory utility
@@ -114,7 +96,6 @@ utility/clean: utility/CMakeFiles/Utility.dir/clean
 
 # All Build rule for target.
 CMakeFiles/Main.dir/all: utility/CMakeFiles/Utility.dir/all
-CMakeFiles/Main.dir/all: sort_algorithms/CMakeFiles/SortAlgorithms.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bigdatalab/workspace_lsm/sorting/CMakeFiles --progress-num=1,2 "Built target Main"
@@ -122,7 +103,7 @@ CMakeFiles/Main.dir/all: sort_algorithms/CMakeFiles/SortAlgorithms.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 0
 .PHONY : CMakeFiles/Main.dir/rule
@@ -143,12 +124,12 @@ CMakeFiles/Main.dir/clean:
 utility/CMakeFiles/Utility.dir/all:
 	$(MAKE) $(MAKESILENT) -f utility/CMakeFiles/Utility.dir/build.make utility/CMakeFiles/Utility.dir/depend
 	$(MAKE) $(MAKESILENT) -f utility/CMakeFiles/Utility.dir/build.make utility/CMakeFiles/Utility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bigdatalab/workspace_lsm/sorting/CMakeFiles --progress-num=9,10,11,12,13 "Built target Utility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bigdatalab/workspace_lsm/sorting/CMakeFiles --progress-num=3,4,5,6 "Built target Utility"
 .PHONY : utility/CMakeFiles/Utility.dir/all
 
 # Build rule for subdir invocation for target.
 utility/CMakeFiles/Utility.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utility/CMakeFiles/Utility.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 0
 .PHONY : utility/CMakeFiles/Utility.dir/rule
@@ -161,32 +142,6 @@ Utility: utility/CMakeFiles/Utility.dir/rule
 utility/CMakeFiles/Utility.dir/clean:
 	$(MAKE) $(MAKESILENT) -f utility/CMakeFiles/Utility.dir/build.make utility/CMakeFiles/Utility.dir/clean
 .PHONY : utility/CMakeFiles/Utility.dir/clean
-
-#=============================================================================
-# Target rules for target sort_algorithms/CMakeFiles/SortAlgorithms.dir
-
-# All Build rule for target.
-sort_algorithms/CMakeFiles/SortAlgorithms.dir/all:
-	$(MAKE) $(MAKESILENT) -f sort_algorithms/CMakeFiles/SortAlgorithms.dir/build.make sort_algorithms/CMakeFiles/SortAlgorithms.dir/depend
-	$(MAKE) $(MAKESILENT) -f sort_algorithms/CMakeFiles/SortAlgorithms.dir/build.make sort_algorithms/CMakeFiles/SortAlgorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bigdatalab/workspace_lsm/sorting/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target SortAlgorithms"
-.PHONY : sort_algorithms/CMakeFiles/SortAlgorithms.dir/all
-
-# Build rule for subdir invocation for target.
-sort_algorithms/CMakeFiles/SortAlgorithms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sort_algorithms/CMakeFiles/SortAlgorithms.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 0
-.PHONY : sort_algorithms/CMakeFiles/SortAlgorithms.dir/rule
-
-# Convenience name for target.
-SortAlgorithms: sort_algorithms/CMakeFiles/SortAlgorithms.dir/rule
-.PHONY : SortAlgorithms
-
-# clean rule for target.
-sort_algorithms/CMakeFiles/SortAlgorithms.dir/clean:
-	$(MAKE) $(MAKESILENT) -f sort_algorithms/CMakeFiles/SortAlgorithms.dir/build.make sort_algorithms/CMakeFiles/SortAlgorithms.dir/clean
-.PHONY : sort_algorithms/CMakeFiles/SortAlgorithms.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

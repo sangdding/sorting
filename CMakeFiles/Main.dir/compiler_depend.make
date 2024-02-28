@@ -456,7 +456,8 @@ CMakeFiles/Main.dir/main.cpp.o: main.cpp \
   includes/aips2o/empty_block_movement.hpp \
   includes/aips2o/sampling.hpp \
   includes/aips2o/sequential.hpp \
-  includes/sort_algorithms.h \
+  includes/intro_sort.hpp \
+  includes/sort_algorithms.hpp \
   includes/data_generator.h \
   /usr/include/c++/11/execution \
   /usr/include/c++/11/pstl/glue_execution_defs.h \
@@ -599,7 +600,7 @@ includes/ips4o.hpp:
 
 /usr/include/tbb/blocked_range.h:
 
-includes/sort_algorithms.h:
+includes/intro_sort.hpp:
 
 includes/aips2o/sequential.hpp:
 
@@ -1478,6 +1479,8 @@ includes/aips2o/synchronization.hpp:
 /usr/include/c++/11/array:
 
 /usr/include/c++/11/bits/sstream.tcc:
+
+includes/sort_algorithms.hpp:
 
 /usr/include/c++/11/new:
 

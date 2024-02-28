@@ -94,7 +94,6 @@ Main: CMakeFiles/Main.dir/main.cpp.o
 Main: CMakeFiles/Main.dir/build.make
 Main: /usr/lib/x86_64-linux-gnu/libtbb.so.12.5
 Main: utility/libUtility.a
-Main: sort_algorithms/libSortAlgorithms.a
 Main: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so
 Main: /usr/lib/x86_64-linux-gnu/libpthread.a
 Main: CMakeFiles/Main.dir/link.txt

@@ -47,7 +47,7 @@ cmake_ninja_workdir = /home/bigdatalab/workspace_lsm/sorting/build/
 #############################################
 # Order-only phony target for Main
 
-build cmake_object_order_depends_target_Main: phony || cmake_object_order_depends_target_SortAlgorithms cmake_object_order_depends_target_Utility
+build cmake_object_order_depends_target_Main: phony || cmake_object_order_depends_target_Utility
 
 build CMakeFiles/Main.dir/main.cpp.o: CXX_COMPILER__Main_Debug /home/bigdatalab/workspace_lsm/sorting/main.cpp || cmake_object_order_depends_target_Main
   DEFINES = -DTBB_USE_DEBUG
@@ -65,9 +65,9 @@ build CMakeFiles/Main.dir/main.cpp.o: CXX_COMPILER__Main_Debug /home/bigdatalab/
 #############################################
 # Link the executable Main
 
-build Main: CXX_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.cpp.o | /usr/lib/x86_64-linux-gnu/libtbb.so.12.5 utility/libUtility.a sort_algorithms/libSortAlgorithms.a /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a || sort_algorithms/libSortAlgorithms.a utility/libUtility.a
+build Main: CXX_EXECUTABLE_LINKER__Main_Debug CMakeFiles/Main.dir/main.cpp.o | /usr/lib/x86_64-linux-gnu/libtbb.so.12.5 utility/libUtility.a /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a || utility/libUtility.a
   FLAGS = -g
-  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libtbb.so.12.5  utility/libUtility.a  sort_algorithms/libSortAlgorithms.a  -latomic  /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so  /usr/lib/x86_64-linux-gnu/libpthread.a
+  LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libtbb.so.12.5  utility/libUtility.a  -latomic  /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so  /usr/lib/x86_64-linux-gnu/libpthread.a
   OBJECT_DIR = CMakeFiles/Main.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -133,13 +133,6 @@ build utility/CMakeFiles/Utility.dir/utility.cpp.o: CXX_COMPILER__Utility_Debug 
   OBJECT_DIR = utility/CMakeFiles/Utility.dir
   OBJECT_FILE_DIR = utility/CMakeFiles/Utility.dir
 
-build utility/CMakeFiles/Utility.dir/__/sort_algorithms/intro_sort_utility.cpp.o: CXX_COMPILER__Utility_Debug /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort_utility.cpp || cmake_object_order_depends_target_Utility
-  DEP_FILE = utility/CMakeFiles/Utility.dir/__/sort_algorithms/intro_sort_utility.cpp.o.d
-  FLAGS = -g -fopenmp -std=gnu++20
-  INCLUDES = -I/home/bigdatalab/workspace_lsm/sorting/includes
-  OBJECT_DIR = utility/CMakeFiles/Utility.dir
-  OBJECT_FILE_DIR = utility/CMakeFiles/Utility.dir/__/sort_algorithms
-
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Utility
@@ -148,7 +141,7 @@ build utility/CMakeFiles/Utility.dir/__/sort_algorithms/intro_sort_utility.cpp.o
 #############################################
 # Link the static library utility/libUtility.a
 
-build utility/libUtility.a: CXX_STATIC_LIBRARY_LINKER__Utility_Debug utility/CMakeFiles/Utility.dir/data_generator.cpp.o utility/CMakeFiles/Utility.dir/thread_pool.cpp.o utility/CMakeFiles/Utility.dir/utility.cpp.o utility/CMakeFiles/Utility.dir/__/sort_algorithms/intro_sort_utility.cpp.o
+build utility/libUtility.a: CXX_STATIC_LIBRARY_LINKER__Utility_Debug utility/CMakeFiles/Utility.dir/data_generator.cpp.o utility/CMakeFiles/Utility.dir/thread_pool.cpp.o utility/CMakeFiles/Utility.dir/utility.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = utility/CMakeFiles/Utility.dir
   POST_BUILD = :
@@ -181,102 +174,9 @@ build utility/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build utility/rebuild_cache: phony utility/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
-# Write statements declared in CMakeLists.txt:
-# /home/bigdatalab/workspace_lsm/sorting/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target SortAlgorithms
-
-
-#############################################
-# Order-only phony target for SortAlgorithms
-
-build cmake_object_order_depends_target_SortAlgorithms: phony || sort_algorithms/CMakeFiles/SortAlgorithms.dir
-
-build sort_algorithms/CMakeFiles/SortAlgorithms.dir/insertion_sort.cpp.o: CXX_COMPILER__SortAlgorithms_Debug /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/insertion_sort.cpp || cmake_object_order_depends_target_SortAlgorithms
-  DEP_FILE = sort_algorithms/CMakeFiles/SortAlgorithms.dir/insertion_sort.cpp.o.d
-  FLAGS = -g -fopenmp -std=gnu++20
-  INCLUDES = -I/home/bigdatalab/workspace_lsm/sorting/includes
-  OBJECT_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-  OBJECT_FILE_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-
-build sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort.cpp.o: CXX_COMPILER__SortAlgorithms_Debug /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort.cpp || cmake_object_order_depends_target_SortAlgorithms
-  DEP_FILE = sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort.cpp.o.d
-  FLAGS = -g -fopenmp -std=gnu++20
-  INCLUDES = -I/home/bigdatalab/workspace_lsm/sorting/includes
-  OBJECT_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-  OBJECT_FILE_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-
-build sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort_utility.cpp.o: CXX_COMPILER__SortAlgorithms_Debug /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/intro_sort_utility.cpp || cmake_object_order_depends_target_SortAlgorithms
-  DEP_FILE = sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort_utility.cpp.o.d
-  FLAGS = -g -fopenmp -std=gnu++20
-  INCLUDES = -I/home/bigdatalab/workspace_lsm/sorting/includes
-  OBJECT_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-  OBJECT_FILE_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-
-build sort_algorithms/CMakeFiles/SortAlgorithms.dir/parallel_intro_sort.cpp.o: CXX_COMPILER__SortAlgorithms_Debug /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/parallel_intro_sort.cpp || cmake_object_order_depends_target_SortAlgorithms
-  DEP_FILE = sort_algorithms/CMakeFiles/SortAlgorithms.dir/parallel_intro_sort.cpp.o.d
-  FLAGS = -g -fopenmp -std=gnu++20
-  INCLUDES = -I/home/bigdatalab/workspace_lsm/sorting/includes
-  OBJECT_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-  OBJECT_FILE_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-
-build sort_algorithms/CMakeFiles/SortAlgorithms.dir/thread_pool_parallel_intro_sort.cpp.o: CXX_COMPILER__SortAlgorithms_Debug /home/bigdatalab/workspace_lsm/sorting/sort_algorithms/thread_pool_parallel_intro_sort.cpp || cmake_object_order_depends_target_SortAlgorithms
-  DEP_FILE = sort_algorithms/CMakeFiles/SortAlgorithms.dir/thread_pool_parallel_intro_sort.cpp.o.d
-  FLAGS = -g -fopenmp -std=gnu++20
-  INCLUDES = -I/home/bigdatalab/workspace_lsm/sorting/includes
-  OBJECT_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-  OBJECT_FILE_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target SortAlgorithms
-
-
-#############################################
-# Link the static library sort_algorithms/libSortAlgorithms.a
-
-build sort_algorithms/libSortAlgorithms.a: CXX_STATIC_LIBRARY_LINKER__SortAlgorithms_Debug sort_algorithms/CMakeFiles/SortAlgorithms.dir/insertion_sort.cpp.o sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort.cpp.o sort_algorithms/CMakeFiles/SortAlgorithms.dir/intro_sort_utility.cpp.o sort_algorithms/CMakeFiles/SortAlgorithms.dir/parallel_intro_sort.cpp.o sort_algorithms/CMakeFiles/SortAlgorithms.dir/thread_pool_parallel_intro_sort.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = sort_algorithms/CMakeFiles/SortAlgorithms.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = sort_algorithms/libSortAlgorithms.a
-  TARGET_PDB = SortAlgorithms.a.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build sort_algorithms/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bigdatalab/workspace_lsm/sorting/build/sort_algorithms && /usr/bin/cmake-gui -S/home/bigdatalab/workspace_lsm/sorting -B/home/bigdatalab/workspace_lsm/sorting/build
-  DESC = Running CMake cache editor...
-  pool = console
-  restat = 1
-
-build sort_algorithms/edit_cache: phony sort_algorithms/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build sort_algorithms/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bigdatalab/workspace_lsm/sorting/build/sort_algorithms && /usr/bin/cmake --regenerate-during-build -S/home/bigdatalab/workspace_lsm/sorting -B/home/bigdatalab/workspace_lsm/sorting/build
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build sort_algorithms/rebuild_cache: phony sort_algorithms/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
 # Target aliases.
 
-build SortAlgorithms: phony sort_algorithms/libSortAlgorithms.a
-
 build Utility: phony utility/libUtility.a
-
-build libSortAlgorithms.a: phony sort_algorithms/libSortAlgorithms.a
 
 build libUtility.a: phony utility/libUtility.a
 
@@ -288,14 +188,7 @@ build libUtility.a: phony utility/libUtility.a
 #############################################
 # Folder: /home/bigdatalab/workspace_lsm/sorting/build
 
-build all: phony Main utility/all sort_algorithms/all
-
-# =============================================================================
-
-#############################################
-# Folder: /home/bigdatalab/workspace_lsm/sorting/build/sort_algorithms
-
-build sort_algorithms/all: phony sort_algorithms/libSortAlgorithms.a
+build all: phony Main utility/all
 
 # =============================================================================
 
@@ -311,14 +204,14 @@ build utility/all: phony utility/libUtility.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../sort_algorithms/CMakeLists.txt ../utility/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets.cmake /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake /usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake /usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/FindOpenMP.cmake /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.22/Modules/FindPackageMessage.cmake /usr/share/cmake-3.22/Modules/FindThreads.cmake /usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../utility/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets.cmake /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake /usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake /usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/FindOpenMP.cmake /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.22/Modules/FindPackageMessage.cmake /usr/share/cmake-3.22/Modules/FindThreads.cmake /usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../sort_algorithms/CMakeLists.txt ../utility/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets.cmake /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake /usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake /usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/FindOpenMP.cmake /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.22/Modules/FindPackageMessage.cmake /usr/share/cmake-3.22/Modules/FindThreads.cmake /usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../utility/CMakeLists.txt /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfig.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfigVersion.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets-none.cmake /usr/lib/x86_64-linux-gnu/cmake/TBB/TBBTargets.cmake /usr/share/cmake-3.22/Modules/CMakeCInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake /usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake /usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Compiler/GNU.cmake /usr/share/cmake-3.22/Modules/FindOpenMP.cmake /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.22/Modules/FindPackageMessage.cmake /usr/share/cmake-3.22/Modules/FindThreads.cmake /usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.1/CMakeCCompiler.cmake CMakeFiles/3.22.1/CMakeCXXCompiler.cmake CMakeFiles/3.22.1/CMakeSystem.cmake: phony
 
 
 #############################################

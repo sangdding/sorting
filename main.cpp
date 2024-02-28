@@ -2,7 +2,8 @@
 
 //sort_algorithms 헤더에 모든 정렬 알고리즘의 전방 선언이 모여있습니다.
 #include "aips2o.hpp"
-#include "sort_algorithms.h"
+#include "intro_sort.hpp"
+#include "sort_algorithms.hpp"
 #include "data_generator.h"
 #include "skim_generator.h"
 #include "utility.h"
@@ -19,41 +20,36 @@ using namespace std;
 
 template<typename T>
 void sort_and_print(std::vector<T> &V) {
-
-    // auto start_time = std::chrono::high_resolution_clock::now();
-    // intro_sort(V.begin(), V.end());
-    // auto finish_time = std::chrono::high_resolution_clock::now();
-    // cout << "1. intro sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
     
-    // start_time = std::chrono::high_resolution_clock::now();
-    // parallel_intro_sort(V.begin(), V.end());
-    // finish_time = std::chrono::high_resolution_clock::now();
-    // cout << "2. parallel intro sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
-
-    // start_time = std::chrono::high_resolution_clock::now();
-    // std::sort(V.begin(), V.end());
-    // finish_time = std::chrono::high_resolution_clock::now();
-    // cout << "3. STL sort (quick sort): " << get_pretty_time((finish_time - start_time).count()) << '\n';
-
-    // start_time = std::chrono::high_resolution_clock::now();
-    // std::stable_sort(V.begin(), V.end());
-    // finish_time = std::chrono::high_resolution_clock::now();
-    // cout << "4. STL stable sort (Merge sort): " << get_pretty_time((finish_time - start_time).count()) << '\n';
-
     auto start_time = std::chrono::high_resolution_clock::now();
-    aips2o::sort(V.begin(), V.end());
+    std::sort(V.begin(), V.end() - 1);
     auto finish_time = std::chrono::high_resolution_clock::now();
-    cout << "5. aips2o sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+    cout << "1. STL sort (quick sort): " << get_pretty_time((finish_time - start_time).count()) << '\n';
+
+    start_time = std::chrono::high_resolution_clock::now();
+    std::stable_sort(V.begin(), V.end() - 1);
+    finish_time = std::chrono::high_resolution_clock::now();
+    cout << "2. STL stable sort (Merge sort): " << get_pretty_time((finish_time - start_time).count()) << '\n';
+
+    start_time = std::chrono::high_resolution_clock::now();
+    parallel_intro_sort(V.begin(), V.end() - 1);
+    finish_time = std::chrono::high_resolution_clock::now();
+    cout << "3. parallel intro sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+
+    start_time = std::chrono::high_resolution_clock::now();
+    aips2o::sort(V.begin(), V.end());
+    finish_time = std::chrono::high_resolution_clock::now();
+    cout << "4. aips2o sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
 
     start_time = std::chrono::high_resolution_clock::now();
     ips4o::sort(V.begin(), V.end());
     finish_time = std::chrono::high_resolution_clock::now();
-    cout << "6. ips4o sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+    cout << "5. ips4o sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
 
     start_time = std::chrono::high_resolution_clock::now();
     ips4o::parallel::sort(V.begin(), V.end());
     finish_time = std::chrono::high_resolution_clock::now();
-    cout << "7. ips4o parallel sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
+    cout << "6. ips4o parallel sort: " << get_pretty_time((finish_time - start_time).count()) << '\n';
 }
 
 //간단한 사용 예시입니다.

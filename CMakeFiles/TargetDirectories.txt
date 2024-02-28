@@ -4,6 +4,3 @@
 /home/bigdatalab/workspace_lsm/sorting/utility/CMakeFiles/Utility.dir
 /home/bigdatalab/workspace_lsm/sorting/utility/CMakeFiles/edit_cache.dir
 /home/bigdatalab/workspace_lsm/sorting/utility/CMakeFiles/rebuild_cache.dir
-/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/CMakeFiles/SortAlgorithms.dir
-/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/CMakeFiles/edit_cache.dir
-/home/bigdatalab/workspace_lsm/sorting/sort_algorithms/CMakeFiles/rebuild_cache.dir

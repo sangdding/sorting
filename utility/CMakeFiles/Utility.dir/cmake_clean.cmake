@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Utility.dir/__/sort_algorithms/intro_sort_utility.cpp.o"
-  "CMakeFiles/Utility.dir/__/sort_algorithms/intro_sort_utility.cpp.o.d"
   "CMakeFiles/Utility.dir/data_generator.cpp.o"
   "CMakeFiles/Utility.dir/data_generator.cpp.o.d"
   "CMakeFiles/Utility.dir/thread_pool.cpp.o"

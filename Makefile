@@ -142,19 +142,6 @@ Utility/fast:
 	$(MAKE) $(MAKESILENT) -f utility/CMakeFiles/Utility.dir/build.make utility/CMakeFiles/Utility.dir/build
 .PHONY : Utility/fast
 
-#=============================================================================
-# Target rules for targets named SortAlgorithms
-
-# Build rule for target.
-SortAlgorithms: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SortAlgorithms
-.PHONY : SortAlgorithms
-
-# fast build rule for target.
-SortAlgorithms/fast:
-	$(MAKE) $(MAKESILENT) -f sort_algorithms/CMakeFiles/SortAlgorithms.dir/build.make sort_algorithms/CMakeFiles/SortAlgorithms.dir/build
-.PHONY : SortAlgorithms/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -188,7 +175,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main"
-	@echo "... SortAlgorithms"
 	@echo "... Utility"
 	@echo "... main.o"
 	@echo "... main.i"

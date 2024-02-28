@@ -11,7 +11,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "CMakeLists.txt"
-  "sort_algorithms/CMakeLists.txt"
   "utility/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/TBB/TBBConfigVersion.cmake"
@@ -55,12 +54,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "utility/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "sort_algorithms/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Main.dir/DependInfo.cmake"
   "utility/CMakeFiles/Utility.dir/DependInfo.cmake"
-  "sort_algorithms/CMakeFiles/SortAlgorithms.dir/DependInfo.cmake"
   )

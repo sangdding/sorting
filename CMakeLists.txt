@@ -18,12 +18,10 @@ endif()
 set(CMAKE_THREAD_LIBS_INIT "-lpthread")
 
 add_subdirectory(./utility)
-add_subdirectory(./sort_algorithms)
 add_executable(Main main.cpp)
 add_compile_options(-march=native -mcx16)
 
 target_link_libraries(Main PUBLIC Threads::Threads)
 target_link_libraries(Main PRIVATE TBB::tbb)
 target_link_libraries(Main PUBLIC Utility)
-target_link_libraries(Main PUBLIC SortAlgorithms)
 target_link_libraries(Main PUBLIC -latomic)
