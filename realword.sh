@@ -1,0 +1,13 @@
+echo "100 9 books_200M_uint32" | ./Main
+echo "100 9 lognormal_200M_uint32" | ./Main
+echo "100 9 normal_200M_uint32" | ./Main
+echo "100 9 uniform_dense_200M_uint32" | ./Main
+echo "100 9 uniform_sparse_200M_uint32" | ./Main
+echo "100 10 books_200M_uint64" | ./Main
+echo "100 10 fb_200M_uint64" | ./Main
+echo "100 10 lognormal_200M_uint64" | ./Main
+echo "100 10 normal_200M_uint64" | ./Main
+echo "100 10 osm_cellids_200M_uint64" | ./Main
+echo "100 10 uniform_dense_200M_uint64" | ./Main
+echo "100 10 uniform_sparse_200M_uint64" | ./Main
+echo "100 10 wiki_ts_200M_uint64" | ./Main

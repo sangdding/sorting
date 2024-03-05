@@ -6,6 +6,9 @@
 #include <utility>
 #include <vector>
 #include <cmath>
+#include <fstream>
+#include <cstdint>
+
 
 template<typename T>
 class skim_generator
@@ -86,6 +89,39 @@ public:
             data[i] = (i * i + size / 2) % size;
         }
     };
+
+    void read_data_32(string filename) {
+        filename = "/home/bigdatalab/workspace_lsm/sorting/data/" + filename;
+        std::ifstream file(filename, std::ios::binary);
+        if (!file) {
+            std::cerr << "file error" << endl;
+            return ;
+        }
+
+        while (!file.eof()) {
+            uint32_t number;
+            file.read(reinterpret_cast<char*>(&number), sizeof(number));
+            data.push_back(number);
+        }
+
+        file.close();
+    }
+
+    void read_data_64(string filename) {
+        filename = "/home/bigdatalab/workspace_lsm/sorting/data/" + filename;
+        std::ifstream file(filename, std::ios::binary);
+        if (!file) {
+            std::cerr << "file error" << endl;
+            return ;
+        }
+
+        while (!file.eof()) {
+            uint64_t number;
+            file.read(reinterpret_cast<char*>(&number), sizeof(number));
+            data.push_back(number);
+        }
+        file.close();
+    }
 
     void apply_changes(std::vector<T>& org) {
         org = data;

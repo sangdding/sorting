@@ -21,6 +21,8 @@ using namespace std;
 template<typename T>
 void sort_and_print(std::vector<T> &V) {
     
+    cout << "sort start" << endl;
+
     auto start_time = std::chrono::high_resolution_clock::now();
     std::sort(V.begin(), V.end() - 1);
     auto finish_time = std::chrono::high_resolution_clock::now();
@@ -60,17 +62,22 @@ void sort_and_print(std::vector<T> &V) {
 int main() {
 
     size_t size;
+    string filename;
     int method;
 
-    cin >> size >> method;
+    cin >> size >> method >> filename;
     cout << "Data Size : " << size << endl;
     cout << "Generation Method" << endl;
     cout << "Method : ";
-
+    cout << filename << endl;
     std::vector<int> I(size);
     std::vector<double> D(size);
+    std::vector<uint32_t> I_32;
+    std::vector<uint64_t> I_64;
     skim_generator<int> *gen_i = new skim_generator<int>(I);
     skim_generator<double> *gen_d = new skim_generator<double>(D);
+    skim_generator<uint32_t> *gen_i32 = new skim_generator<uint32_t>(I_32);
+    skim_generator<uint64_t> *gen_i64 = new skim_generator<uint64_t>(I_64);
     switch (method)
     {
     case 1:
@@ -120,6 +127,16 @@ int main() {
         gen_i->two_dups();
         gen_i->apply_changes(I);
         sort_and_print(I);
+        break;
+        case 9:
+        gen_i32->read_data_32(filename);
+        gen_i32->apply_changes(I_32);
+        sort_and_print(I_32);
+        break;
+        case 10:
+        gen_i64->read_data_32(filename);
+        gen_i64->apply_changes(I_64);
+        sort_and_print(I_64);
         break;
     }
     return 0;
