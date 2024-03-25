@@ -1,2 +1,5 @@
 /result
 /data
+.vscode
+/build
+*.cmake

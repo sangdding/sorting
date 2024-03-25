@@ -1,8 +1,6 @@
 utility/CMakeFiles/Utility.dir/utility.cpp.o: \
- /home/bigdatalab/workspace_lsm/sorting/utility/utility.cpp \
- /usr/include/stdc-predef.h \
- /home/bigdatalab/workspace_lsm/sorting/includes/utility.h \
- /usr/include/c++/11/iostream \
+ /root/lsm/sorting/utility/utility.cpp /usr/include/stdc-predef.h \
+ /root/lsm/sorting/includes/utility.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

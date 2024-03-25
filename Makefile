@@ -57,18 +57,18 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bigdatalab/workspace_lsm/sorting
+CMAKE_SOURCE_DIR = /root/lsm/sorting
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bigdatalab/workspace_lsm/sorting
+CMAKE_BINARY_DIR = /root/lsm/sorting
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles /home/bigdatalab/workspace_lsm/sorting//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/lsm/sorting/CMakeFiles /root/lsm/sorting//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bigdatalab/workspace_lsm/sorting/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/lsm/sorting/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,6 +130,19 @@ Main/fast:
 .PHONY : Main/fast
 
 #=============================================================================
+# Target rules for targets named Learn
+
+# Build rule for target.
+Learn: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Learn
+.PHONY : Learn
+
+# fast build rule for target.
+Learn/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn.dir/build.make CMakeFiles/Learn.dir/build
+.PHONY : Learn/fast
+
+#=============================================================================
 # Target rules for targets named Utility
 
 # Build rule for target.
@@ -141,6 +154,30 @@ Utility: cmake_check_build_system
 Utility/fast:
 	$(MAKE) $(MAKESILENT) -f utility/CMakeFiles/Utility.dir/build.make utility/CMakeFiles/Utility.dir/build
 .PHONY : Utility/fast
+
+learn.o: learn.cpp.o
+.PHONY : learn.o
+
+# target to build an object file
+learn.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn.dir/build.make CMakeFiles/Learn.dir/learn.cpp.o
+.PHONY : learn.cpp.o
+
+learn.i: learn.cpp.i
+.PHONY : learn.i
+
+# target to preprocess a source file
+learn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn.dir/build.make CMakeFiles/Learn.dir/learn.cpp.i
+.PHONY : learn.cpp.i
+
+learn.s: learn.cpp.s
+.PHONY : learn.s
+
+# target to generate assembly for a file
+learn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn.dir/build.make CMakeFiles/Learn.dir/learn.cpp.s
+.PHONY : learn.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -174,8 +211,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Learn"
 	@echo "... Main"
 	@echo "... Utility"
+	@echo "... learn.o"
+	@echo "... learn.i"
+	@echo "... learn.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,9 +1,8 @@
 utility/CMakeFiles/Utility.dir/thread_pool.cpp.o: \
- /home/bigdatalab/workspace_lsm/sorting/utility/thread_pool.cpp \
- /usr/include/stdc-predef.h \
- /home/bigdatalab/workspace_lsm/sorting/includes/thread_pool.h \
- /usr/include/c++/11/thread /usr/include/c++/11/compare \
- /usr/include/c++/11/concepts /usr/include/c++/11/type_traits \
+ /root/lsm/sorting/utility/thread_pool.cpp /usr/include/stdc-predef.h \
+ /root/lsm/sorting/includes/thread_pool.h /usr/include/c++/11/thread \
+ /usr/include/c++/11/compare /usr/include/c++/11/concepts \
+ /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

@@ -1,22 +1,27 @@
 [
 {
-  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
-  "command": "/usr/bin/c++ -DTBB_USE_DEBUG -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Main.dir/main.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/main.cpp",
-  "file": "/home/bigdatalab/workspace_lsm/sorting/main.cpp"
+  "directory": "/root/lsm/sorting/build",
+  "command": "/usr/bin/g++ -DTBB_USE_DEBUG -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Main.dir/main.cpp.o -c /root/lsm/sorting/main.cpp",
+  "file": "/root/lsm/sorting/main.cpp"
 },
 {
-  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
-  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/data_generator.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/utility/data_generator.cpp",
-  "file": "/home/bigdatalab/workspace_lsm/sorting/utility/data_generator.cpp"
+  "directory": "/root/lsm/sorting/build",
+  "command": "/usr/bin/g++ -DTBB_USE_DEBUG -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Learn.dir/learn.cpp.o -c /root/lsm/sorting/learn.cpp",
+  "file": "/root/lsm/sorting/learn.cpp"
 },
 {
-  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
-  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/thread_pool.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/utility/thread_pool.cpp",
-  "file": "/home/bigdatalab/workspace_lsm/sorting/utility/thread_pool.cpp"
+  "directory": "/root/lsm/sorting/build/utility",
+  "command": "/usr/bin/g++  -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Utility.dir/data_generator.cpp.o -c /root/lsm/sorting/utility/data_generator.cpp",
+  "file": "/root/lsm/sorting/utility/data_generator.cpp"
 },
 {
-  "directory": "/home/bigdatalab/workspace_lsm/sorting/build",
-  "command": "/usr/bin/c++ -I/home/bigdatalab/workspace_lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/utility.cpp.o -c /home/bigdatalab/workspace_lsm/sorting/utility/utility.cpp",
-  "file": "/home/bigdatalab/workspace_lsm/sorting/utility/utility.cpp"
+  "directory": "/root/lsm/sorting/build/utility",
+  "command": "/usr/bin/g++  -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Utility.dir/thread_pool.cpp.o -c /root/lsm/sorting/utility/thread_pool.cpp",
+  "file": "/root/lsm/sorting/utility/thread_pool.cpp"
+},
+{
+  "directory": "/root/lsm/sorting/build/utility",
+  "command": "/usr/bin/g++  -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Utility.dir/utility.cpp.o -c /root/lsm/sorting/utility/utility.cpp",
+  "file": "/root/lsm/sorting/utility/utility.cpp"
 }
 ]

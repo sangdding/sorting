@@ -91,7 +91,7 @@ public:
     };
 
     void read_data_32(string filename) {
-        filename = "/home/bigdatalab/workspace_lsm/sorting/data/" + filename;
+        filename = "/root/lsm/data/" + filename;
         std::ifstream file(filename, std::ios::binary);
         if (!file) {
             std::cerr << "file error" << endl;
