@@ -1,5 +1,6 @@
 /root/lsm/sorting/build/CMakeFiles/Main.dir
 /root/lsm/sorting/build/CMakeFiles/Learn.dir
+/root/lsm/sorting/build/CMakeFiles/Test.dir
 /root/lsm/sorting/build/CMakeFiles/edit_cache.dir
 /root/lsm/sorting/build/CMakeFiles/rebuild_cache.dir
 /root/lsm/sorting/build/utility/CMakeFiles/Utility.dir

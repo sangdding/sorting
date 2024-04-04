@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /root/lsm/sorting
 # The main recursive "all" target.
 all: CMakeFiles/Main.dir/all
 all: CMakeFiles/Learn.dir/all
+all: CMakeFiles/Test.dir/all
 all: utility/all
 .PHONY : all
 
@@ -75,6 +76,7 @@ preinstall: utility/preinstall
 # The main recursive "clean" target.
 clean: CMakeFiles/Main.dir/clean
 clean: CMakeFiles/Learn.dir/clean
+clean: CMakeFiles/Test.dir/clean
 clean: utility/clean
 .PHONY : clean
 
@@ -146,13 +148,39 @@ CMakeFiles/Learn.dir/clean:
 .PHONY : CMakeFiles/Learn.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Test.dir
+
+# All Build rule for target.
+CMakeFiles/Test.dir/all: utility/CMakeFiles/Utility.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/lsm/sorting/CMakeFiles --progress-num=5,6 "Built target Test"
+.PHONY : CMakeFiles/Test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/lsm/sorting/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/lsm/sorting/CMakeFiles 0
+.PHONY : CMakeFiles/Test.dir/rule
+
+# Convenience name for target.
+Test: CMakeFiles/Test.dir/rule
+.PHONY : Test
+
+# clean rule for target.
+CMakeFiles/Test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/clean
+.PHONY : CMakeFiles/Test.dir/clean
+
+#=============================================================================
 # Target rules for target utility/CMakeFiles/Utility.dir
 
 # All Build rule for target.
 utility/CMakeFiles/Utility.dir/all:
 	$(MAKE) $(MAKESILENT) -f utility/CMakeFiles/Utility.dir/build.make utility/CMakeFiles/Utility.dir/depend
 	$(MAKE) $(MAKESILENT) -f utility/CMakeFiles/Utility.dir/build.make utility/CMakeFiles/Utility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/lsm/sorting/CMakeFiles --progress-num=5,6,7,8 "Built target Utility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/lsm/sorting/CMakeFiles --progress-num=7,8,9,10 "Built target Utility"
 .PHONY : utility/CMakeFiles/Utility.dir/all
 
 # Build rule for subdir invocation for target.
