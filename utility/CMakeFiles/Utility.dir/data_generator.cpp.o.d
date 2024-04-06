@@ -1,7 +1,8 @@
 utility/CMakeFiles/Utility.dir/data_generator.cpp.o: \
- /root/lsm/sorting/utility/data_generator.cpp /usr/include/stdc-predef.h \
- /root/lsm/sorting/includes/data_generator.h /usr/include/c++/11/random \
- /usr/include/c++/11/cmath \
+ /home/syslab/bigdatalab/sorting/utility/data_generator.cpp \
+ /usr/include/stdc-predef.h \
+ /home/syslab/bigdatalab/sorting/includes/data_generator.h \
+ /usr/include/c++/11/random /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

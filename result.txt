@@ -1,0 +1,4897 @@
+size: 1286424
+distribution: uniform
+STL sort: 417.145ms
+Merge sort: 473.589ms
+Parallel Intro sort: 205.93ms
+aips2o sort: 234.885ms
+distribution: normal
+STL sort: 367.089ms
+Merge sort: 359.893ms
+Parallel Intro sort: 359.543ms
+aips2o sort: 194.308ms
+distribution: log_normal
+STL sort: 372.361ms
+Merge sort: 358.197ms
+Parallel Intro sort: 255.387ms
+aips2o sort: 189.919ms
+distribution: mix_gauss
+STL sort: 377.643ms
+Merge sort: 394.254ms
+Parallel Intro sort: 346.32ms
+aips2o sort: 221.035ms
+distribution: exponential
+STL sort: 375.773ms
+Merge sort: 337.634ms
+Parallel Intro sort: 251.224ms
+aips2o sort: 173.074ms
+distribution: chi_squard
+STL sort: 370.878ms
+Merge sort: 383.157ms
+Parallel Intro sort: 323.557ms
+aips2o sort: 222.171ms
+distribution: root_dups
+STL sort: 351.691ms
+Merge sort: 295.172ms
+Parallel Intro sort: 301.65ms
+aips2o sort: 294.772ms
+distribution: two_dups
+STL sort: 407.018ms
+Merge sort: 440.985ms
+Parallel Intro sort: 243.825ms
+aips2o sort: 232.172ms
+distribution: STL sort: 372.657ms
+Merge sort: 204.914ms
+Parallel Intro sort: 228.73ms
+aips2o sort: 25.207ms
+size: 861408
+distribution: uniform
+STL sort: 281.552ms
+Merge sort: 301.98ms
+Parallel Intro sort: 184.033ms
+aips2o sort: 225.159ms
+distribution: normal
+STL sort: 259.508ms
+Merge sort: 225.556ms
+Parallel Intro sort: 169.011ms
+aips2o sort: 385.502ms
+distribution: log_normal
+STL sort: 823.113ms
+Merge sort: 772.183ms
+Parallel Intro sort: 206.041ms
+aips2o sort: 426.533ms
+distribution: mix_gauss
+STL sort: 833.015ms
+Merge sort: 852.931ms
+Parallel Intro sort: 248.625ms
+aips2o sort: 513.533ms
+distribution: exponential
+STL sort: 819.134ms
+Merge sort: 722.554ms
+Parallel Intro sort: 237.733ms
+aips2o sort: 392.825ms
+distribution: chi_squard
+STL sort: 841.529ms
+Merge sort: 846.337ms
+Parallel Intro sort: 246.91ms
+aips2o sort: 470.416ms
+distribution: root_dups
+STL sort: 793.654ms
+Merge sort: 631.153ms
+Parallel Intro sort: 246.352ms
+aips2o sort: 641.468ms
+distribution: two_dups
+STL sort: 909.833ms
+Merge sort: 962.612ms
+Parallel Intro sort: 757.766ms
+aips2o sort: 741.162ms
+distribution: STL sort: 805.363ms
+Merge sort: 429.925ms
+Parallel Intro sort: 243.623ms
+aips2o sort: 55.984ms
+size: 5973481
+distribution: uniform
+STL sort: 7.376s
+Merge sort: 8.332s
+Parallel Intro sort: 2.781s
+aips2o sort: 3.621s
+distribution: normal
+STL sort: 6.639s
+Merge sort: 6.303s
+Parallel Intro sort: 1.809s
+aips2o sort: 1.689s
+distribution: log_normal
+STL sort: 6.581s
+Merge sort: 6.372s
+Parallel Intro sort: 1.388s
+aips2o sort: 564.198ms
+distribution: mix_gauss
+STL sort: 6.417s
+Merge sort: 6.867s
+Parallel Intro sort: 2.34s
+aips2o sort: 2.538s
+distribution: exponential
+STL sort: 6.649s
+Merge sort: 6.09s
+Parallel Intro sort: 1.513s
+aips2o sort: 1.412s
+distribution: chi_squard
+STL sort: 6.667s
+Merge sort: 6.721s
+Parallel Intro sort: 1.334s
+aips2o sort: 2.018s
+distribution: root_dups
+STL sort: 6.222s
+Merge sort: 5.159s
+Parallel Intro sort: 2.035s
+aips2o sort: 2.78s
+distribution: two_dups
+STL sort: 7.238s
+Merge sort: 7.767s
+Parallel Intro sort: 2.005s
+aips2o sort: 3.64s
+distribution: STL sort: 6.572s
+Merge sort: 3.56s
+Parallel Intro sort: 1.9s
+aips2o sort: 390.286ms
+size: 916725
+distribution: uniform
+STL sort: 997.723ms
+Merge sort: 1.111s
+Parallel Intro sort: 287.704ms
+aips2o sort: 803.809ms
+distribution: normal
+STL sort: 888.422ms
+Merge sort: 834.123ms
+Parallel Intro sort: 250.841ms
+aips2o sort: 448.887ms
+distribution: log_normal
+STL sort: 883.339ms
+Merge sort: 837.879ms
+Parallel Intro sort: 272.92ms
+aips2o sort: 448.703ms
+distribution: mix_gauss
+STL sort: 873.886ms
+Merge sort: 919.209ms
+Parallel Intro sort: 308.167ms
+aips2o sort: 545.757ms
+distribution: exponential
+STL sort: 875.466ms
+Merge sort: 792.672ms
+Parallel Intro sort: 307.927ms
+aips2o sort: 406.822ms
+distribution: chi_squard
+STL sort: 881.445ms
+Merge sort: 895.755ms
+Parallel Intro sort: 210.221ms
+aips2o sort: 495.28ms
+distribution: root_dups
+STL sort: 848.797ms
+Merge sort: 683.846ms
+Parallel Intro sort: 280.774ms
+aips2o sort: 692.417ms
+distribution: two_dups
+STL sort: 977.731ms
+Merge sort: 1.022s
+Parallel Intro sort: 447.8ms
+aips2o sort: 824.343ms
+distribution: STL sort: 861.184ms
+Merge sort: 465.323ms
+Parallel Intro sort: 258.935ms
+aips2o sort: 58.856ms
+size: 1583912
+distribution: uniform
+STL sort: 1.796s
+Merge sort: 2.008s
+Parallel Intro sort: 498.08ms
+aips2o sort: 286.684ms
+distribution: normal
+STL sort: 467.899ms
+Merge sort: 441.571ms
+Parallel Intro sort: 334.753ms
+aips2o sort: 314.007ms
+distribution: log_normal
+STL sort: 664.539ms
+Merge sort: 621.415ms
+Parallel Intro sort: 406.056ms
+aips2o sort: 229.459ms
+distribution: mix_gauss
+STL sort: 462.132ms
+Merge sort: 482.711ms
+Parallel Intro sort: 211.929ms
+aips2o sort: 277.12ms
+distribution: exponential
+STL sort: 462.87ms
+Merge sort: 412.916ms
+Parallel Intro sort: 310.783ms
+aips2o sort: 230.523ms
+distribution: chi_squard
+STL sort: 463.562ms
+Merge sort: 470.991ms
+Parallel Intro sort: 339.211ms
+aips2o sort: 298.537ms
+distribution: root_dups
+STL sort: 461.784ms
+Merge sort: 361.657ms
+Parallel Intro sort: 2.056s
+aips2o sort: 1.256s
+distribution: two_dups
+STL sort: 1.724s
+Merge sort: 1.865s
+Parallel Intro sort: 471.491ms
+aips2o sort: 963.12ms
+distribution: STL sort: 1.57s
+Merge sort: 838.005ms
+Parallel Intro sort: 467.132ms
+aips2o sort: 105.173ms
+size: 9280612
+distribution: uniform
+STL sort: 11.651s
+Merge sort: 13.075s
+Parallel Intro sort: 3.092s
+aips2o sort: 1.949s
+distribution: normal
+STL sort: 3.04s
+Merge sort: 2.86s
+Parallel Intro sort: 1.941s
+aips2o sort: 740.722ms
+distribution: log_normal
+STL sort: 3.06s
+Merge sort: 2.844s
+Parallel Intro sort: 1.418s
+aips2o sort: 748.885ms
+distribution: mix_gauss
+STL sort: 3.072s
+Merge sort: 3.11s
+Parallel Intro sort: 1.451s
+aips2o sort: 1.096s
+distribution: exponential
+STL sort: 3.051s
+Merge sort: 2.703s
+Parallel Intro sort: 1.841s
+aips2o sort: 613.09ms
+distribution: chi_squard
+STL sort: 3.088s
+Merge sort: 3.03s
+Parallel Intro sort: 1.418s
+aips2o sort: 905.469ms
+distribution: root_dups
+STL sort: 2.894s
+Merge sort: 2.316s
+Parallel Intro sort: 3.748s
+aips2o sort: 1.501s
+distribution: two_dups
+STL sort: 3.346s
+Merge sort: 3.549s
+Parallel Intro sort: 1.575s
+aips2o sort: 1.914s
+distribution: STL sort: 3.127s
+Merge sort: 1.587s
+Parallel Intro sort: 1.975s
+aips2o sort: 182.211ms
+size: 2401017
+distribution: uniform
+STL sort: 811.063ms
+Merge sort: 899.217ms
+Parallel Intro sort: 425.146ms
+aips2o sort: 429.96ms
+distribution: normal
+STL sort: 714.589ms
+Merge sort: 681.003ms
+Parallel Intro sort: 461.085ms
+aips2o sort: 346.954ms
+distribution: log_normal
+STL sort: 730.644ms
+Merge sort: 689.712ms
+Parallel Intro sort: 339.217ms
+aips2o sort: 350.436ms
+distribution: mix_gauss
+STL sort: 724.893ms
+Merge sort: 742.553ms
+Parallel Intro sort: 341.987ms
+aips2o sort: 419.981ms
+distribution: exponential
+STL sort: 734.859ms
+Merge sort: 659.879ms
+Parallel Intro sort: 523.635ms
+aips2o sort: 347.392ms
+distribution: chi_squard
+STL sort: 720.394ms
+Merge sort: 724.868ms
+Parallel Intro sort: 352.55ms
+aips2o sort: 418.274ms
+distribution: root_dups
+STL sort: 830.098ms
+Merge sort: 555.481ms
+Parallel Intro sort: 1.851s
+aips2o sort: 596.954ms
+distribution: two_dups
+STL sort: 812.948ms
+Merge sort: 835.292ms
+Parallel Intro sort: 502.106ms
+aips2o sort: 431.827ms
+distribution: STL sort: 733.339ms
+Merge sort: 378.205ms
+Parallel Intro sort: 468.681ms
+aips2o sort: 49.811ms
+size: 8197996
+distribution: uniform
+STL sort: 2.989s
+Merge sort: 3.358s
+Parallel Intro sort: 1.423s
+aips2o sort: 1.571s
+distribution: normal
+STL sort: 2.688s
+Merge sort: 2.528s
+Parallel Intro sort: 1.486s
+aips2o sort: 1.126s
+distribution: log_normal
+STL sort: 9.273s
+Merge sort: 8.641s
+Parallel Intro sort: 2.587s
+aips2o sort: 561.426ms
+distribution: mix_gauss
+STL sort: 2.685s
+Merge sort: 2.745s
+Parallel Intro sort: 1.3s
+aips2o sort: 1.025s
+distribution: exponential
+STL sort: 2.641s
+Merge sort: 2.388s
+Parallel Intro sort: 1.775s
+aips2o sort: 541.776ms
+distribution: chi_squard
+STL sort: 2.682s
+Merge sort: 2.679s
+Parallel Intro sort: 1.669s
+aips2o sort: 896.684ms
+distribution: root_dups
+STL sort: 2.551s
+Merge sort: 2.057s
+Parallel Intro sort: 1.336s
+aips2o sort: 1.306s
+distribution: two_dups
+STL sort: 2.938s
+Merge sort: 3.133s
+Parallel Intro sort: 1.309s
+aips2o sort: 1.549s
+distribution: STL sort: 2.598s
+Merge sort: 1.407s
+Parallel Intro sort: 1.281s
+aips2o sort: 157.516ms
+size: 4757397
+distribution: uniform
+STL sort: 1.704s
+Merge sort: 1.978s
+Parallel Intro sort: 1.157s
+aips2o sort: 846.819ms
+distribution: normal
+STL sort: 1.491s
+Merge sort: 1.455s
+Parallel Intro sort: 694.842ms
+aips2o sort: 343.795ms
+distribution: log_normal
+STL sort: 1.504s
+Merge sort: 1.464s
+Parallel Intro sort: 1.033s
+aips2o sort: 326.161ms
+distribution: mix_gauss
+STL sort: 1.504s
+Merge sort: 1.588s
+Parallel Intro sort: 949.521ms
+aips2o sort: 583.86ms
+distribution: exponential
+STL sort: 1.515s
+Merge sort: 1.409s
+Parallel Intro sort: 914.947ms
+aips2o sort: 319.696ms
+distribution: chi_squard
+STL sort: 1.505s
+Merge sort: 1.545s
+Parallel Intro sort: 1.144s
+aips2o sort: 474.427ms
+distribution: root_dups
+STL sort: 1.416s
+Merge sort: 1.193s
+Parallel Intro sort: 762.255ms
+aips2o sort: 638.308ms
+distribution: two_dups
+STL sort: 1.657s
+Merge sort: 1.781s
+Parallel Intro sort: 906.83ms
+aips2o sort: 847.391ms
+distribution: STL sort: 1.527s
+Merge sort: 833.217ms
+Parallel Intro sort: 908.866ms
+aips2o sort: 97.976ms
+size: 4220076
+distribution: uniform
+STL sort: 1.47s
+Merge sort: 1.685s
+Parallel Intro sort: 1.098s
+aips2o sort: 749.989ms
+distribution: normal
+STL sort: 1.313s
+Merge sort: 1.278s
+Parallel Intro sort: 742.572ms
+aips2o sort: 350.184ms
+distribution: log_normal
+STL sort: 1.329s
+Merge sort: 1.268s
+Parallel Intro sort: 663.92ms
+aips2o sort: 284.272ms
+distribution: mix_gauss
+STL sort: 1.319s
+Merge sort: 1.387s
+Parallel Intro sort: 623.614ms
+aips2o sort: 542.801ms
+distribution: exponential
+STL sort: 1.295s
+Merge sort: 1.203s
+Parallel Intro sort: 855.116ms
+aips2o sort: 288.948ms
+distribution: chi_squard
+STL sort: 1.326s
+Merge sort: 1.352s
+Parallel Intro sort: 587.034ms
+aips2o sort: 432.842ms
+distribution: root_dups
+STL sort: 1.243s
+Merge sort: 1.047s
+Parallel Intro sort: 663.7ms
+aips2o sort: 563.765ms
+distribution: two_dups
+STL sort: 1.445s
+Merge sort: 1.566s
+Parallel Intro sort: 651.245ms
+aips2o sort: 734.425ms
+distribution: STL sort: 1.299s
+Merge sort: 728.782ms
+Parallel Intro sort: 889.369ms
+aips2o sort: 86.422ms
+size: 6670182
+distribution: uniform
+STL sort: 2.398s
+Merge sort: 2.717s
+Parallel Intro sort: 1.675s
+aips2o sort: 1.188s
+distribution: normal
+STL sort: 2.173s
+Merge sort: 2.047s
+Parallel Intro sort: 1.303s
+aips2o sort: 554.457ms
+distribution: log_normal
+STL sort: 2.143s
+Merge sort: 2.035s
+Parallel Intro sort: 1.236s
+aips2o sort: 465.918ms
+distribution: mix_gauss
+STL sort: 2.158s
+Merge sort: 2.224s
+Parallel Intro sort: 953.105ms
+aips2o sort: 831.899ms
+distribution: exponential
+STL sort: 2.157s
+Merge sort: 1.932s
+Parallel Intro sort: 1.364s
+aips2o sort: 443.082ms
+distribution: chi_squard
+STL sort: 2.165s
+Merge sort: 2.168s
+Parallel Intro sort: 1.147s
+aips2o sort: 658.813ms
+distribution: root_dups
+STL sort: 2.018s
+Merge sort: 1.666s
+Parallel Intro sort: 1.395s
+aips2o sort: 907.387ms
+distribution: two_dups
+STL sort: 2.37s
+Merge sort: 2.532s
+Parallel Intro sort: 1.087s
+aips2o sort: 1.195s
+distribution: STL sort: 2.131s
+Merge sort: 1.14s
+Parallel Intro sort: 1.557s
+aips2o sort: 136.606ms
+size: 6617655
+distribution: uniform
+STL sort: 2.358s
+Merge sort: 2.7s
+Parallel Intro sort: 1.648s
+aips2o sort: 1.172s
+distribution: normal
+STL sort: 2.149s
+Merge sort: 2.047s
+Parallel Intro sort: 1.319s
+aips2o sort: 550.965ms
+distribution: log_normal
+STL sort: 2.127s
+Merge sort: 2.053s
+Parallel Intro sort: 1.072s
+aips2o sort: 451.524ms
+distribution: mix_gauss
+STL sort: 2.149s
+Merge sort: 2.218s
+Parallel Intro sort: 980.854ms
+aips2o sort: 811.895ms
+distribution: exponential
+STL sort: 2.14s
+Merge sort: 1.975s
+Parallel Intro sort: 1.278s
+aips2o sort: 451.553ms
+distribution: chi_squard
+STL sort: 2.152s
+Merge sort: 2.172s
+Parallel Intro sort: 1.331s
+aips2o sort: 673.836ms
+distribution: root_dups
+STL sort: 2.04s
+Merge sort: 1.67s
+Parallel Intro sort: 977.145ms
+aips2o sort: 897.248ms
+distribution: two_dups
+STL sort: 2.368s
+Merge sort: 2.519s
+Parallel Intro sort: 1.356s
+aips2o sort: 1.186s
+distribution: STL sort: 2.12s
+Merge sort: 1.142s
+Parallel Intro sort: 1.64s
+aips2o sort: 133.965ms
+size: 6206083
+distribution: uniform
+STL sort: 2.215s
+Merge sort: 2.521s
+Parallel Intro sort: 1.23s
+aips2o sort: 1.099s
+distribution: normal
+STL sort: 2.016s
+Merge sort: 1.905s
+Parallel Intro sort: 852.221ms
+aips2o sort: 499.911ms
+distribution: log_normal
+STL sort: 1.996s
+Merge sort: 1.917s
+Parallel Intro sort: 955.957ms
+aips2o sort: 423.4ms
+distribution: mix_gauss
+STL sort: 1.991s
+Merge sort: 2.069s
+Parallel Intro sort: 922.429ms
+aips2o sort: 817.394ms
+distribution: exponential
+STL sort: 2.005s
+Merge sort: 1.837s
+Parallel Intro sort: 874.391ms
+aips2o sort: 427.01ms
+distribution: chi_squard
+STL sort: 2.042s
+Merge sort: 2.023s
+Parallel Intro sort: 964.938ms
+aips2o sort: 603.605ms
+distribution: root_dups
+STL sort: 1.866s
+Merge sort: 1.552s
+Parallel Intro sort: 1.703s
+aips2o sort: 850.108ms
+distribution: two_dups
+STL sort: 2.191s
+Merge sort: 2.345s
+Parallel Intro sort: 1.013s
+aips2o sort: 1.101s
+distribution: STL sort: 1.979s
+Merge sort: 1.066s
+Parallel Intro sort: 934.989ms
+aips2o sort: 119.142ms
+size: 9241122
+distribution: uniform
+STL sort: 3.398s
+Merge sort: 3.794s
+Parallel Intro sort: 1.411s
+aips2o sort: 6.651s
+distribution: normal
+STL sort: 10.576s
+Merge sort: 9.843s
+Parallel Intro sort: 2.455s
+aips2o sort: 763.458ms
+distribution: log_normal
+STL sort: 3.084s
+Merge sort: 2.833s
+Parallel Intro sort: 1.58s
+aips2o sort: 738.441ms
+distribution: mix_gauss
+STL sort: 3.056s
+Merge sort: 3.095s
+Parallel Intro sort: 1.316s
+aips2o sort: 1.062s
+distribution: exponential
+STL sort: 3.018s
+Merge sort: 2.693s
+Parallel Intro sort: 1.788s
+aips2o sort: 616.015ms
+distribution: chi_squard
+STL sort: 3.056s
+Merge sort: 3.018s
+Parallel Intro sort: 1.668s
+aips2o sort: 897.717ms
+distribution: root_dups
+STL sort: 2.836s
+Merge sort: 2.308s
+Parallel Intro sort: 1.738s
+aips2o sort: 1.497s
+distribution: two_dups
+STL sort: 3.344s
+Merge sort: 3.533s
+Parallel Intro sort: 2.942s
+aips2o sort: 1.937s
+distribution: STL sort: 3.113s
+Merge sort: 1.586s
+Parallel Intro sort: 1.955s
+aips2o sort: 185.087ms
+size: 9521939
+distribution: uniform
+STL sort: 3.482s
+Merge sort: 3.91s
+Parallel Intro sort: 1.913s
+aips2o sort: 2.015s
+distribution: normal
+STL sort: 3.118s
+Merge sort: 2.948s
+Parallel Intro sort: 1.387s
+aips2o sort: 1.099s
+distribution: log_normal
+STL sort: 4.535s
+Merge sort: 4.198s
+Parallel Intro sort: 1.872s
+aips2o sort: 902.049ms
+distribution: mix_gauss
+STL sort: 10.312s
+Merge sort: 11.026s
+Parallel Intro sort: 2.252s
+aips2o sort: 1.086s
+distribution: exponential
+STL sort: 3.179s
+Merge sort: 2.848s
+Parallel Intro sort: 1.474s
+aips2o sort: 647.881ms
+distribution: chi_squard
+STL sort: 3.167s
+Merge sort: 3.127s
+Parallel Intro sort: 1.972s
+aips2o sort: 936.628ms
+distribution: root_dups
+STL sort: 2.907s
+Merge sort: 2.395s
+Parallel Intro sort: 1.418s
+aips2o sort: 1.539s
+distribution: two_dups
+STL sort: 3.47s
+Merge sort: 3.642s
+Parallel Intro sort: 2.286s
+aips2o sort: 2.01s
+distribution: STL sort: 3.198s
+Merge sort: 1.644s
+Parallel Intro sort: 2.073s
+aips2o sort: 187.219ms
+size: 7207147
+distribution: uniform
+STL sort: 2.603s
+Merge sort: 2.953s
+Parallel Intro sort: 1.115s
+aips2o sort: 1.292s
+distribution: normal
+STL sort: 2.358s
+Merge sort: 2.233s
+Parallel Intro sort: 1.607s
+aips2o sort: 523.174ms
+distribution: log_normal
+STL sort: 2.36s
+Merge sort: 2.243s
+Parallel Intro sort: 1.084s
+aips2o sort: 489.172ms
+distribution: mix_gauss
+STL sort: 2.343s
+Merge sort: 2.419s
+Parallel Intro sort: 1.628s
+aips2o sort: 946.966ms
+distribution: exponential
+STL sort: 2.327s
+Merge sort: 2.152s
+Parallel Intro sort: 1.116s
+aips2o sort: 489.572ms
+distribution: chi_squard
+STL sort: 2.349s
+Merge sort: 2.366s
+Parallel Intro sort: 1.407s
+aips2o sort: 745.799ms
+distribution: root_dups
+STL sort: 2.246s
+Merge sort: 1.82s
+Parallel Intro sort: 1.987s
+aips2o sort: 977.181ms
+distribution: two_dups
+STL sort: 2.566s
+Merge sort: 2.751s
+Parallel Intro sort: 1.183s
+aips2o sort: 1.303s
+distribution: STL sort: 2.3s
+Merge sort: 1.233s
+Parallel Intro sort: 1.054s
+aips2o sort: 138.513ms
+size: 4984369
+distribution: uniform
+STL sort: 1.766s
+Merge sort: 2.009s
+Parallel Intro sort: 780.842ms
+aips2o sort: 882.095ms
+distribution: normal
+STL sort: 1.566s
+Merge sort: 1.529s
+Parallel Intro sort: 874.893ms
+aips2o sort: 421.927ms
+distribution: log_normal
+STL sort: 1.59s
+Merge sort: 1.538s
+Parallel Intro sort: 839.458ms
+aips2o sort: 407.022ms
+distribution: mix_gauss
+STL sort: 1.586s
+Merge sort: 1.662s
+Parallel Intro sort: 1.192s
+aips2o sort: 614.835ms
+distribution: exponential
+STL sort: 1.572s
+Merge sort: 1.477s
+Parallel Intro sort: 1.179s
+aips2o sort: 342.41ms
+distribution: chi_squard
+STL sort: 1.566s
+Merge sort: 1.62s
+Parallel Intro sort: 1.083s
+aips2o sort: 506.676ms
+distribution: root_dups
+STL sort: 1.549s
+Merge sort: 1.248s
+Parallel Intro sort: 1.334s
+aips2o sort: 674.207ms
+distribution: two_dups
+STL sort: 1.731s
+Merge sort: 1.868s
+Parallel Intro sort: 746.174ms
+aips2o sort: 881.082ms
+distribution: STL sort: 1.595s
+Merge sort: 867.792ms
+Parallel Intro sort: 1.063s
+aips2o sort: 101.889ms
+size: 7901231
+distribution: uniform
+STL sort: 2.862s
+Merge sort: 3.261s
+Parallel Intro sort: 2.266s
+aips2o sort: 1.479s
+distribution: normal
+STL sort: 2.583s
+Merge sort: 2.464s
+Parallel Intro sort: 1.417s
+aips2o sort: 568.128ms
+distribution: log_normal
+STL sort: 2.565s
+Merge sort: 2.479s
+Parallel Intro sort: 1.163s
+aips2o sort: 533.297ms
+distribution: mix_gauss
+STL sort: 2.584s
+Merge sort: 2.672s
+Parallel Intro sort: 1.189s
+aips2o sort: 984.3ms
+distribution: exponential
+STL sort: 2.54s
+Merge sort: 2.383s
+Parallel Intro sort: 1.094s
+aips2o sort: 539.861ms
+distribution: chi_squard
+STL sort: 2.603s
+Merge sort: 2.619s
+Parallel Intro sort: 1.343s
+aips2o sort: 839.202ms
+distribution: root_dups
+STL sort: 2.395s
+Merge sort: 2.007s
+Parallel Intro sort: 1.143s
+aips2o sort: 1.25s
+distribution: two_dups
+STL sort: 2.827s
+Merge sort: 3.034s
+Parallel Intro sort: 1.941s
+aips2o sort: 1.488s
+distribution: STL sort: 2.505s
+Merge sort: 1.379s
+Parallel Intro sort: 1.666s
+aips2o sort: 153.505ms
+size: 4069136
+distribution: uniform
+STL sort: 1.409s
+Merge sort: 1.626s
+Parallel Intro sort: 891.492ms
+aips2o sort: 728.127ms
+distribution: normal
+STL sort: 1.267s
+Merge sort: 1.232s
+Parallel Intro sort: 588.612ms
+aips2o sort: 583.79ms
+distribution: log_normal
+STL sort: 1.257s
+Merge sort: 1.227s
+Parallel Intro sort: 598.248ms
+aips2o sort: 583.107ms
+distribution: mix_gauss
+STL sort: 1.272s
+Merge sort: 1.34s
+Parallel Intro sort: 668.549ms
+aips2o sort: 764.691ms
+distribution: exponential
+STL sort: 1.247s
+Merge sort: 1.162s
+Parallel Intro sort: 843.841ms
+aips2o sort: 600.2ms
+distribution: chi_squard
+STL sort: 1.271s
+Merge sort: 1.306s
+Parallel Intro sort: 749.573ms
+aips2o sort: 703.03ms
+distribution: root_dups
+STL sort: 1.192s
+Merge sort: 1.013s
+Parallel Intro sort: 994.652ms
+aips2o sort: 999.229ms
+distribution: two_dups
+STL sort: 1.389s
+Merge sort: 1.51s
+Parallel Intro sort: 598.95ms
+aips2o sort: 704.951ms
+distribution: STL sort: 1.227s
+Merge sort: 706.448ms
+Parallel Intro sort: 991.922ms
+aips2o sort: 84.626ms
+size: 7296289
+distribution: uniform
+STL sort: 2.628s
+Merge sort: 2.997s
+Parallel Intro sort: 1.092s
+aips2o sort: 1.308s
+distribution: normal
+STL sort: 2.386s
+Merge sort: 2.259s
+Parallel Intro sort: 1.67s
+aips2o sort: 587.654ms
+distribution: log_normal
+STL sort: 2.377s
+Merge sort: 2.272s
+Parallel Intro sort: 1.636s
+aips2o sort: 501.345ms
+distribution: mix_gauss
+STL sort: 2.393s
+Merge sort: 2.449s
+Parallel Intro sort: 1.882s
+aips2o sort: 907.333ms
+distribution: exponential
+STL sort: 2.409s
+Merge sort: 2.179s
+Parallel Intro sort: 987.957ms
+aips2o sort: 494.945ms
+distribution: chi_squard
+STL sort: 2.383s
+Merge sort: 2.394s
+Parallel Intro sort: 1.363s
+aips2o sort: 1.394s
+distribution: root_dups
+STL sort: 4.725s
+Merge sort: 3.697s
+Parallel Intro sort: 1.325s
+aips2o sort: 992.979ms
+distribution: two_dups
+STL sort: 2.612s
+Merge sort: 2.788s
+Parallel Intro sort: 1.62s
+aips2o sort: 1.316s
+distribution: STL sort: 2.314s
+Merge sort: 1.248s
+Parallel Intro sort: 1.551s
+aips2o sort: 147.928ms
+size: 3678648
+distribution: uniform
+STL sort: 1.268s
+Merge sort: 1.494s
+Parallel Intro sort: 934.772ms
+aips2o sort: 652.061ms
+distribution: normal
+STL sort: 1.146s
+Merge sort: 1.125s
+Parallel Intro sort: 528.495ms
+aips2o sort: 530.445ms
+distribution: log_normal
+STL sort: 1.137s
+Merge sort: 1.117s
+Parallel Intro sort: 742.068ms
+aips2o sort: 528.463ms
+distribution: mix_gauss
+STL sort: 1.146s
+Merge sort: 1.221s
+Parallel Intro sort: 718.763ms
+aips2o sort: 635.468ms
+distribution: exponential
+STL sort: 1.13s
+Merge sort: 1.061s
+Parallel Intro sort: 570.924ms
+aips2o sort: 1.781s
+distribution: chi_squard
+STL sort: 3.96s
+Merge sort: 4.097s
+Parallel Intro sort: 894.782ms
+aips2o sort: 637.757ms
+distribution: root_dups
+STL sort: 1.071s
+Merge sort: 930.102ms
+Parallel Intro sort: 539.546ms
+aips2o sort: 902.945ms
+distribution: two_dups
+STL sort: 1.25s
+Merge sort: 1.381s
+Parallel Intro sort: 803.087ms
+aips2o sort: 646.099ms
+distribution: STL sort: 1.11s
+Merge sort: 648.151ms
+Parallel Intro sort: 899.8ms
+aips2o sort: 76.557ms
+size: 4256768
+distribution: uniform
+STL sort: 1.482s
+Merge sort: 1.697s
+Parallel Intro sort: 789.988ms
+aips2o sort: 751.76ms
+distribution: normal
+STL sort: 1.332s
+Merge sort: 1.287s
+Parallel Intro sort: 792.405ms
+aips2o sort: 353.543ms
+distribution: log_normal
+STL sort: 1.351s
+Merge sort: 1.278s
+Parallel Intro sort: 699.27ms
+aips2o sort: 980.572ms
+distribution: mix_gauss
+STL sort: 4.616s
+Merge sort: 4.806s
+Parallel Intro sort: 1.597s
+aips2o sort: 1.787s
+distribution: exponential
+STL sort: 4.509s
+Merge sort: 4.177s
+Parallel Intro sort: 1.508s
+aips2o sort: 720.557ms
+distribution: chi_squard
+STL sort: 4.583s
+Merge sort: 4.7s
+Parallel Intro sort: 867.487ms
+aips2o sort: 1.471s
+distribution: root_dups
+STL sort: 4.304s
+Merge sort: 3.637s
+Parallel Intro sort: 1.549s
+aips2o sort: 1.959s
+distribution: two_dups
+STL sort: 4.936s
+Merge sort: 5.381s
+Parallel Intro sort: 1.231s
+aips2o sort: 2.518s
+distribution: STL sort: 4.502s
+Merge sort: 2.518s
+Parallel Intro sort: 1.184s
+aips2o sort: 278.064ms
+size: 7767430
+distribution: uniform
+STL sort: 9.683s
+Merge sort: 10.982s
+Parallel Intro sort: 2.138s
+aips2o sort: 1.441s
+distribution: normal
+STL sort: 2.535s
+Merge sort: 2.406s
+Parallel Intro sort: 1.059s
+aips2o sort: 2.202s
+distribution: log_normal
+STL sort: 8.772s
+Merge sort: 8.216s
+Parallel Intro sort: 1.706s
+aips2o sort: 967.207ms
+distribution: mix_gauss
+STL sort: 5.28s
+Merge sort: 5.044s
+Parallel Intro sort: 1.423s
+aips2o sort: 980.415ms
+distribution: exponential
+STL sort: 2.494s
+Merge sort: 2.272s
+Parallel Intro sort: 1.118s
+aips2o sort: 527.453ms
+distribution: chi_squard
+STL sort: 2.544s
+Merge sort: 2.549s
+Parallel Intro sort: 1.186s
+aips2o sort: 864.467ms
+distribution: root_dups
+STL sort: 2.403s
+Merge sort: 1.957s
+Parallel Intro sort: 1.366s
+aips2o sort: 2.304s
+distribution: two_dups
+STL sort: 5.702s
+Merge sort: 10.206s
+Parallel Intro sort: 1.792s
+aips2o sort: 1.98s
+distribution: STL sort: 2.638s
+Merge sort: 1.336s
+Parallel Intro sort: 1.153s
+aips2o sort: 149.419ms
+size: 9954832
+distribution: uniform
+STL sort: 3.656s
+Merge sort: 4.081s
+Parallel Intro sort: 2.421s
+aips2o sort: 2.119s
+distribution: normal
+STL sort: 3.264s
+Merge sort: 3.047s
+Parallel Intro sort: 1.526s
+aips2o sort: 825.457ms
+distribution: log_normal
+STL sort: 3.313s
+Merge sort: 3.031s
+Parallel Intro sort: 1.953s
+aips2o sort: 1.895s
+distribution: mix_gauss
+STL sort: 10.73s
+Merge sort: 6.463s
+Parallel Intro sort: 2.1s
+aips2o sort: 2.141s
+distribution: exponential
+STL sort: 8.815s
+Merge sort: 9.893s
+Parallel Intro sort: 2.284s
+aips2o sort: 655.12ms
+distribution: chi_squard
+STL sort: 3.313s
+Merge sort: 3.238s
+Parallel Intro sort: 1.752s
+aips2o sort: 992.197ms
+distribution: root_dups
+STL sort: 3.133s
+Merge sort: 2.468s
+Parallel Intro sort: 1.655s
+aips2o sort: 2.246s
+distribution: two_dups
+STL sort: 11.585s
+Merge sort: 13.01s
+Parallel Intro sort: 2.135s
+aips2o sort: 7.135s
+distribution: STL sort: 11.481s
+Merge sort: 5.798s
+Parallel Intro sort: 2.189s
+aips2o sort: 194.229ms
+size: 6098050
+distribution: uniform
+STL sort: 2.171s
+Merge sort: 2.461s
+Parallel Intro sort: 956.924ms
+aips2o sort: 1.077s
+distribution: normal
+STL sort: 1.976s
+Merge sort: 1.855s
+Parallel Intro sort: 1.02s
+aips2o sort: 510.015ms
+distribution: log_normal
+STL sort: 1.95s
+Merge sort: 1.842s
+Parallel Intro sort: 1.229s
+aips2o sort: 419.437ms
+distribution: mix_gauss
+STL sort: 1.955s
+Merge sort: 2.016s
+Parallel Intro sort: 1.136s
+aips2o sort: 756.257ms
+distribution: exponential
+STL sort: 1.962s
+Merge sort: 1.75s
+Parallel Intro sort: 891.989ms
+aips2o sort: 420.78ms
+distribution: chi_squard
+STL sort: 1.953s
+Merge sort: 1.966s
+Parallel Intro sort: 1.302s
+aips2o sort: 626.866ms
+distribution: root_dups
+STL sort: 1.89s
+Merge sort: 1.511s
+Parallel Intro sort: 1.357s
+aips2o sort: 821.084ms
+distribution: two_dups
+STL sort: 2.147s
+Merge sort: 2.288s
+Parallel Intro sort: 956.41ms
+aips2o sort: 1.076s
+distribution: STL sort: 1.947s
+Merge sort: 1.033s
+Parallel Intro sort: 1.327s
+aips2o sort: 124.961ms
+size: 8060168
+distribution: uniform
+STL sort: 2.927s
+Merge sort: 3.3s
+Parallel Intro sort: 2.135s
+aips2o sort: 1.525s
+distribution: normal
+STL sort: 2.644s
+Merge sort: 2.486s
+Parallel Intro sort: 1.846s
+aips2o sort: 674.413ms
+distribution: log_normal
+STL sort: 2.693s
+Merge sort: 2.471s
+Parallel Intro sort: 1.562s
+aips2o sort: 560.546ms
+distribution: mix_gauss
+STL sort: 2.639s
+Merge sort: 2.7s
+Parallel Intro sort: 1.262s
+aips2o sort: 1.063s
+distribution: exponential
+STL sort: 2.602s
+Merge sort: 2.347s
+Parallel Intro sort: 1.576s
+aips2o sort: 556.933ms
+distribution: chi_squard
+STL sort: 2.657s
+Merge sort: 2.634s
+Parallel Intro sort: 1.213s
+aips2o sort: 842.698ms
+distribution: root_dups
+STL sort: 2.494s
+Merge sort: 2.023s
+Parallel Intro sort: 1.777s
+aips2o sort: 1.277s
+distribution: two_dups
+STL sort: 2.902s
+Merge sort: 3.071s
+Parallel Intro sort: 1.867s
+aips2o sort: 1.503s
+distribution: STL sort: 2.559s
+Merge sort: 1.381s
+Parallel Intro sort: 1.728s
+aips2o sort: 163.227ms
+size: 2323001
+distribution: uniform
+STL sort: 779.397ms
+Merge sort: 872.936ms
+Parallel Intro sort: 554.063ms
+aips2o sort: 418.035ms
+distribution: normal
+STL sort: 691.441ms
+Merge sort: 659.672ms
+Parallel Intro sort: 345.461ms
+aips2o sort: 332.07ms
+distribution: log_normal
+STL sort: 694.274ms
+Merge sort: 664.313ms
+Parallel Intro sort: 511.754ms
+aips2o sort: 339.684ms
+distribution: mix_gauss
+STL sort: 696.858ms
+Merge sort: 723.766ms
+Parallel Intro sort: 344.23ms
+aips2o sort: 432.706ms
+distribution: exponential
+STL sort: 689.821ms
+Merge sort: 635.326ms
+Parallel Intro sort: 441.906ms
+aips2o sort: 334.425ms
+distribution: chi_squard
+STL sort: 705.831ms
+Merge sort: 703.635ms
+Parallel Intro sort: 366.722ms
+aips2o sort: 406.109ms
+distribution: root_dups
+STL sort: 647.196ms
+Merge sort: 540.976ms
+Parallel Intro sort: 433.111ms
+aips2o sort: 572.983ms
+distribution: two_dups
+STL sort: 769.73ms
+Merge sort: 811.727ms
+Parallel Intro sort: 361.118ms
+aips2o sort: 416.831ms
+distribution: STL sort: 710.292ms
+Merge sort: 368.661ms
+Parallel Intro sort: 467.224ms
+aips2o sort: 48.071ms
+size: 9289213
+distribution: uniform
+STL sort: 3.391s
+Merge sort: 3.823s
+Parallel Intro sort: 1.652s
+aips2o sort: 1.954s
+distribution: normal
+STL sort: 3.046s
+Merge sort: 2.88s
+Parallel Intro sort: 1.899s
+aips2o sort: 769.461ms
+distribution: log_normal
+STL sort: 3.118s
+Merge sort: 2.896s
+Parallel Intro sort: 1.415s
+aips2o sort: 746.284ms
+distribution: mix_gauss
+STL sort: 3.076s
+Merge sort: 3.124s
+Parallel Intro sort: 1.416s
+aips2o sort: 1.069s
+distribution: exponential
+STL sort: 3.03s
+Merge sort: 2.78s
+Parallel Intro sort: 1.786s
+aips2o sort: 614.995ms
+distribution: chi_squard
+STL sort: 3.062s
+Merge sort: 3.056s
+Parallel Intro sort: 1.71s
+aips2o sort: 910.949ms
+distribution: root_dups
+STL sort: 2.834s
+Merge sort: 2.334s
+Parallel Intro sort: 1.989s
+aips2o sort: 3.148s
+distribution: two_dups
+STL sort: 11.604s
+Merge sort: 12.247s
+Parallel Intro sort: 2.607s
+aips2o sort: 1.949s
+distribution: STL sort: 3.133s
+Merge sort: 1.607s
+Parallel Intro sort: 2.034s
+aips2o sort: 178.508ms
+size: 978339
+distribution: uniform
+STL sort: 309.493ms
+Merge sort: 358.928ms
+Parallel Intro sort: 152.135ms
+aips2o sort: 257.2ms
+distribution: normal
+STL sort: 275.144ms
+Merge sort: 274.25ms
+Parallel Intro sort: 143.384ms
+aips2o sort: 140.055ms
+distribution: log_normal
+STL sort: 275.679ms
+Merge sort: 276.362ms
+Parallel Intro sort: 175.369ms
+aips2o sort: 141.104ms
+distribution: mix_gauss
+STL sort: 274.699ms
+Merge sort: 300.826ms
+Parallel Intro sort: 195.591ms
+aips2o sort: 168.062ms
+distribution: exponential
+STL sort: 270.789ms
+Merge sort: 263.971ms
+Parallel Intro sort: 183.461ms
+aips2o sort: 126.259ms
+distribution: chi_squard
+STL sort: 273.766ms
+Merge sort: 293.269ms
+Parallel Intro sort: 191.982ms
+aips2o sort: 161.968ms
+distribution: root_dups
+STL sort: 258.325ms
+Merge sort: 226.867ms
+Parallel Intro sort: 205.858ms
+aips2o sort: 211.453ms
+distribution: two_dups
+STL sort: 307.105ms
+Merge sort: 335.703ms
+Parallel Intro sort: 150.223ms
+aips2o sort: 252.297ms
+distribution: STL sort: 265.673ms
+Merge sort: 159.158ms
+Parallel Intro sort: 189.273ms
+aips2o sort: 18.894ms
+size: 3111440
+distribution: uniform
+STL sort: 1.075s
+Merge sort: 1.201s
+Parallel Intro sort: 539.318ms
+aips2o sort: 555.361ms
+distribution: normal
+STL sort: 952.911ms
+Merge sort: 891.721ms
+Parallel Intro sort: 784.488ms
+aips2o sort: 447.597ms
+distribution: log_normal
+STL sort: 951.401ms
+Merge sort: 885.695ms
+Parallel Intro sort: 691.698ms
+aips2o sort: 446.539ms
+distribution: mix_gauss
+STL sort: 957.728ms
+Merge sort: 974.145ms
+Parallel Intro sort: 545.314ms
+aips2o sort: 586.155ms
+distribution: exponential
+STL sort: 951.049ms
+Merge sort: 838.117ms
+Parallel Intro sort: 644.448ms
+aips2o sort: 449.827ms
+distribution: chi_squard
+STL sort: 962.942ms
+Merge sort: 952.193ms
+Parallel Intro sort: 606.276ms
+aips2o sort: 536.167ms
+distribution: root_dups
+STL sort: 882.58ms
+Merge sort: 728.871ms
+Parallel Intro sort: 675.16ms
+aips2o sort: 780.491ms
+distribution: two_dups
+STL sort: 1.032s
+Merge sort: 1.1s
+Parallel Intro sort: 769.472ms
+aips2o sort: 544.031ms
+distribution: STL sort: 942.891ms
+Merge sort: 497.001ms
+Parallel Intro sort: 667.457ms
+aips2o sort: 64.567ms
+size: 5104193
+distribution: uniform
+STL sort: 1.814s
+Merge sort: 2.062s
+Parallel Intro sort: 891.943ms
+aips2o sort: 2.006s
+distribution: normal
+STL sort: 5.52s
+Merge sort: 5.361s
+Parallel Intro sort: 1.768s
+aips2o sort: 413.9ms
+distribution: log_normal
+STL sort: 1.637s
+Merge sort: 1.573s
+Parallel Intro sort: 1.051s
+aips2o sort: 352.012ms
+distribution: mix_gauss
+STL sort: 1.628s
+Merge sort: 1.701s
+Parallel Intro sort: 895.89ms
+aips2o sort: 1.228s
+distribution: exponential
+STL sort: 3.496s
+Merge sort: 3.045s
+Parallel Intro sort: 1.144s
+aips2o sort: 642.839ms
+distribution: chi_squard
+STL sort: 4.073s
+Merge sort: 5.719s
+Parallel Intro sort: 1.259s
+aips2o sort: 538.509ms
+distribution: root_dups
+STL sort: 1.529s
+Merge sort: 1.284s
+Parallel Intro sort: 1.307s
+aips2o sort: 694.174ms
+distribution: two_dups
+STL sort: 1.81s
+Merge sort: 1.92s
+Parallel Intro sort: 1.324s
+aips2o sort: 901.887ms
+distribution: STL sort: 1.636s
+Merge sort: 888.918ms
+Parallel Intro sort: 1.101s
+aips2o sort: 100.338ms
+size: 2903444
+distribution: uniform
+STL sort: 990.525ms
+Merge sort: 1.104s
+Parallel Intro sort: 442.029ms
+aips2o sort: 517.184ms
+distribution: normal
+STL sort: 893.507ms
+Merge sort: 829.378ms
+Parallel Intro sort: 422.168ms
+aips2o sort: 416.872ms
+distribution: log_normal
+STL sort: 881.533ms
+Merge sort: 821.739ms
+Parallel Intro sort: 400.916ms
+aips2o sort: 420.137ms
+distribution: mix_gauss
+STL sort: 888.087ms
+Merge sort: 906.479ms
+Parallel Intro sort: 670.233ms
+aips2o sort: 504.393ms
+distribution: exponential
+STL sort: 894.272ms
+Merge sort: 778.439ms
+Parallel Intro sort: 461.987ms
+aips2o sort: 422.867ms
+distribution: chi_squard
+STL sort: 889.597ms
+Merge sort: 880.674ms
+Parallel Intro sort: 689.554ms
+aips2o sort: 506.333ms
+distribution: root_dups
+STL sort: 828.747ms
+Merge sort: 675.539ms
+Parallel Intro sort: 588.328ms
+aips2o sort: 712.677ms
+distribution: two_dups
+STL sort: 982.382ms
+Merge sort: 1.024s
+Parallel Intro sort: 541.01ms
+aips2o sort: 510.772ms
+distribution: STL sort: 881.574ms
+Merge sort: 462.877ms
+Parallel Intro sort: 458.404ms
+aips2o sort: 58.865ms
+size: 1515001
+distribution: uniform
+STL sort: 494.304ms
+Merge sort: 560.52ms
+Parallel Intro sort: 306.342ms
+aips2o sort: 276.698ms
+distribution: normal
+STL sort: 441.384ms
+Merge sort: 424.649ms
+Parallel Intro sort: 229.594ms
+aips2o sort: 222.824ms
+distribution: log_normal
+STL sort: 438.961ms
+Merge sort: 428.788ms
+Parallel Intro sort: 275.588ms
+aips2o sort: 414.345ms
+distribution: mix_gauss
+STL sort: 930.882ms
+Merge sort: 903.376ms
+Parallel Intro sort: 278.558ms
+aips2o sort: 540.609ms
+distribution: exponential
+STL sort: 964.272ms
+Merge sort: 838.308ms
+Parallel Intro sort: 353.913ms
+aips2o sort: 205.19ms
+distribution: chi_squard
+STL sort: 441.711ms
+Merge sort: 455.018ms
+Parallel Intro sort: 282.658ms
+aips2o sort: 239.481ms
+distribution: root_dups
+STL sort: 412.134ms
+Merge sort: 349.896ms
+Parallel Intro sort: 263.193ms
+aips2o sort: 351.9ms
+distribution: two_dups
+STL sort: 486.573ms
+Merge sort: 523.542ms
+Parallel Intro sort: 257.856ms
+aips2o sort: 275.156ms
+distribution: STL sort: 437.063ms
+Merge sort: 237.886ms
+Parallel Intro sort: 337.763ms
+aips2o sort: 30.746ms
+size: 5623428
+distribution: uniform
+STL sort: 2.005s
+Merge sort: 2.282s
+Parallel Intro sort: 1.343s
+aips2o sort: 1.001s
+distribution: normal
+STL sort: 1.77s
+Merge sort: 1.726s
+Parallel Intro sort: 1.231s
+aips2o sort: 410.534ms
+distribution: log_normal
+STL sort: 1.81s
+Merge sort: 1.713s
+Parallel Intro sort: 1.079s
+aips2o sort: 387.261ms
+distribution: mix_gauss
+STL sort: 1.794s
+Merge sort: 1.873s
+Parallel Intro sort: 1.191s
+aips2o sort: 710.959ms
+distribution: exponential
+STL sort: 1.8s
+Merge sort: 1.63s
+Parallel Intro sort: 1.015s
+aips2o sort: 391.417ms
+distribution: chi_squard
+STL sort: 1.799s
+Merge sort: 1.824s
+Parallel Intro sort: 823.365ms
+aips2o sort: 586.331ms
+distribution: root_dups
+STL sort: 1.732s
+Merge sort: 1.403s
+Parallel Intro sort: 985.856ms
+aips2o sort: 2.602s
+distribution: two_dups
+STL sort: 6.738s
+Merge sort: 7.276s
+Parallel Intro sort: 1.268s
+aips2o sort: 974.063ms
+distribution: STL sort: 1.797s
+Merge sort: 964.411ms
+Parallel Intro sort: 1.196s
+aips2o sort: 109.177ms
+size: 6045744
+distribution: uniform
+STL sort: 2.153s
+Merge sort: 2.439s
+Parallel Intro sort: 1.107s
+aips2o sort: 1.074s
+distribution: normal
+STL sort: 1.96s
+Merge sort: 1.844s
+Parallel Intro sort: 784.668ms
+aips2o sort: 438.947ms
+distribution: log_normal
+STL sort: 1.937s
+Merge sort: 1.832s
+Parallel Intro sort: 891.254ms
+aips2o sort: 408.952ms
+distribution: mix_gauss
+STL sort: 1.944s
+Merge sort: 2s
+Parallel Intro sort: 1.036s
+aips2o sort: 826.857ms
+distribution: exponential
+STL sort: 1.95s
+Merge sort: 1.74s
+Parallel Intro sort: 1.309s
+aips2o sort: 414.013ms
+distribution: chi_squard
+STL sort: 1.96s
+Merge sort: 1.951s
+Parallel Intro sort: 1.198s
+aips2o sort: 606.823ms
+distribution: root_dups
+STL sort: 1.838s
+Merge sort: 1.502s
+Parallel Intro sort: 1.194s
+aips2o sort: 823.132ms
+distribution: two_dups
+STL sort: 2.098s
+Merge sort: 2.266s
+Parallel Intro sort: 1.038s
+aips2o sort: 1.037s
+distribution: STL sort: 1.927s
+Merge sort: 1.024s
+Parallel Intro sort: 1.358s
+aips2o sort: 119.904ms
+size: 6164324
+distribution: uniform
+STL sort: 2.201s
+Merge sort: 2.487s
+Parallel Intro sort: 1.225s
+aips2o sort: 1.095s
+distribution: normal
+STL sort: 1.999s
+Merge sort: 1.876s
+Parallel Intro sort: 1.148s
+aips2o sort: 443.233ms
+distribution: log_normal
+STL sort: 1.974s
+Merge sort: 1.864s
+Parallel Intro sort: 1.354s
+aips2o sort: 493.721ms
+distribution: mix_gauss
+STL sort: 1.994s
+Merge sort: 2.042s
+Parallel Intro sort: 916.834ms
+aips2o sort: 768.157ms
+distribution: exponential
+STL sort: 1.995s
+Merge sort: 1.768s
+Parallel Intro sort: 1.279s
+aips2o sort: 421.826ms
+distribution: chi_squard
+STL sort: 1.987s
+Merge sort: 1.986s
+Parallel Intro sort: 1.091s
+aips2o sort: 626.836ms
+distribution: root_dups
+STL sort: 1.892s
+Merge sort: 1.524s
+Parallel Intro sort: 1.226s
+aips2o sort: 843.888ms
+distribution: two_dups
+STL sort: 2.16s
+Merge sort: 2.314s
+Parallel Intro sort: 1.034s
+aips2o sort: 1.068s
+distribution: STL sort: 1.965s
+Merge sort: 1.04s
+Parallel Intro sort: 1.143s
+aips2o sort: 120.827ms
+size: 2221161
+distribution: uniform
+STL sort: 742.267ms
+Merge sort: 832.442ms
+Parallel Intro sort: 365.111ms
+aips2o sort: 404.866ms
+distribution: normal
+STL sort: 661.982ms
+Merge sort: 630.415ms
+Parallel Intro sort: 522.338ms
+aips2o sort: 325.458ms
+distribution: log_normal
+STL sort: 661.716ms
+Merge sort: 635.205ms
+Parallel Intro sort: 460.406ms
+aips2o sort: 322.544ms
+distribution: mix_gauss
+STL sort: 667.154ms
+Merge sort: 688.73ms
+Parallel Intro sort: 391.789ms
+aips2o sort: 413.024ms
+distribution: exponential
+STL sort: 647.08ms
+Merge sort: 605.679ms
+Parallel Intro sort: 405.226ms
+aips2o sort: 325.302ms
+distribution: chi_squard
+STL sort: 666.299ms
+Merge sort: 673.163ms
+Parallel Intro sort: 434.531ms
+aips2o sort: 389.008ms
+distribution: root_dups
+STL sort: 619.973ms
+Merge sort: 516.811ms
+Parallel Intro sort: 343.461ms
+aips2o sort: 552.541ms
+distribution: two_dups
+STL sort: 736.261ms
+Merge sort: 773.566ms
+Parallel Intro sort: 352.069ms
+aips2o sort: 400.892ms
+distribution: STL sort: 680.721ms
+Merge sort: 351.83ms
+Parallel Intro sort: 476.741ms
+aips2o sort: 63.782ms
+size: 8722246
+distribution: uniform
+STL sort: 10.972s
+Merge sort: 12.319s
+Parallel Intro sort: 3.348s
+aips2o sort: 1.76s
+distribution: normal
+STL sort: 2.863s
+Merge sort: 2.694s
+Parallel Intro sort: 1.524s
+aips2o sort: 700.335ms
+distribution: log_normal
+STL sort: 2.88s
+Merge sort: 2.674s
+Parallel Intro sort: 1.301s
+aips2o sort: 1.513s
+distribution: mix_gauss
+STL sort: 6.241s
+Merge sort: 5.618s
+Parallel Intro sort: 1.822s
+aips2o sort: 1.884s
+distribution: exponential
+STL sort: 5.993s
+Merge sort: 6.021s
+Parallel Intro sort: 1.864s
+aips2o sort: 1.967s
+distribution: chi_squard
+STL sort: 9.951s
+Merge sort: 9.823s
+Parallel Intro sort: 2.839s
+aips2o sort: 2.912s
+distribution: root_dups
+STL sort: 9.367s
+Merge sort: 7.5s
+Parallel Intro sort: 2.152s
+aips2o sort: 1.401s
+distribution: two_dups
+STL sort: 3.158s
+Merge sort: 3.33s
+Parallel Intro sort: 1.503s
+aips2o sort: 1.768s
+distribution: STL sort: 2.886s
+Merge sort: 1.495s
+Parallel Intro sort: 1.805s
+aips2o sort: 169.214ms
+size: 6309329
+distribution: uniform
+STL sort: 2.258s
+Merge sort: 2.56s
+Parallel Intro sort: 1.144s
+aips2o sort: 1.541s
+distribution: normal
+STL sort: 6.33s
+Merge sort: 4.738s
+Parallel Intro sort: 1.349s
+aips2o sort: 811.512ms
+distribution: log_normal
+STL sort: 4.291s
+Merge sort: 4.028s
+Parallel Intro sort: 1.857s
+aips2o sort: 426.991ms
+distribution: mix_gauss
+STL sort: 2.042s
+Merge sort: 2.106s
+Parallel Intro sort: 939.116ms
+aips2o sort: 1.427s
+distribution: exponential
+STL sort: 7.007s
+Merge sort: 6.426s
+Parallel Intro sort: 1.781s
+aips2o sort: 1.474s
+distribution: chi_squard
+STL sort: 7.063s
+Merge sort: 7.07s
+Parallel Intro sort: 1.638s
+aips2o sort: 647.074ms
+distribution: root_dups
+STL sort: 1.903s
+Merge sort: 1.581s
+Parallel Intro sort: 879.504ms
+aips2o sort: 853.793ms
+distribution: two_dups
+STL sort: 2.221s
+Merge sort: 2.383s
+Parallel Intro sort: 2.207s
+aips2o sort: 1.126s
+distribution: STL sort: 2.014s
+Merge sort: 1.084s
+Parallel Intro sort: 1.203s
+aips2o sort: 124.5ms
+size: 8125110
+distribution: uniform
+STL sort: 2.966s
+Merge sort: 3.327s
+Parallel Intro sort: 2.044s
+aips2o sort: 1.552s
+distribution: normal
+STL sort: 2.671s
+Merge sort: 2.505s
+Parallel Intro sort: 1.185s
+aips2o sort: 580.65ms
+distribution: log_normal
+STL sort: 2.712s
+Merge sort: 2.489s
+Parallel Intro sort: 1.52s
+aips2o sort: 1.053s
+distribution: mix_gauss
+STL sort: 9.207s
+Merge sort: 9.397s
+Parallel Intro sort: 2.053s
+aips2o sort: 1.032s
+distribution: exponential
+STL sort: 2.621s
+Merge sort: 2.364s
+Parallel Intro sort: 1.611s
+aips2o sort: 555.369ms
+distribution: chi_squard
+STL sort: 2.662s
+Merge sort: 2.653s
+Parallel Intro sort: 1.292s
+aips2o sort: 855.926ms
+distribution: root_dups
+STL sort: 2.508s
+Merge sort: 2.034s
+Parallel Intro sort: 1.917s
+aips2o sort: 1.288s
+distribution: two_dups
+STL sort: 2.915s
+Merge sort: 3.108s
+Parallel Intro sort: 1.443s
+aips2o sort: 1.557s
+distribution: STL sort: 2.583s
+Merge sort: 1.394s
+Parallel Intro sort: 1.211s
+aips2o sort: 228.343ms
+size: 6438355
+distribution: uniform
+STL sort: 3.221s
+Merge sort: 3.497s
+Parallel Intro sort: 1.81s
+aips2o sort: 1.578s
+distribution: normal
+STL sort: 6.656s
+Merge sort: 6.851s
+Parallel Intro sort: 2.087s
+aips2o sort: 1.58s
+distribution: log_normal
+STL sort: 7.187s
+Merge sort: 6.89s
+Parallel Intro sort: 1.678s
+aips2o sort: 518.423ms
+distribution: mix_gauss
+STL sort: 2.087s
+Merge sort: 2.163s
+Parallel Intro sort: 1.038s
+aips2o sort: 804.654ms
+distribution: exponential
+STL sort: 2.076s
+Merge sort: 1.918s
+Parallel Intro sort: 1.276s
+aips2o sort: 426.626ms
+distribution: chi_squard
+STL sort: 2.075s
+Merge sort: 2.107s
+Parallel Intro sort: 1.14s
+aips2o sort: 1.562s
+distribution: root_dups
+STL sort: 6.801s
+Merge sort: 5.573s
+Parallel Intro sort: 1.716s
+aips2o sort: 1.703s
+distribution: two_dups
+STL sort: 6.926s
+Merge sort: 8.413s
+Parallel Intro sort: 2.196s
+aips2o sort: 3.92s
+distribution: STL sort: 7.049s
+Merge sort: 3.831s
+Parallel Intro sort: 1.432s
+aips2o sort: 126.306ms
+size: 2958013
+distribution: uniform
+STL sort: 1.008s
+Merge sort: 1.128s
+Parallel Intro sort: 818.49ms
+aips2o sort: 531.337ms
+distribution: normal
+STL sort: 913.053ms
+Merge sort: 848.613ms
+Parallel Intro sort: 793.174ms
+aips2o sort: 437.77ms
+distribution: log_normal
+STL sort: 901.571ms
+Merge sort: 854.01ms
+Parallel Intro sort: 423.512ms
+aips2o sort: 423.658ms
+distribution: mix_gauss
+STL sort: 902.844ms
+Merge sort: 927.585ms
+Parallel Intro sort: 746.99ms
+aips2o sort: 509.841ms
+distribution: exponential
+STL sort: 910.229ms
+Merge sort: 817.339ms
+Parallel Intro sort: 510.037ms
+aips2o sort: 904.792ms
+distribution: chi_squard
+STL sort: 3.124s
+Merge sort: 3.113s
+Parallel Intro sort: 774.396ms
+aips2o sort: 509.135ms
+distribution: root_dups
+STL sort: 839.656ms
+Merge sort: 693.689ms
+Parallel Intro sort: 729.078ms
+aips2o sort: 741.825ms
+distribution: two_dups
+STL sort: 998.235ms
+Merge sort: 1.048s
+Parallel Intro sort: 706.634ms
+aips2o sort: 530.347ms
+distribution: STL sort: 901.473ms
+Merge sort: 477.724ms
+Parallel Intro sort: 454.967ms
+aips2o sort: 61.363ms
+size: 2268988
+distribution: uniform
+STL sort: 759.86ms
+Merge sort: 848.636ms
+Parallel Intro sort: 355.798ms
+aips2o sort: 410.179ms
+distribution: normal
+STL sort: 676.257ms
+Merge sort: 639.69ms
+Parallel Intro sort: 383.098ms
+aips2o sort: 325.203ms
+distribution: log_normal
+STL sort: 685.421ms
+Merge sort: 634.625ms
+Parallel Intro sort: 407.394ms
+aips2o sort: 329.313ms
+distribution: mix_gauss
+STL sort: 677.456ms
+Merge sort: 699.457ms
+Parallel Intro sort: 312.431ms
+aips2o sort: 391.27ms
+distribution: exponential
+STL sort: 665.768ms
+Merge sort: 599.978ms
+Parallel Intro sort: 540.606ms
+aips2o sort: 301.595ms
+distribution: chi_squard
+STL sort: 681.13ms
+Merge sort: 681.088ms
+Parallel Intro sort: 327.397ms
+aips2o sort: 390.493ms
+distribution: root_dups
+STL sort: 639.756ms
+Merge sort: 524.074ms
+Parallel Intro sort: 384.78ms
+aips2o sort: 552.654ms
+distribution: two_dups
+STL sort: 750.922ms
+Merge sort: 788.032ms
+Parallel Intro sort: 426.682ms
+aips2o sort: 405.023ms
+distribution: STL sort: 694.535ms
+Merge sort: 353.66ms
+Parallel Intro sort: 363.426ms
+aips2o sort: 47.151ms
+size: 6059376
+distribution: uniform
+STL sort: 2.151s
+Merge sort: 2.455s
+Parallel Intro sort: 1.003s
+aips2o sort: 1.071s
+distribution: normal
+STL sort: 1.963s
+Merge sort: 1.848s
+Parallel Intro sort: 1.176s
+aips2o sort: 437.809ms
+distribution: log_normal
+STL sort: 1.939s
+Merge sort: 1.837s
+Parallel Intro sort: 905.457ms
+aips2o sort: 419.128ms
+distribution: mix_gauss
+STL sort: 1.959s
+Merge sort: 2.008s
+Parallel Intro sort: 1.168s
+aips2o sort: 766.976ms
+distribution: exponential
+STL sort: 1.949s
+Merge sort: 1.744s
+Parallel Intro sort: 1.213s
+aips2o sort: 407.977ms
+distribution: chi_squard
+STL sort: 1.951s
+Merge sort: 1.96s
+Parallel Intro sort: 1.234s
+aips2o sort: 608.489ms
+distribution: root_dups
+STL sort: 1.905s
+Merge sort: 1.505s
+Parallel Intro sort: 2.813s
+aips2o sort: 816.628ms
+distribution: two_dups
+STL sort: 2.114s
+Merge sort: 2.275s
+Parallel Intro sort: 1.066s
+aips2o sort: 1.043s
+distribution: STL sort: 1.941s
+Merge sort: 1.034s
+Parallel Intro sort: 902.497ms
+aips2o sort: 117.83ms
+size: 5356637
+distribution: uniform
+STL sort: 1.889s
+Merge sort: 2.163s
+Parallel Intro sort: 828.782ms
+aips2o sort: 944.689ms
+distribution: normal
+STL sort: 1.703s
+Merge sort: 1.641s
+Parallel Intro sort: 905.034ms
+aips2o sort: 439.716ms
+distribution: log_normal
+STL sort: 1.7s
+Merge sort: 1.651s
+Parallel Intro sort: 781.456ms
+aips2o sort: 361.67ms
+distribution: mix_gauss
+STL sort: 1.718s
+Merge sort: 1.784s
+Parallel Intro sort: 938.959ms
+aips2o sort: 644.987ms
+distribution: exponential
+STL sort: 1.739s
+Merge sort: 1.597s
+Parallel Intro sort: 1.178s
+aips2o sort: 368.386ms
+distribution: chi_squard
+STL sort: 1.726s
+Merge sort: 1.743s
+Parallel Intro sort: 886.009ms
+aips2o sort: 534.496ms
+distribution: root_dups
+STL sort: 1.625s
+Merge sort: 1.341s
+Parallel Intro sort: 1.024s
+aips2o sort: 722.414ms
+distribution: two_dups
+STL sort: 1.871s
+Merge sort: 2.014s
+Parallel Intro sort: 962.384ms
+aips2o sort: 951.956ms
+distribution: STL sort: 1.716s
+Merge sort: 924.702ms
+Parallel Intro sort: 1.091s
+aips2o sort: 104.543ms
+size: 1546776
+distribution: uniform
+STL sort: 503.038ms
+Merge sort: 569.013ms
+Parallel Intro sort: 239.814ms
+aips2o sort: 284.794ms
+distribution: normal
+STL sort: 453.669ms
+Merge sort: 429.894ms
+Parallel Intro sort: 285.436ms
+aips2o sort: 220.917ms
+distribution: log_normal
+STL sort: 445.52ms
+Merge sort: 426.632ms
+Parallel Intro sort: 340.206ms
+aips2o sort: 227.053ms
+distribution: mix_gauss
+STL sort: 450.577ms
+Merge sort: 471.535ms
+Parallel Intro sort: 278.919ms
+aips2o sort: 270.187ms
+distribution: exponential
+STL sort: 451.423ms
+Merge sort: 404.541ms
+Parallel Intro sort: 350.584ms
+aips2o sort: 204.211ms
+distribution: chi_squard
+STL sort: 454.464ms
+Merge sort: 458.529ms
+Parallel Intro sort: 259.343ms
+aips2o sort: 266.806ms
+distribution: root_dups
+STL sort: 424.308ms
+Merge sort: 352.076ms
+Parallel Intro sort: 517.936ms
+aips2o sort: 362.058ms
+distribution: two_dups
+STL sort: 497.613ms
+Merge sort: 527.92ms
+Parallel Intro sort: 263.158ms
+aips2o sort: 277.137ms
+distribution: STL sort: 445.82ms
+Merge sort: 238.921ms
+Parallel Intro sort: 336.593ms
+aips2o sort: 32.096ms
+size: 1623474
+distribution: uniform
+STL sort: 535.331ms
+Merge sort: 601.997ms
+Parallel Intro sort: 434.768ms
+aips2o sort: 557.704ms
+distribution: normal
+STL sort: 1.082s
+Merge sort: 1.571s
+Parallel Intro sort: 496.955ms
+aips2o sort: 804.218ms
+distribution: log_normal
+STL sort: 1.617s
+Merge sort: 1.557s
+Parallel Intro sort: 375.828ms
+aips2o sort: 231.613ms
+distribution: mix_gauss
+STL sort: 476.206ms
+Merge sort: 500.83ms
+Parallel Intro sort: 369.477ms
+aips2o sort: 290.17ms
+distribution: exponential
+STL sort: 476.7ms
+Merge sort: 434.274ms
+Parallel Intro sort: 313.6ms
+aips2o sort: 214.24ms
+distribution: chi_squard
+STL sort: 477.387ms
+Merge sort: 488.744ms
+Parallel Intro sort: 327.554ms
+aips2o sort: 265.009ms
+distribution: root_dups
+STL sort: 446.569ms
+Merge sort: 372.668ms
+Parallel Intro sort: 223.284ms
+aips2o sort: 378.437ms
+distribution: two_dups
+STL sort: 528.008ms
+Merge sort: 560.48ms
+Parallel Intro sort: 312.887ms
+aips2o sort: 293.385ms
+distribution: STL sort: 466.756ms
+Merge sort: 252.977ms
+Parallel Intro sort: 313.622ms
+aips2o sort: 33.567ms
+size: 8122823
+distribution: uniform
+STL sort: 2.947s
+Merge sort: 3.341s
+Parallel Intro sort: 1.639s
+aips2o sort: 1.551s
+distribution: normal
+STL sort: 2.669s
+Merge sort: 2.525s
+Parallel Intro sort: 1.322s
+aips2o sort: 588.26ms
+distribution: log_normal
+STL sort: 2.67s
+Merge sort: 2.543s
+Parallel Intro sort: 1.804s
+aips2o sort: 558.152ms
+distribution: mix_gauss
+STL sort: 2.67s
+Merge sort: 2.741s
+Parallel Intro sort: 1.137s
+aips2o sort: 964.845ms
+distribution: exponential
+STL sort: 2.619s
+Merge sort: 2.441s
+Parallel Intro sort: 1.413s
+aips2o sort: 555.351ms
+distribution: chi_squard
+STL sort: 2.673s
+Merge sort: 2.678s
+Parallel Intro sort: 1.502s
+aips2o sort: 838.557ms
+distribution: root_dups
+STL sort: 2.565s
+Merge sort: 2.055s
+Parallel Intro sort: 2.271s
+aips2o sort: 1.286s
+distribution: two_dups
+STL sort: 2.905s
+Merge sort: 3.111s
+Parallel Intro sort: 1.249s
+aips2o sort: 1.551s
+distribution: STL sort: 2.573s
+Merge sort: 1.412s
+Parallel Intro sort: 1.615s
+aips2o sort: 158.175ms
+size: 771121
+distribution: uniform
+STL sort: 239.619ms
+Merge sort: 268.11ms
+Parallel Intro sort: 155.104ms
+aips2o sort: 197.133ms
+distribution: normal
+STL sort: 213.94ms
+Merge sort: 202.696ms
+Parallel Intro sort: 168.194ms
+aips2o sort: 109.97ms
+distribution: log_normal
+STL sort: 211.553ms
+Merge sort: 204.181ms
+Parallel Intro sort: 99.589ms
+aips2o sort: 110.65ms
+distribution: mix_gauss
+STL sort: 213.16ms
+Merge sort: 223.981ms
+Parallel Intro sort: 122.138ms
+aips2o sort: 133.624ms
+distribution: exponential
+STL sort: 213.19ms
+Merge sort: 194.25ms
+Parallel Intro sort: 124.11ms
+aips2o sort: 99.93ms
+distribution: chi_squard
+STL sort: 211.772ms
+Merge sort: 217ms
+Parallel Intro sort: 104.789ms
+aips2o sort: 123.513ms
+distribution: root_dups
+STL sort: 204.244ms
+Merge sort: 165.072ms
+Parallel Intro sort: 147.436ms
+aips2o sort: 167.104ms
+distribution: two_dups
+STL sort: 238.389ms
+Merge sort: 250.636ms
+Parallel Intro sort: 105.219ms
+aips2o sort: 197.09ms
+distribution: STL sort: 211.361ms
+Merge sort: 114.506ms
+Parallel Intro sort: 130.723ms
+aips2o sort: 14.877ms
+size: 4090772
+distribution: uniform
+STL sort: 1.418s
+Merge sort: 1.634s
+Parallel Intro sort: 609.369ms
+aips2o sort: 721.089ms
+distribution: normal
+STL sort: 1.275s
+Merge sort: 1.24s
+Parallel Intro sort: 680.802ms
+aips2o sort: 592.47ms
+distribution: log_normal
+STL sort: 1.262s
+Merge sort: 1.232s
+Parallel Intro sort: 857.124ms
+aips2o sort: 586.528ms
+distribution: mix_gauss
+STL sort: 1.283s
+Merge sort: 1.347s
+Parallel Intro sort: 751.875ms
+aips2o sort: 712.172ms
+distribution: exponential
+STL sort: 1.254s
+Merge sort: 1.168s
+Parallel Intro sort: 790.577ms
+aips2o sort: 590.221ms
+distribution: chi_squard
+STL sort: 1.275s
+Merge sort: 1.314s
+Parallel Intro sort: 860.307ms
+aips2o sort: 705.935ms
+distribution: root_dups
+STL sort: 1.238s
+Merge sort: 1.018s
+Parallel Intro sort: 893.347ms
+aips2o sort: 998.055ms
+distribution: two_dups
+STL sort: 1.396s
+Merge sort: 1.521s
+Parallel Intro sort: 1.075s
+aips2o sort: 718.696ms
+distribution: STL sort: 1.237s
+Merge sort: 708.105ms
+Parallel Intro sort: 822.206ms
+aips2o sort: 83.975ms
+size: 400980
+distribution: uniform
+STL sort: 120.073ms
+Merge sort: 134.817ms
+Parallel Intro sort: 74.986ms
+aips2o sort: 98.048ms
+distribution: normal
+STL sort: 106.052ms
+Merge sort: 102.007ms
+Parallel Intro sort: 66.483ms
+aips2o sort: 57.61ms
+distribution: log_normal
+STL sort: 104.109ms
+Merge sort: 101.04ms
+Parallel Intro sort: 70.688ms
+aips2o sort: 100.439ms
+distribution: mix_gauss
+STL sort: 221.772ms
+Merge sort: 215.726ms
+Parallel Intro sort: 106.437ms
+aips2o sort: 137.286ms
+distribution: exponential
+STL sort: 222.274ms
+Merge sort: 261.126ms
+Parallel Intro sort: 123.017ms
+aips2o sort: 177.794ms
+distribution: chi_squard
+STL sort: 359.884ms
+Merge sort: 374.304ms
+Parallel Intro sort: 127.799ms
+aips2o sort: 215.705ms
+distribution: root_dups
+STL sort: 345.946ms
+Merge sort: 287.024ms
+Parallel Intro sort: 91.847ms
+aips2o sort: 284.004ms
+distribution: two_dups
+STL sort: 407.413ms
+Merge sort: 426.954ms
+Parallel Intro sort: 114.996ms
+aips2o sort: 97.963ms
+distribution: STL sort: 103.183ms
+Merge sort: 56.546ms
+Parallel Intro sort: 49.245ms
+aips2o sort: 26.956ms
+size: 6251973
+distribution: uniform
+STL sort: 7.725s
+Merge sort: 8.755s
+Parallel Intro sort: 2.051s
+aips2o sort: 3.788s
+distribution: normal
+STL sort: 6.426s
+Merge sort: 6.592s
+Parallel Intro sort: 2.056s
+aips2o sort: 524.525ms
+distribution: log_normal
+STL sort: 2.006s
+Merge sort: 1.93s
+Parallel Intro sort: 1.286s
+aips2o sort: 429.726ms
+distribution: mix_gauss
+STL sort: 2.025s
+Merge sort: 2.089s
+Parallel Intro sort: 1.802s
+aips2o sort: 793.121ms
+distribution: exponential
+STL sort: 2.016s
+Merge sort: 1.857s
+Parallel Intro sort: 1.443s
+aips2o sort: 432.414ms
+distribution: chi_squard
+STL sort: 2.021s
+Merge sort: 2.036s
+Parallel Intro sort: 1.544s
+aips2o sort: 630.58ms
+distribution: root_dups
+STL sort: 1.889s
+Merge sort: 1.563s
+Parallel Intro sort: 1.009s
+aips2o sort: 843.236ms
+distribution: two_dups
+STL sort: 2.206s
+Merge sort: 2.361s
+Parallel Intro sort: 1.07s
+aips2o sort: 1.106s
+distribution: STL sort: 1.991s
+Merge sort: 1.074s
+Parallel Intro sort: 1.084s
+aips2o sort: 121.956ms
+size: 9672709
+distribution: uniform
+STL sort: 3.551s
+Merge sort: 3.966s
+Parallel Intro sort: 1.614s
+aips2o sort: 2.046s
+distribution: normal
+STL sort: 3.172s
+Merge sort: 2.992s
+Parallel Intro sort: 1.697s
+aips2o sort: 772.538ms
+distribution: log_normal
+STL sort: 3.253s
+Merge sort: 3.005s
+Parallel Intro sort: 1.37s
+aips2o sort: 1.909s
+distribution: mix_gauss
+STL sort: 11.065s
+Merge sort: 11.142s
+Parallel Intro sort: 2.342s
+aips2o sort: 2.314s
+distribution: exponential
+STL sort: 11.18s
+Merge sort: 9.915s
+Parallel Intro sort: 3.365s
+aips2o sort: 665.191ms
+distribution: chi_squard
+STL sort: 3.207s
+Merge sort: 3.171s
+Parallel Intro sort: 1.439s
+aips2o sort: 958.669ms
+distribution: root_dups
+STL sort: 2.984s
+Merge sort: 2.418s
+Parallel Intro sort: 1.734s
+aips2o sort: 1.571s
+distribution: two_dups
+STL sort: 3.512s
+Merge sort: 3.712s
+Parallel Intro sort: 2.298s
+aips2o sort: 2.053s
+distribution: STL sort: 3.251s
+Merge sort: 1.666s
+Parallel Intro sort: 2.173s
+aips2o sort: 186.75ms
+size: 1355284
+distribution: uniform
+STL sort: 437.669ms
+Merge sort: 498.065ms
+Parallel Intro sort: 259.895ms
+aips2o sort: 246.076ms
+distribution: normal
+STL sort: 391.149ms
+Merge sort: 377.846ms
+Parallel Intro sort: 220.734ms
+aips2o sort: 195.749ms
+distribution: log_normal
+STL sort: 390.93ms
+Merge sort: 375.508ms
+Parallel Intro sort: 204.003ms
+aips2o sort: 194.692ms
+distribution: mix_gauss
+STL sort: 389.143ms
+Merge sort: 414.082ms
+Parallel Intro sort: 250.159ms
+aips2o sort: 237.561ms
+distribution: exponential
+STL sort: 395.46ms
+Merge sort: 354.84ms
+Parallel Intro sort: 302.859ms
+aips2o sort: 197.723ms
+distribution: chi_squard
+STL sort: 391.55ms
+Merge sort: 402.501ms
+Parallel Intro sort: 260.725ms
+aips2o sort: 456.012ms
+distribution: root_dups
+STL sort: 1.276s
+Merge sort: 1.059s
+Parallel Intro sort: 417.711ms
+aips2o sort: 1.067s
+distribution: two_dups
+STL sort: 1.479s
+Merge sort: 1.595s
+Parallel Intro sort: 415.71ms
+aips2o sort: 824.675ms
+distribution: STL sort: 1.354s
+Merge sort: 726.183ms
+Parallel Intro sort: 389.918ms
+aips2o sort: 89.184ms
+size: 2820929
+distribution: uniform
+STL sort: 3.314s
+Merge sort: 3.709s
+Parallel Intro sort: 941.241ms
+aips2o sort: 1.739s
+distribution: normal
+STL sort: 2.972s
+Merge sort: 2.794s
+Parallel Intro sort: 829.034ms
+aips2o sort: 1.391s
+distribution: log_normal
+STL sort: 2.949s
+Merge sort: 2.825s
+Parallel Intro sort: 776.058ms
+aips2o sort: 456.556ms
+distribution: mix_gauss
+STL sort: 863.862ms
+Merge sort: 886.173ms
+Parallel Intro sort: 528.036ms
+aips2o sort: 489.612ms
+distribution: exponential
+STL sort: 864.553ms
+Merge sort: 781.234ms
+Parallel Intro sort: 539.407ms
+aips2o sort: 406.425ms
+distribution: chi_squard
+STL sort: 861.158ms
+Merge sort: 864.894ms
+Parallel Intro sort: 395.962ms
+aips2o sort: 487.029ms
+distribution: root_dups
+STL sort: 849.163ms
+Merge sort: 663.911ms
+Parallel Intro sort: 1.212s
+aips2o sort: 689.505ms
+distribution: two_dups
+STL sort: 948.454ms
+Merge sort: 1.003s
+Parallel Intro sort: 487.643ms
+aips2o sort: 501.72ms
+distribution: STL sort: 857.835ms
+Merge sort: 457.044ms
+Parallel Intro sort: 546.983ms
+aips2o sort: 55.821ms
+size: 1221400
+distribution: uniform
+STL sort: 391.008ms
+Merge sort: 448.403ms
+Parallel Intro sort: 262.517ms
+aips2o sort: 223.995ms
+distribution: normal
+STL sort: 344.672ms
+Merge sort: 340.231ms
+Parallel Intro sort: 212.235ms
+aips2o sort: 176.18ms
+distribution: log_normal
+STL sort: 350.122ms
+Merge sort: 338.91ms
+Parallel Intro sort: 236.648ms
+aips2o sort: 179.19ms
+distribution: mix_gauss
+STL sort: 348.636ms
+Merge sort: 374.722ms
+Parallel Intro sort: 261.267ms
+aips2o sort: 210.233ms
+distribution: exponential
+STL sort: 348.246ms
+Merge sort: 321.05ms
+Parallel Intro sort: 216.838ms
+aips2o sort: 161.585ms
+distribution: chi_squard
+STL sort: 349.14ms
+Merge sort: 363.768ms
+Parallel Intro sort: 169.623ms
+aips2o sort: 193.695ms
+distribution: root_dups
+STL sort: 329.445ms
+Merge sort: 282.238ms
+Parallel Intro sort: 203.368ms
+aips2o sort: 282.103ms
+distribution: two_dups
+STL sort: 386.698ms
+Merge sort: 417.319ms
+Parallel Intro sort: 193.4ms
+aips2o sort: 225.937ms
+distribution: STL sort: 353.82ms
+Merge sort: 194.556ms
+Parallel Intro sort: 273.802ms
+aips2o sort: 25.337ms
+size: 5057727
+distribution: uniform
+STL sort: 1.785s
+Merge sort: 2.047s
+Parallel Intro sort: 1.081s
+aips2o sort: 895.177ms
+distribution: normal
+STL sort: 1.587s
+Merge sort: 1.557s
+Parallel Intro sort: 816.993ms
+aips2o sort: 370.462ms
+distribution: log_normal
+STL sort: 1.622s
+Merge sort: 1.567s
+Parallel Intro sort: 1.078s
+aips2o sort: 346.298ms
+distribution: mix_gauss
+STL sort: 1.608s
+Merge sort: 1.688s
+Parallel Intro sort: 849.758ms
+aips2o sort: 624.503ms
+distribution: exponential
+STL sort: 1.635s
+Merge sort: 1.504s
+Parallel Intro sort: 781.825ms
+aips2o sort: 333.707ms
+distribution: chi_squard
+STL sort: 1.606s
+Merge sort: 1.653s
+Parallel Intro sort: 926.694ms
+aips2o sort: 515.568ms
+distribution: root_dups
+STL sort: 1.515s
+Merge sort: 1.277s
+Parallel Intro sort: 1.368s
+aips2o sort: 692.655ms
+distribution: two_dups
+STL sort: 1.776s
+Merge sort: 1.902s
+Parallel Intro sort: 850.26ms
+aips2o sort: 894.313ms
+distribution: STL sort: 1.627s
+Merge sort: 886.946ms
+Parallel Intro sort: 783.243ms
+aips2o sort: 103.412ms
+size: 4270130
+distribution: uniform
+STL sort: 1.485s
+Merge sort: 1.714s
+Parallel Intro sort: 693.844ms
+aips2o sort: 756.627ms
+distribution: normal
+STL sort: 1.337s
+Merge sort: 1.296s
+Parallel Intro sort: 695.707ms
+aips2o sort: 305.329ms
+distribution: log_normal
+STL sort: 1.364s
+Merge sort: 1.296s
+Parallel Intro sort: 935.797ms
+aips2o sort: 292.345ms
+distribution: mix_gauss
+STL sort: 1.344s
+Merge sort: 1.407s
+Parallel Intro sort: 791.485ms
+aips2o sort: 531.603ms
+distribution: exponential
+STL sort: 1.317s
+Merge sort: 1.221s
+Parallel Intro sort: 616.386ms
+aips2o sort: 290.351ms
+distribution: chi_squard
+STL sort: 1.36s
+Merge sort: 1.374s
+Parallel Intro sort: 959.867ms
+aips2o sort: 443.863ms
+distribution: root_dups
+STL sort: 1.271s
+Merge sort: 1.059s
+Parallel Intro sort: 941.388ms
+aips2o sort: 580.553ms
+distribution: two_dups
+STL sort: 1.486s
+Merge sort: 1.587s
+Parallel Intro sort: 830.88ms
+aips2o sort: 760.891ms
+distribution: STL sort: 1.318s
+Merge sort: 739.165ms
+Parallel Intro sort: 756.81ms
+aips2o sort: 88.152ms
+size: 9080834
+distribution: uniform
+STL sort: 3.319s
+Merge sort: 3.727s
+Parallel Intro sort: 1.641s
+aips2o sort: 1.878s
+distribution: normal
+STL sort: 2.973s
+Merge sort: 2.795s
+Parallel Intro sort: 2.239s
+aips2o sort: 728.409ms
+distribution: log_normal
+STL sort: 3.029s
+Merge sort: 2.777s
+Parallel Intro sort: 1.804s
+aips2o sort: 613.477ms
+distribution: mix_gauss
+STL sort: 3.014s
+Merge sort: 3.049s
+Parallel Intro sort: 2.492s
+aips2o sort: 1.034s
+distribution: exponential
+STL sort: 2.932s
+Merge sort: 2.643s
+Parallel Intro sort: 1.43s
+aips2o sort: 617.539ms
+distribution: chi_squard
+STL sort: 3.012s
+Merge sort: 2.966s
+Parallel Intro sort: 1.964s
+aips2o sort: 885.561ms
+distribution: root_dups
+STL sort: 2.896s
+Merge sort: 2.262s
+Parallel Intro sort: 2.013s
+aips2o sort: 1.475s
+distribution: two_dups
+STL sort: 3.281s
+Merge sort: 3.464s
+Parallel Intro sort: 1.42s
+aips2o sort: 1.896s
+distribution: STL sort: 3.069s
+Merge sort: 1.55s
+Parallel Intro sort: 2.166s
+aips2o sort: 181.125ms
+size: 9670579
+distribution: uniform
+STL sort: 3.55s
+Merge sort: 3.97s
+Parallel Intro sort: 2.298s
+aips2o sort: 2.049s
+distribution: normal
+STL sort: 3.185s
+Merge sort: 2.987s
+Parallel Intro sort: 1.363s
+aips2o sort: 801.817ms
+distribution: log_normal
+STL sort: 3.217s
+Merge sort: 3.008s
+Parallel Intro sort: 1.788s
+aips2o sort: 774.984ms
+distribution: mix_gauss
+STL sort: 3.208s
+Merge sort: 3.241s
+Parallel Intro sort: 2.486s
+aips2o sort: 1.102s
+distribution: exponential
+STL sort: 3.258s
+Merge sort: 2.884s
+Parallel Intro sort: 1.66s
+aips2o sort: 659.053ms
+distribution: chi_squard
+STL sort: 3.2s
+Merge sort: 3.181s
+Parallel Intro sort: 1.926s
+aips2o sort: 932.925ms
+distribution: root_dups
+STL sort: 2.975s
+Merge sort: 2.417s
+Parallel Intro sort: 2.375s
+aips2o sort: 1.572s
+distribution: two_dups
+STL sort: 3.519s
+Merge sort: 3.695s
+Parallel Intro sort: 2.174s
+aips2o sort: 5.554s
+distribution: STL sort: 11.198s
+Merge sort: 5.745s
+Parallel Intro sort: 2.137s
+aips2o sort: 186.965ms
+size: 2316075
+distribution: uniform
+STL sort: 776.742ms
+Merge sort: 872.531ms
+Parallel Intro sort: 365.422ms
+aips2o sort: 413.865ms
+distribution: normal
+STL sort: 688.088ms
+Merge sort: 658.991ms
+Parallel Intro sort: 434.234ms
+aips2o sort: 338.857ms
+distribution: log_normal
+STL sort: 696.779ms
+Merge sort: 662.728ms
+Parallel Intro sort: 375.971ms
+aips2o sort: 334.182ms
+distribution: mix_gauss
+STL sort: 696.145ms
+Merge sort: 719.282ms
+Parallel Intro sort: 471.482ms
+aips2o sort: 436.725ms
+distribution: exponential
+STL sort: 685.911ms
+Merge sort: 634.296ms
+Parallel Intro sort: 429.293ms
+aips2o sort: 306.934ms
+distribution: chi_squard
+STL sort: 696.668ms
+Merge sort: 701.923ms
+Parallel Intro sort: 493.299ms
+aips2o sort: 406.47ms
+distribution: root_dups
+STL sort: 648.116ms
+Merge sort: 539.494ms
+Parallel Intro sort: 461.083ms
+aips2o sort: 573.069ms
+distribution: two_dups
+STL sort: 766.168ms
+Merge sort: 808.462ms
+Parallel Intro sort: 451.956ms
+aips2o sort: 420.784ms
+distribution: STL sort: 708.402ms
+Merge sort: 367.007ms
+Parallel Intro sort: 476.541ms
+aips2o sort: 48.298ms
+size: 7757663
+distribution: uniform
+STL sort: 2.825s
+Merge sort: 3.213s
+Parallel Intro sort: 1.46s
+aips2o sort: 2.006s
+distribution: normal
+STL sort: 8.766s
+Merge sort: 8.315s
+Parallel Intro sort: 2.369s
+aips2o sort: 771.178ms
+distribution: log_normal
+STL sort: 8.695s
+Merge sort: 8.395s
+Parallel Intro sort: 2.384s
+aips2o sort: 531.824ms
+distribution: mix_gauss
+STL sort: 2.536s
+Merge sort: 2.63s
+Parallel Intro sort: 1.196s
+aips2o sort: 922.549ms
+distribution: exponential
+STL sort: 2.508s
+Merge sort: 2.341s
+Parallel Intro sort: 1.573s
+aips2o sort: 534.733ms
+distribution: chi_squard
+STL sort: 2.56s
+Merge sort: 2.571s
+Parallel Intro sort: 1.12s
+aips2o sort: 764.019ms
+distribution: root_dups
+STL sort: 2.401s
+Merge sort: 1.976s
+Parallel Intro sort: 1.151s
+aips2o sort: 1.223s
+distribution: two_dups
+STL sort: 2.792s
+Merge sort: 2.985s
+Parallel Intro sort: 1.396s
+aips2o sort: 1.429s
+distribution: STL sort: 2.471s
+Merge sort: 1.359s
+Parallel Intro sort: 1.697s
+aips2o sort: 152.31ms
+size: 8288992
+distribution: uniform
+STL sort: 3.048s
+Merge sort: 3.415s
+Parallel Intro sort: 1.36s
+aips2o sort: 1.606s
+distribution: normal
+STL sort: 2.709s
+Merge sort: 2.565s
+Parallel Intro sort: 1.337s
+aips2o sort: 1.013s
+distribution: log_normal
+STL sort: 5.906s
+Merge sort: 6.849s
+Parallel Intro sort: 2.618s
+aips2o sort: 1.029s
+distribution: mix_gauss
+STL sort: 7.664s
+Merge sort: 9.581s
+Parallel Intro sort: 2.555s
+aips2o sort: 1.082s
+distribution: exponential
+STL sort: 2.679s
+Merge sort: 2.424s
+Parallel Intro sort: 1.701s
+aips2o sort: 566.795ms
+distribution: chi_squard
+STL sort: 2.721s
+Merge sort: 2.718s
+Parallel Intro sort: 1.212s
+aips2o sort: 1.554s
+distribution: root_dups
+STL sort: 5.368s
+Merge sort: 4.206s
+Parallel Intro sort: 2.023s
+aips2o sort: 1.324s
+distribution: two_dups
+STL sort: 2.929s
+Merge sort: 3.16s
+Parallel Intro sort: 2.234s
+aips2o sort: 1.57s
+distribution: STL sort: 2.633s
+Merge sort: 1.432s
+Parallel Intro sort: 1.27s
+aips2o sort: 163.913ms
+size: 1721163
+distribution: uniform
+STL sort: 564.748ms
+Merge sort: 642.432ms
+Parallel Intro sort: 483.947ms
+aips2o sort: 313.623ms
+distribution: normal
+STL sort: 504.018ms
+Merge sort: 487.986ms
+Parallel Intro sort: 363.302ms
+aips2o sort: 254.248ms
+distribution: log_normal
+STL sort: 508.857ms
+Merge sort: 490.058ms
+Parallel Intro sort: 313.432ms
+aips2o sort: 247.373ms
+distribution: mix_gauss
+STL sort: 504.009ms
+Merge sort: 531.759ms
+Parallel Intro sort: 368.988ms
+aips2o sort: 302.088ms
+distribution: exponential
+STL sort: 501.969ms
+Merge sort: 467.929ms
+Parallel Intro sort: 366.109ms
+aips2o sort: 229.982ms
+distribution: chi_squard
+STL sort: 504.383ms
+Merge sort: 518.784ms
+Parallel Intro sort: 321.268ms
+aips2o sort: 296.725ms
+distribution: root_dups
+STL sort: 467.769ms
+Merge sort: 400.486ms
+Parallel Intro sort: 254.493ms
+aips2o sort: 397.248ms
+distribution: two_dups
+STL sort: 556.546ms
+Merge sort: 597.266ms
+Parallel Intro sort: 497.148ms
+aips2o sort: 317.154ms
+distribution: STL sort: 494.45ms
+Merge sort: 270.612ms
+Parallel Intro sort: 255.204ms
+aips2o sort: 49.184ms
+size: 8737776
+distribution: uniform
+STL sort: 5.589s
+Merge sort: 12.324s
+Parallel Intro sort: 2.199s
+aips2o sort: 6.106s
+distribution: normal
+STL sort: 9.86s
+Merge sort: 9.257s
+Parallel Intro sort: 2.028s
+aips2o sort: 696.412ms
+distribution: log_normal
+STL sort: 2.892s
+Merge sort: 2.688s
+Parallel Intro sort: 1.321s
+aips2o sort: 593.254ms
+distribution: mix_gauss
+STL sort: 2.903s
+Merge sort: 2.932s
+Parallel Intro sort: 1.364s
+aips2o sort: 1.017s
+distribution: exponential
+STL sort: 2.821s
+Merge sort: 2.546s
+Parallel Intro sort: 1.276s
+aips2o sort: 577.656ms
+distribution: chi_squard
+STL sort: 2.884s
+Merge sort: 2.855s
+Parallel Intro sort: 1.452s
+aips2o sort: 852.964ms
+distribution: root_dups
+STL sort: 2.688s
+Merge sort: 2.187s
+Parallel Intro sort: 1.223s
+aips2o sort: 1.4s
+distribution: two_dups
+STL sort: 3.128s
+Merge sort: 3.324s
+Parallel Intro sort: 1.449s
+aips2o sort: 1.737s
+distribution: STL sort: 2.891s
+Merge sort: 1.498s
+Parallel Intro sort: 1.592s
+aips2o sort: 169.452ms
+size: 9366921
+distribution: uniform
+STL sort: 3.432s
+Merge sort: 3.847s
+Parallel Intro sort: 1.429s
+aips2o sort: 1.972s
+distribution: normal
+STL sort: 3.079s
+Merge sort: 2.904s
+Parallel Intro sort: 1.534s
+aips2o sort: 747.649ms
+distribution: log_normal
+STL sort: 3.131s
+Merge sort: 2.926s
+Parallel Intro sort: 1.971s
+aips2o sort: 2.02s
+distribution: mix_gauss
+STL sort: 6.56s
+Merge sort: 6.024s
+Parallel Intro sort: 1.601s
+aips2o sort: 1.963s
+distribution: exponential
+STL sort: 10.565s
+Merge sort: 9.64s
+Parallel Intro sort: 2.261s
+aips2o sort: 865.987ms
+distribution: chi_squard
+STL sort: 3.101s
+Merge sort: 3.085s
+Parallel Intro sort: 1.46s
+aips2o sort: 914.178ms
+distribution: root_dups
+STL sort: 3.196s
+Merge sort: 2.35s
+Parallel Intro sort: 4.507s
+aips2o sort: 1.513s
+distribution: two_dups
+STL sort: 3.399s
+Merge sort: 3.583s
+Parallel Intro sort: 1.433s
+aips2o sort: 1.979s
+distribution: STL sort: 3.152s
+Merge sort: 1.621s
+Parallel Intro sort: 2.059s
+aips2o sort: 182.277ms
+size: 5589730
+distribution: uniform
+STL sort: 1.978s
+Merge sort: 2.265s
+Parallel Intro sort: 1.214s
+aips2o sort: 992.545ms
+distribution: normal
+STL sort: 1.793s
+Merge sort: 1.711s
+Parallel Intro sort: 899.607ms
+aips2o sort: 469.365ms
+distribution: log_normal
+STL sort: 1.791s
+Merge sort: 1.701s
+Parallel Intro sort: 874.946ms
+aips2o sort: 378.141ms
+distribution: mix_gauss
+STL sort: 1.779s
+Merge sort: 1.859s
+Parallel Intro sort: 982.441ms
+aips2o sort: 705.771ms
+distribution: exponential
+STL sort: 1.801s
+Merge sort: 1.616s
+Parallel Intro sort: 887.551ms
+aips2o sort: 369.191ms
+distribution: chi_squard
+STL sort: 1.793s
+Merge sort: 1.814s
+Parallel Intro sort: 775.47ms
+aips2o sort: 573.373ms
+distribution: root_dups
+STL sort: 1.656s
+Merge sort: 1.404s
+Parallel Intro sort: 835.58ms
+aips2o sort: 753.419ms
+distribution: two_dups
+STL sort: 1.971s
+Merge sort: 2.108s
+Parallel Intro sort: 1.175s
+aips2o sort: 992.531ms
+distribution: STL sort: 1.789s
+Merge sort: 961.114ms
+Parallel Intro sort: 895.407ms
+aips2o sort: 112.818ms
+size: 9565470
+distribution: uniform
+STL sort: 3.522s
+Merge sort: 3.911s
+Parallel Intro sort: 1.469s
+aips2o sort: 2.841s
+distribution: normal
+STL sort: 3.588s
+Merge sort: 2.938s
+Parallel Intro sort: 1.532s
+aips2o sort: 797.127ms
+distribution: log_normal
+STL sort: 3.179s
+Merge sort: 2.924s
+Parallel Intro sort: 1.507s
+aips2o sort: 645.933ms
+distribution: mix_gauss
+STL sort: 3.179s
+Merge sort: 3.195s
+Parallel Intro sort: 2.022s
+aips2o sort: 1.14s
+distribution: exponential
+STL sort: 3.201s
+Merge sort: 2.774s
+Parallel Intro sort: 2.001s
+aips2o sort: 1.186s
+distribution: chi_squard
+STL sort: 6.75s
+Merge sort: 6.124s
+Parallel Intro sort: 2.182s
+aips2o sort: 1.742s
+distribution: root_dups
+STL sort: 6.331s
+Merge sort: 4.973s
+Parallel Intro sort: 2.138s
+aips2o sort: 1.553s
+distribution: two_dups
+STL sort: 3.509s
+Merge sort: 3.644s
+Parallel Intro sort: 1.616s
+aips2o sort: 2.024s
+distribution: STL sort: 3.218s
+Merge sort: 1.629s
+Parallel Intro sort: 1.6s
+aips2o sort: 272.36ms
+size: 6664130
+distribution: uniform
+STL sort: 3.273s
+Merge sort: 3.594s
+Parallel Intro sort: 1.709s
+aips2o sort: 1.653s
+distribution: normal
+STL sort: 2.394s
+Merge sort: 2.041s
+Parallel Intro sort: 935.834ms
+aips2o sort: 553.738ms
+distribution: log_normal
+STL sort: 2.142s
+Merge sort: 2.031s
+Parallel Intro sort: 1.605s
+aips2o sort: 1.498s
+distribution: mix_gauss
+STL sort: 7.442s
+Merge sort: 7.636s
+Parallel Intro sort: 2.1s
+aips2o sort: 1.627s
+distribution: exponential
+STL sort: 4.668s
+Merge sort: 3.876s
+Parallel Intro sort: 1.434s
+aips2o sort: 1.301s
+distribution: chi_squard
+STL sort: 7.49s
+Merge sort: 7.451s
+Parallel Intro sort: 1.595s
+aips2o sort: 970.235ms
+distribution: root_dups
+STL sort: 3.104s
+Merge sort: 2.422s
+Parallel Intro sort: 3.175s
+aips2o sort: 2.776s
+distribution: two_dups
+STL sort: 8.143s
+Merge sort: 8.694s
+Parallel Intro sort: 1.75s
+aips2o sort: 4.066s
+distribution: STL sort: 7.304s
+Merge sort: 3.905s
+Parallel Intro sort: 1.462s
+aips2o sort: 130.666ms
+size: 1255553
+distribution: uniform
+STL sort: 406.365ms
+Merge sort: 463.065ms
+Parallel Intro sort: 270.261ms
+aips2o sort: 231.926ms
+distribution: normal
+STL sort: 356.392ms
+Merge sort: 352.321ms
+Parallel Intro sort: 220.272ms
+aips2o sort: 184.174ms
+distribution: log_normal
+STL sort: 360.391ms
+Merge sort: 354.847ms
+Parallel Intro sort: 305.742ms
+aips2o sort: 181.626ms
+distribution: mix_gauss
+STL sort: 361.057ms
+Merge sort: 386.466ms
+Parallel Intro sort: 249.031ms
+aips2o sort: 216.204ms
+distribution: exponential
+STL sort: 364.438ms
+Merge sort: 338.772ms
+Parallel Intro sort: 207.28ms
+aips2o sort: 183.952ms
+distribution: chi_squard
+STL sort: 360.137ms
+Merge sort: 376.258ms
+Parallel Intro sort: 272.495ms
+aips2o sort: 205.015ms
+distribution: root_dups
+STL sort: 432.437ms
+Merge sort: 287.029ms
+Parallel Intro sort: 977.313ms
+aips2o sort: 287.002ms
+distribution: two_dups
+STL sort: 399.736ms
+Merge sort: 429.933ms
+Parallel Intro sort: 170.583ms
+aips2o sort: 229.783ms
+distribution: STL sort: 363.888ms
+Merge sort: 200.569ms
+Parallel Intro sort: 233.051ms
+aips2o sort: 38.567ms
+size: 6365372
+distribution: uniform
+STL sort: 7.276s
+Merge sort: 8.897s
+Parallel Intro sort: 1.619s
+aips2o sort: 3.125s
+distribution: normal
+STL sort: 7.218s
+Merge sort: 6.682s
+Parallel Intro sort: 1.478s
+aips2o sort: 455.968ms
+distribution: log_normal
+STL sort: 2.043s
+Merge sort: 1.934s
+Parallel Intro sort: 1.347s
+aips2o sort: 432.278ms
+distribution: mix_gauss
+STL sort: 2.05s
+Merge sort: 2.111s
+Parallel Intro sort: 1.364s
+aips2o sort: 822.971ms
+distribution: exponential
+STL sort: 2.048s
+Merge sort: 1.83s
+Parallel Intro sort: 1.308s
+aips2o sort: 436.366ms
+distribution: chi_squard
+STL sort: 2.069s
+Merge sort: 2.059s
+Parallel Intro sort: 1.23s
+aips2o sort: 646.37ms
+distribution: root_dups
+STL sort: 1.963s
+Merge sort: 1.576s
+Parallel Intro sort: 1.678s
+aips2o sort: 866.809ms
+distribution: two_dups
+STL sort: 2.252s
+Merge sort: 2.397s
+Parallel Intro sort: 1.633s
+aips2o sort: 1.116s
+distribution: STL sort: 2.029s
+Merge sort: 1.094s
+Parallel Intro sort: 1.077s
+aips2o sort: 124.304ms
+size: 9246377
+distribution: uniform
+STL sort: 3.4s
+Merge sort: 3.802s
+Parallel Intro sort: 1.785s
+aips2o sort: 2.658s
+distribution: normal
+STL sort: 3.057s
+Merge sort: 2.873s
+Parallel Intro sort: 1.864s
+aips2o sort: 744.653ms
+distribution: log_normal
+STL sort: 3.082s
+Merge sort: 2.886s
+Parallel Intro sort: 2.201s
+aips2o sort: 820.547ms
+distribution: mix_gauss
+STL sort: 3.085s
+Merge sort: 3.113s
+Parallel Intro sort: 1.417s
+aips2o sort: 1.062s
+distribution: exponential
+STL sort: 3.033s
+Merge sort: 2.782s
+Parallel Intro sort: 1.37s
+aips2o sort: 621.525ms
+distribution: chi_squard
+STL sort: 3.059s
+Merge sort: 3.044s
+Parallel Intro sort: 1.741s
+aips2o sort: 909.978ms
+distribution: root_dups
+STL sort: 2.856s
+Merge sort: 2.336s
+Parallel Intro sort: 1.647s
+aips2o sort: 1.497s
+distribution: two_dups
+STL sort: 3.382s
+Merge sort: 3.549s
+Parallel Intro sort: 1.63s
+aips2o sort: 1.938s
+distribution: STL sort: 3.114s
+Merge sort: 1.601s
+Parallel Intro sort: 1.325s
+aips2o sort: 177.347ms
+size: 9742339
+distribution: uniform
+STL sort: 3.594s
+Merge sort: 3.999s
+Parallel Intro sort: 1.591s
+aips2o sort: 2.067s
+distribution: normal
+STL sort: 3.221s
+Merge sort: 3.005s
+Parallel Intro sort: 1.924s
+aips2o sort: 808.826ms
+distribution: log_normal
+STL sort: 3.258s
+Merge sort: 3.027s
+Parallel Intro sort: 2.235s
+aips2o sort: 1.209s
+distribution: mix_gauss
+STL sort: 6.871s
+Merge sort: 6.39s
+Parallel Intro sort: 1.621s
+aips2o sort: 1.112s
+distribution: exponential
+STL sort: 3.296s
+Merge sort: 2.909s
+Parallel Intro sort: 2.084s
+aips2o sort: 670.856ms
+distribution: chi_squard
+STL sort: 3.219s
+Merge sort: 3.195s
+Parallel Intro sort: 2.194s
+aips2o sort: 964.553ms
+distribution: root_dups
+STL sort: 3.083s
+Merge sort: 2.432s
+Parallel Intro sort: 2.292s
+aips2o sort: 5.453s
+distribution: two_dups
+STL sort: 12.15s
+Merge sort: 12.81s
+Parallel Intro sort: 2.7s
+aips2o sort: 5.208s
+distribution: STL sort: 8.125s
+Merge sort: 3.352s
+Parallel Intro sort: 2.638s
+aips2o sort: 394.699ms
+size: 1639558
+distribution: uniform
+STL sort: 996.966ms
+Merge sort: 1.048s
+Parallel Intro sort: 314.645ms
+aips2o sort: 303.358ms
+distribution: normal
+STL sort: 480.877ms
+Merge sort: 459.384ms
+Parallel Intro sort: 405.088ms
+aips2o sort: 242.051ms
+distribution: log_normal
+STL sort: 481.95ms
+Merge sort: 457.091ms
+Parallel Intro sort: 218.29ms
+aips2o sort: 235.285ms
+distribution: mix_gauss
+STL sort: 476.97ms
+Merge sort: 502.571ms
+Parallel Intro sort: 344.514ms
+aips2o sort: 286.196ms
+distribution: exponential
+STL sort: 478.504ms
+Merge sort: 430.599ms
+Parallel Intro sort: 346.013ms
+aips2o sort: 217.755ms
+distribution: chi_squard
+STL sort: 481.424ms
+Merge sort: 489.14ms
+Parallel Intro sort: 362.807ms
+aips2o sort: 265.394ms
+distribution: root_dups
+STL sort: 461.424ms
+Merge sort: 375.596ms
+Parallel Intro sort: 386.959ms
+aips2o sort: 376.286ms
+distribution: two_dups
+STL sort: 537.173ms
+Merge sort: 568.115ms
+Parallel Intro sort: 394.391ms
+aips2o sort: 304.518ms
+distribution: STL sort: 472.383ms
+Merge sort: 254.784ms
+Parallel Intro sort: 280.297ms
+aips2o sort: 32.152ms
+size: 582868
+distribution: uniform
+STL sort: 178.212ms
+Merge sort: 198.143ms
+Parallel Intro sort: 86.887ms
+aips2o sort: 149.209ms
+distribution: normal
+STL sort: 156.783ms
+Merge sort: 149.927ms
+Parallel Intro sort: 89.278ms
+aips2o sort: 83.761ms
+distribution: log_normal
+STL sort: 158.037ms
+Merge sort: 149.084ms
+Parallel Intro sort: 98.583ms
+aips2o sort: 83.828ms
+distribution: mix_gauss
+STL sort: 159.218ms
+Merge sort: 165.663ms
+Parallel Intro sort: 87.541ms
+aips2o sort: 102.041ms
+distribution: exponential
+STL sort: 156.372ms
+Merge sort: 139.734ms
+Parallel Intro sort: 98.071ms
+aips2o sort: 75.534ms
+distribution: chi_squard
+STL sort: 158.021ms
+Merge sort: 160.872ms
+Parallel Intro sort: 123.617ms
+aips2o sort: 92.48ms
+distribution: root_dups
+STL sort: 154.367ms
+Merge sort: 122.301ms
+Parallel Intro sort: 154.528ms
+aips2o sort: 126.071ms
+distribution: two_dups
+STL sort: 173.48ms
+Merge sort: 184.148ms
+Parallel Intro sort: 92.503ms
+aips2o sort: 146.882ms
+distribution: STL sort: 160.569ms
+Merge sort: 83.311ms
+Parallel Intro sort: 107.396ms
+aips2o sort: 11.266ms
+size: 6920422
+distribution: uniform
+STL sort: 2.48s
+Merge sort: 2.823s
+Parallel Intro sort: 1.103s
+aips2o sort: 1.226s
+distribution: normal
+STL sort: 2.263s
+Merge sort: 2.123s
+Parallel Intro sort: 1.416s
+aips2o sort: 581.633ms
+distribution: log_normal
+STL sort: 2.217s
+Merge sort: 2.112s
+Parallel Intro sort: 1.028s
+aips2o sort: 468.217ms
+distribution: mix_gauss
+STL sort: 2.237s
+Merge sort: 2.306s
+Parallel Intro sort: 1.194s
+aips2o sort: 912.785ms
+distribution: exponential
+STL sort: 2.229s
+Merge sort: 2.005s
+Parallel Intro sort: 1.367s
+aips2o sort: 473.508ms
+distribution: chi_squard
+STL sort: 2.247s
+Merge sort: 2.257s
+Parallel Intro sort: 1.635s
+aips2o sort: 726.483ms
+distribution: root_dups
+STL sort: 2.106s
+Merge sort: 1.73s
+Parallel Intro sort: 1.471s
+aips2o sort: 937.083ms
+distribution: two_dups
+STL sort: 2.471s
+Merge sort: 2.629s
+Parallel Intro sort: 1.182s
+aips2o sort: 1.233s
+distribution: STL sort: 2.205s
+Merge sort: 1.176s
+Parallel Intro sort: 1.026s
+aips2o sort: 133.038ms
+size: 3825885
+distribution: uniform
+STL sort: 1.329s
+Merge sort: 1.539s
+Parallel Intro sort: 640.329ms
+aips2o sort: 684.312ms
+distribution: normal
+STL sort: 1.196s
+Merge sort: 1.169s
+Parallel Intro sort: 881.968ms
+aips2o sort: 555.445ms
+distribution: log_normal
+STL sort: 1.193s
+Merge sort: 1.177s
+Parallel Intro sort: 597.485ms
+aips2o sort: 545.97ms
+distribution: mix_gauss
+STL sort: 1.199s
+Merge sort: 1.274s
+Parallel Intro sort: 892.38ms
+aips2o sort: 719.419ms
+distribution: exponential
+STL sort: 1.177s
+Merge sort: 1.129s
+Parallel Intro sort: 554.855ms
+aips2o sort: 546.422ms
+distribution: chi_squard
+STL sort: 1.195s
+Merge sort: 1.243s
+Parallel Intro sort: 722.923ms
+aips2o sort: 662.544ms
+distribution: root_dups
+STL sort: 1.121s
+Merge sort: 965.239ms
+Parallel Intro sort: 1.083s
+aips2o sort: 940.186ms
+distribution: two_dups
+STL sort: 1.325s
+Merge sort: 1.432s
+Parallel Intro sort: 679.881ms
+aips2o sort: 681.496ms
+distribution: STL sort: 1.157s
+Merge sort: 675.957ms
+Parallel Intro sort: 810.934ms
+aips2o sort: 79.477ms
+size: 5081123
+distribution: uniform
+STL sort: 1.793s
+Merge sort: 2.051s
+Parallel Intro sort: 1.064s
+aips2o sort: 899.451ms
+distribution: normal
+STL sort: 1.59s
+Merge sort: 1.559s
+Parallel Intro sort: 775.051ms
+aips2o sort: 361.427ms
+distribution: log_normal
+STL sort: 1.616s
+Merge sort: 1.568s
+Parallel Intro sort: 765.305ms
+aips2o sort: 758.761ms
+distribution: mix_gauss
+STL sort: 3.355s
+Merge sort: 3.297s
+Parallel Intro sort: 1.285s
+aips2o sort: 1.216s
+distribution: exponential
+STL sort: 3.541s
+Merge sort: 3.098s
+Parallel Intro sort: 1.249s
+aips2o sort: 635.269ms
+distribution: chi_squard
+STL sort: 3.373s
+Merge sort: 3.231s
+Parallel Intro sort: 1.549s
+aips2o sort: 1.784s
+distribution: root_dups
+STL sort: 5.224s
+Merge sort: 4.4s
+Parallel Intro sort: 1.402s
+aips2o sort: 1.346s
+distribution: two_dups
+STL sort: 3.274s
+Merge sort: 6.495s
+Parallel Intro sort: 1.177s
+aips2o sort: 899.923ms
+distribution: STL sort: 1.639s
+Merge sort: 892.941ms
+Parallel Intro sort: 1.232s
+aips2o sort: 102.788ms
+size: 8557017
+distribution: uniform
+STL sort: 3.127s
+Merge sort: 3.524s
+Parallel Intro sort: 2.175s
+aips2o sort: 1.702s
+distribution: normal
+STL sort: 2.814s
+Merge sort: 2.658s
+Parallel Intro sort: 1.664s
+aips2o sort: 682.214ms
+distribution: log_normal
+STL sort: 2.833s
+Merge sort: 2.676s
+Parallel Intro sort: 1.424s
+aips2o sort: 577.685ms
+distribution: mix_gauss
+STL sort: 2.83s
+Merge sort: 2.885s
+Parallel Intro sort: 2.15s
+aips2o sort: 1.026s
+distribution: exponential
+STL sort: 2.757s
+Merge sort: 2.577s
+Parallel Intro sort: 1.345s
+aips2o sort: 563.766ms
+distribution: chi_squard
+STL sort: 2.839s
+Merge sort: 2.825s
+Parallel Intro sort: 1.985s
+aips2o sort: 840.202ms
+distribution: root_dups
+STL sort: 2.664s
+Merge sort: 2.168s
+Parallel Intro sort: 2.009s
+aips2o sort: 1.376s
+distribution: two_dups
+STL sort: 3.087s
+Merge sort: 3.277s
+Parallel Intro sort: 1.301s
+aips2o sort: 1.701s
+distribution: STL sort: 2.777s
+Merge sort: 1.496s
+Parallel Intro sort: 1.785s
+aips2o sort: 168.361ms
+size: 7168958
+distribution: uniform
+STL sort: 2.576s
+Merge sort: 2.925s
+Parallel Intro sort: 1.435s
+aips2o sort: 1.291s
+distribution: normal
+STL sort: 2.331s
+Merge sort: 2.198s
+Parallel Intro sort: 1.016s
+aips2o sort: 516.5ms
+distribution: log_normal
+STL sort: 2.349s
+Merge sort: 2.185s
+Parallel Intro sort: 1.098s
+aips2o sort: 491.676ms
+distribution: mix_gauss
+STL sort: 2.346s
+Merge sort: 2.387s
+Parallel Intro sort: 1.616s
+aips2o sort: 871.716ms
+distribution: exponential
+STL sort: 2.317s
+Merge sort: 2.074s
+Parallel Intro sort: 1.198s
+aips2o sort: 495.119ms
+distribution: chi_squard
+STL sort: 2.32s
+Merge sort: 2.329s
+Parallel Intro sort: 1.156s
+aips2o sort: 787.939ms
+distribution: root_dups
+STL sort: 2.317s
+Merge sort: 1.788s
+Parallel Intro sort: 2.807s
+aips2o sort: 973.399ms
+distribution: two_dups
+STL sort: 2.552s
+Merge sort: 2.723s
+Parallel Intro sort: 1.056s
+aips2o sort: 1.776s
+distribution: STL sort: 3.304s
+Merge sort: 1.723s
+Parallel Intro sort: 1.872s
+aips2o sort: 198.716ms
+size: 7285565
+distribution: uniform
+STL sort: 3.546s
+Merge sort: 3.914s
+Parallel Intro sort: 2.237s
+aips2o sort: 1.313s
+distribution: normal
+STL sort: 2.389s
+Merge sort: 2.248s
+Parallel Intro sort: 1.625s
+aips2o sort: 530.503ms
+distribution: log_normal
+STL sort: 2.36s
+Merge sort: 2.262s
+Parallel Intro sort: 1.349s
+aips2o sort: 491.877ms
+distribution: mix_gauss
+STL sort: 2.396s
+Merge sort: 2.441s
+Parallel Intro sort: 1.673s
+aips2o sort: 909.907ms
+distribution: exponential
+STL sort: 2.357s
+Merge sort: 2.172s
+Parallel Intro sort: 1.078s
+aips2o sort: 479.744ms
+distribution: chi_squard
+STL sort: 2.392s
+Merge sort: 2.39s
+Parallel Intro sort: 1.697s
+aips2o sort: 741.085ms
+distribution: root_dups
+STL sort: 2.21s
+Merge sort: 1.831s
+Parallel Intro sort: 1.165s
+aips2o sort: 989.983ms
+distribution: two_dups
+STL sort: 2.6s
+Merge sort: 2.778s
+Parallel Intro sort: 1.334s
+aips2o sort: 1.312s
+distribution: STL sort: 2.348s
+Merge sort: 1.243s
+Parallel Intro sort: 1.161s
+aips2o sort: 141.476ms
+size: 739805
+distribution: uniform
+STL sort: 229.406ms
+Merge sort: 256.001ms
+Parallel Intro sort: 129.418ms
+aips2o sort: 190.386ms
+distribution: normal
+STL sort: 205.739ms
+Merge sort: 194.274ms
+Parallel Intro sort: 184.804ms
+aips2o sort: 105.742ms
+distribution: log_normal
+STL sort: 202.387ms
+Merge sort: 195.122ms
+Parallel Intro sort: 128.356ms
+aips2o sort: 106.461ms
+distribution: mix_gauss
+STL sort: 203.452ms
+Merge sort: 213.786ms
+Parallel Intro sort: 104.156ms
+aips2o sort: 128.158ms
+distribution: exponential
+STL sort: 204.368ms
+Merge sort: 185.944ms
+Parallel Intro sort: 152.014ms
+aips2o sort: 105.768ms
+distribution: chi_squard
+STL sort: 204.211ms
+Merge sort: 207.613ms
+Parallel Intro sort: 146.743ms
+aips2o sort: 117.46ms
+distribution: root_dups
+STL sort: 191.14ms
+Merge sort: 158.226ms
+Parallel Intro sort: 104.612ms
+aips2o sort: 161.435ms
+distribution: two_dups
+STL sort: 227.26ms
+Merge sort: 238.4ms
+Parallel Intro sort: 152.624ms
+aips2o sort: 360.329ms
+distribution: STL sort: 446.291ms
+Merge sort: 223.091ms
+Parallel Intro sort: 177.039ms
+aips2o sort: 30.303ms
+size: 4249888
+distribution: uniform
+STL sort: 2.7s
+Merge sort: 2.899s
+Parallel Intro sort: 851.391ms
+aips2o sort: 1.429s
+distribution: normal
+STL sort: 2.881s
+Merge sort: 2.588s
+Parallel Intro sort: 989.729ms
+aips2o sort: 353.865ms
+distribution: log_normal
+STL sort: 1.339s
+Merge sort: 1.276s
+Parallel Intro sort: 651.034ms
+aips2o sort: 287.409ms
+distribution: mix_gauss
+STL sort: 1.338s
+Merge sort: 1.397s
+Parallel Intro sort: 657.58ms
+aips2o sort: 521.232ms
+distribution: exponential
+STL sort: 1.303s
+Merge sort: 1.215s
+Parallel Intro sort: 769.142ms
+aips2o sort: 298.79ms
+distribution: chi_squard
+STL sort: 1.332s
+Merge sort: 1.367s
+Parallel Intro sort: 1.16s
+aips2o sort: 433.748ms
+distribution: root_dups
+STL sort: 1.623s
+Merge sort: 1.056s
+Parallel Intro sort: 3.203s
+aips2o sort: 567.131ms
+distribution: two_dups
+STL sort: 1.437s
+Merge sort: 1.571s
+Parallel Intro sort: 696.309ms
+aips2o sort: 730.093ms
+distribution: STL sort: 1.301s
+Merge sort: 733.311ms
+Parallel Intro sort: 910.73ms
+aips2o sort: 86.106ms
+size: 1778719
+distribution: uniform
+STL sort: 584.434ms
+Merge sort: 666.589ms
+Parallel Intro sort: 254.596ms
+aips2o sort: 322.18ms
+distribution: normal
+STL sort: 526.589ms
+Merge sort: 502.54ms
+Parallel Intro sort: 446.249ms
+aips2o sort: 257.464ms
+distribution: log_normal
+STL sort: 518.986ms
+Merge sort: 505.69ms
+Parallel Intro sort: 334.597ms
+aips2o sort: 264.811ms
+distribution: mix_gauss
+STL sort: 528.367ms
+Merge sort: 550.127ms
+Parallel Intro sort: 281.243ms
+aips2o sort: 310.203ms
+distribution: exponential
+STL sort: 520.53ms
+Merge sort: 483.7ms
+Parallel Intro sort: 346.229ms
+aips2o sort: 229.714ms
+distribution: chi_squard
+STL sort: 523.317ms
+Merge sort: 537.153ms
+Parallel Intro sort: 299.119ms
+aips2o sort: 283.194ms
+distribution: root_dups
+STL sort: 490.837ms
+Merge sort: 413.933ms
+Parallel Intro sort: 297.512ms
+aips2o sort: 416.036ms
+distribution: two_dups
+STL sort: 584.729ms
+Merge sort: 618.185ms
+Parallel Intro sort: 272.569ms
+aips2o sort: 337.049ms
+distribution: STL sort: 509.839ms
+Merge sort: 278.61ms
+Parallel Intro sort: 327.558ms
+aips2o sort: 36.234ms
+size: 7563856
+distribution: uniform
+STL sort: 2.739s
+Merge sort: 3.124s
+Parallel Intro sort: 1.141s
+aips2o sort: 1.379s
+distribution: normal
+STL sort: 2.47s
+Merge sort: 2.36s
+Parallel Intro sort: 1.401s
+aips2o sort: 546.033ms
+distribution: log_normal
+STL sort: 2.478s
+Merge sort: 2.345s
+Parallel Intro sort: 994.04ms
+aips2o sort: 511.788ms
+distribution: mix_gauss
+STL sort: 2.475s
+Merge sort: 2.552s
+Parallel Intro sort: 1.124s
+aips2o sort: 911.221ms
+distribution: exponential
+STL sort: 2.435s
+Merge sort: 2.222s
+Parallel Intro sort: 1.505s
+aips2o sort: 504.079ms
+distribution: chi_squard
+STL sort: 2.482s
+Merge sort: 2.502s
+Parallel Intro sort: 1.138s
+aips2o sort: 750.349ms
+distribution: root_dups
+STL sort: 2.32s
+Merge sort: 1.921s
+Parallel Intro sort: 2.119s
+aips2o sort: 1.196s
+distribution: two_dups
+STL sort: 2.665s
+Merge sort: 2.898s
+Parallel Intro sort: 1.737s
+aips2o sort: 1.355s
+distribution: STL sort: 2.401s
+Merge sort: 1.31s
+Parallel Intro sort: 1.202s
+aips2o sort: 337.587ms
+size: 4085434
+distribution: uniform
+STL sort: 4.914s
+Merge sort: 3.076s
+Parallel Intro sort: 874.691ms
+aips2o sort: 1.372s
+distribution: normal
+STL sort: 2.773s
+Merge sort: 2.277s
+Parallel Intro sort: 783.415ms
+aips2o sort: 840.161ms
+distribution: log_normal
+STL sort: 3.984s
+Merge sort: 2.994s
+Parallel Intro sort: 1.024s
+aips2o sort: 1.084s
+distribution: mix_gauss
+STL sort: 2.676s
+Merge sort: 2.57s
+Parallel Intro sort: 753.76ms
+aips2o sort: 1.345s
+distribution: exponential
+STL sort: 2.661s
+Merge sort: 2.841s
+Parallel Intro sort: 954.423ms
+aips2o sort: 585.942ms
+distribution: chi_squard
+STL sort: 1.276s
+Merge sort: 1.312s
+Parallel Intro sort: 850.813ms
+aips2o sort: 709.397ms
+distribution: root_dups
+STL sort: 1.219s
+Merge sort: 1.017s
+Parallel Intro sort: 1.038s
+aips2o sort: 3.112s
+distribution: two_dups
+STL sort: 4.825s
+Merge sort: 5.246s
+Parallel Intro sort: 1.456s
+aips2o sort: 2.48s
+distribution: STL sort: 4.243s
+Merge sort: 2.443s
+Parallel Intro sort: 960.107ms
+aips2o sort: 79.429ms
+size: 4739410
+distribution: uniform
+STL sort: 1.677s
+Merge sort: 1.9s
+Parallel Intro sort: 1.053s
+aips2o sort: 843.473ms
+distribution: normal
+STL sort: 1.485s
+Merge sort: 1.441s
+Parallel Intro sort: 851.994ms
+aips2o sort: 341.07ms
+distribution: log_normal
+STL sort: 1.522s
+Merge sort: 1.431s
+Parallel Intro sort: 796.157ms
+aips2o sort: 1.101s
+distribution: mix_gauss
+STL sort: 5.173s
+Merge sort: 5.392s
+Parallel Intro sort: 1.16s
+aips2o sort: 808.658ms
+distribution: exponential
+STL sort: 2.165s
+Merge sort: 1.933s
+Parallel Intro sort: 961.471ms
+aips2o sort: 454.364ms
+distribution: chi_squard
+STL sort: 2.154s
+Merge sort: 2.166s
+Parallel Intro sort: 909.078ms
+aips2o sort: 492.282ms
+distribution: root_dups
+STL sort: 1.44s
+Merge sort: 1.179s
+Parallel Intro sort: 848.751ms
+aips2o sort: 889.855ms
+distribution: two_dups
+STL sort: 2.25s
+Merge sort: 2.377s
+Parallel Intro sort: 798.993ms
+aips2o sort: 841.986ms
+distribution: STL sort: 1.521s
+Merge sort: 818.813ms
+Parallel Intro sort: 1s
+aips2o sort: 92.842ms
+size: 3691907
+distribution: uniform
+STL sort: 1.296s
+Merge sort: 1.491s
+Parallel Intro sort: 673.372ms
+aips2o sort: 655.464ms
+distribution: normal
+STL sort: 1.148s
+Merge sort: 1.137s
+Parallel Intro sort: 629.671ms
+aips2o sort: 528.511ms
+distribution: log_normal
+STL sort: 1.144s
+Merge sort: 1.152s
+Parallel Intro sort: 537.881ms
+aips2o sort: 529.289ms
+distribution: mix_gauss
+STL sort: 1.147s
+Merge sort: 1.238s
+Parallel Intro sort: 874.663ms
+aips2o sort: 691.257ms
+distribution: exponential
+STL sort: 1.128s
+Merge sort: 1.101s
+Parallel Intro sort: 747.523ms
+aips2o sort: 530.028ms
+distribution: chi_squard
+STL sort: 1.159s
+Merge sort: 1.212s
+Parallel Intro sort: 765.002ms
+aips2o sort: 637.412ms
+distribution: root_dups
+STL sort: 1.096s
+Merge sort: 940.189ms
+Parallel Intro sort: 752.331ms
+aips2o sort: 901.12ms
+distribution: two_dups
+STL sort: 1.287s
+Merge sort: 1.395s
+Parallel Intro sort: 563.567ms
+aips2o sort: 661.14ms
+distribution: STL sort: 1.115s
+Merge sort: 660.149ms
+Parallel Intro sort: 615.51ms
+aips2o sort: 76.612ms
+size: 3039706
+distribution: uniform
+STL sort: 1.037s
+Merge sort: 1.158s
+Parallel Intro sort: 836.434ms
+aips2o sort: 553.555ms
+distribution: normal
+STL sort: 935.064ms
+Merge sort: 871.108ms
+Parallel Intro sort: 544.648ms
+aips2o sort: 434.035ms
+distribution: log_normal
+STL sort: 924.815ms
+Merge sort: 864.281ms
+Parallel Intro sort: 679.42ms
+aips2o sort: 441.579ms
+distribution: mix_gauss
+STL sort: 938.689ms
+Merge sort: 951.22ms
+Parallel Intro sort: 576.127ms
+aips2o sort: 567.412ms
+distribution: exponential
+STL sort: 932.853ms
+Merge sort: 816.942ms
+Parallel Intro sort: 477.589ms
+aips2o sort: 440.894ms
+distribution: chi_squard
+STL sort: 931.618ms
+Merge sort: 925.101ms
+Parallel Intro sort: 673.6ms
+aips2o sort: 529.184ms
+distribution: root_dups
+STL sort: 918.703ms
+Merge sort: 711.775ms
+Parallel Intro sort: 1.095s
+aips2o sort: 766.736ms
+distribution: two_dups
+STL sort: 1.023s
+Merge sort: 1.076s
+Parallel Intro sort: 661.898ms
+aips2o sort: 542.675ms
+distribution: STL sort: 925.918ms
+Merge sort: 484.619ms
+Parallel Intro sort: 454.894ms
+aips2o sort: 58.602ms
+size: 1179257
+distribution: uniform
+STL sort: 379.027ms
+Merge sort: 434.765ms
+Parallel Intro sort: 240.874ms
+aips2o sort: 229.154ms
+distribution: normal
+STL sort: 332.851ms
+Merge sort: 332.015ms
+Parallel Intro sort: 231.536ms
+aips2o sort: 170.179ms
+distribution: log_normal
+STL sort: 334.92ms
+Merge sort: 333.047ms
+Parallel Intro sort: 205.383ms
+aips2o sort: 168.72ms
+distribution: mix_gauss
+STL sort: 336.875ms
+Merge sort: 362.064ms
+Parallel Intro sort: 172.898ms
+aips2o sort: 208.827ms
+distribution: exponential
+STL sort: 336.749ms
+Merge sort: 319.078ms
+Parallel Intro sort: 202.158ms
+aips2o sort: 154.674ms
+distribution: chi_squard
+STL sort: 335.078ms
+Merge sort: 353.864ms
+Parallel Intro sort: 241.452ms
+aips2o sort: 190.469ms
+distribution: root_dups
+STL sort: 310.485ms
+Merge sort: 272.812ms
+Parallel Intro sort: 193.829ms
+aips2o sort: 276.674ms
+distribution: two_dups
+STL sort: 371.831ms
+Merge sort: 403.66ms
+Parallel Intro sort: 187.49ms
+aips2o sort: 216.268ms
+distribution: STL sort: 341.984ms
+Merge sort: 190.649ms
+Parallel Intro sort: 254.733ms
+aips2o sort: 22.849ms
+size: 3641757
+distribution: uniform
+STL sort: 1.272s
+Merge sort: 1.407s
+Parallel Intro sort: 558.92ms
+aips2o sort: 648.111ms
+distribution: normal
+STL sort: 1.133s
+Merge sort: 1.054s
+Parallel Intro sort: 665.983ms
+aips2o sort: 527.582ms
+distribution: log_normal
+STL sort: 1.137s
+Merge sort: 1.061s
+Parallel Intro sort: 757.992ms
+aips2o sort: 529.405ms
+distribution: mix_gauss
+STL sort: 1.127s
+Merge sort: 1.156s
+Parallel Intro sort: 816.889ms
+aips2o sort: 682.006ms
+distribution: exponential
+STL sort: 1.121s
+Merge sort: 1.017s
+Parallel Intro sort: 713.78ms
+aips2o sort: 488.472ms
+distribution: chi_squard
+STL sort: 1.136s
+Merge sort: 1.123s
+Parallel Intro sort: 521.007ms
+aips2o sort: 631.022ms
+distribution: root_dups
+STL sort: 1.047s
+Merge sort: 872.986ms
+Parallel Intro sort: 569.027ms
+aips2o sort: 890.025ms
+distribution: two_dups
+STL sort: 1.257s
+Merge sort: 1.305s
+Parallel Intro sort: 657.943ms
+aips2o sort: 647.243ms
+distribution: STL sort: 1.109s
+Merge sort: 584.499ms
+Parallel Intro sort: 654.155ms
+aips2o sort: 70.878ms
+size: 2160843
+distribution: uniform
+STL sort: 727.441ms
+Merge sort: 811.965ms
+Parallel Intro sort: 586.641ms
+aips2o sort: 393.361ms
+distribution: normal
+STL sort: 642.973ms
+Merge sort: 615.283ms
+Parallel Intro sort: 535.96ms
+aips2o sort: 317.589ms
+distribution: log_normal
+STL sort: 649.472ms
+Merge sort: 619.013ms
+Parallel Intro sort: 482.217ms
+aips2o sort: 317.513ms
+distribution: mix_gauss
+STL sort: 654.876ms
+Merge sort: 671.578ms
+Parallel Intro sort: 498.195ms
+aips2o sort: 404.914ms
+distribution: exponential
+STL sort: 628.037ms
+Merge sort: 591.68ms
+Parallel Intro sort: 434.205ms
+aips2o sort: 317.966ms
+distribution: chi_squard
+STL sort: 644.536ms
+Merge sort: 657.675ms
+Parallel Intro sort: 365.848ms
+aips2o sort: 370.962ms
+distribution: root_dups
+STL sort: 604.164ms
+Merge sort: 504.246ms
+Parallel Intro sort: 476.434ms
+aips2o sort: 525.701ms
+distribution: two_dups
+STL sort: 717.627ms
+Merge sort: 754.966ms
+Parallel Intro sort: 561.895ms
+aips2o sort: 392.602ms
+distribution: STL sort: 645.497ms
+Merge sort: 346.782ms
+Parallel Intro sort: 505.499ms
+aips2o sort: 45.124ms
+size: 396716
+distribution: uniform
+STL sort: 118.678ms
+Merge sort: 132.623ms
+Parallel Intro sort: 100.705ms
+aips2o sort: 95.769ms
+distribution: normal
+STL sort: 105.159ms
+Merge sort: 100.476ms
+Parallel Intro sort: 54.506ms
+aips2o sort: 57.287ms
+distribution: log_normal
+STL sort: 103.661ms
+Merge sort: 101.018ms
+Parallel Intro sort: 87.925ms
+aips2o sort: 51.515ms
+distribution: mix_gauss
+STL sort: 103.975ms
+Merge sort: 111.197ms
+Parallel Intro sort: 55.58ms
+aips2o sort: 68.721ms
+distribution: exponential
+STL sort: 103.206ms
+Merge sort: 93.782ms
+Parallel Intro sort: 64.652ms
+aips2o sort: 51.789ms
+distribution: chi_squard
+STL sort: 103.144ms
+Merge sort: 107.871ms
+Parallel Intro sort: 50.584ms
+aips2o sort: 63.202ms
+distribution: root_dups
+STL sort: 96.854ms
+Merge sort: 83.165ms
+Parallel Intro sort: 49.229ms
+aips2o sort: 80.532ms
+distribution: two_dups
+STL sort: 115.394ms
+Merge sort: 123.496ms
+Parallel Intro sort: 70.458ms
+aips2o sort: 94.741ms
+distribution: STL sort: 101.845ms
+Merge sort: 56.348ms
+Parallel Intro sort: 66.998ms
+aips2o sort: 7.662ms
+size: 5088109
+distribution: uniform
+STL sort: 1.813s
+Merge sort: 2.054s
+Parallel Intro sort: 1.449s
+aips2o sort: 908.04ms
+distribution: normal
+STL sort: 1.593s
+Merge sort: 1.558s
+Parallel Intro sort: 954.732ms
+aips2o sort: 409.035ms
+distribution: log_normal
+STL sort: 1.607s
+Merge sort: 1.568s
+Parallel Intro sort: 754.481ms
+aips2o sort: 345.85ms
+distribution: mix_gauss
+STL sort: 1.618s
+Merge sort: 1.693s
+Parallel Intro sort: 825.078ms
+aips2o sort: 650.88ms
+distribution: exponential
+STL sort: 1.64s
+Merge sort: 1.504s
+Parallel Intro sort: 970.16ms
+aips2o sort: 353.173ms
+distribution: chi_squard
+STL sort: 1.626s
+Merge sort: 1.654s
+Parallel Intro sort: 796.204ms
+aips2o sort: 520.893ms
+distribution: root_dups
+STL sort: 1.519s
+Merge sort: 1.276s
+Parallel Intro sort: 1.006s
+aips2o sort: 690.836ms
+distribution: two_dups
+STL sort: 1.802s
+Merge sort: 1.91s
+Parallel Intro sort: 827.188ms
+aips2o sort: 900.383ms
+distribution: STL sort: 1.629s
+Merge sort: 883.746ms
+Parallel Intro sort: 771.116ms
+aips2o sort: 98.106ms
+size: 1425450
+distribution: uniform
+STL sort: 464.641ms
+Merge sort: 525.119ms
+Parallel Intro sort: 477.115ms
+aips2o sort: 266.886ms
+distribution: normal
+STL sort: 416.061ms
+Merge sort: 397.748ms
+Parallel Intro sort: 270.019ms
+aips2o sort: 206.227ms
+distribution: log_normal
+STL sort: 411.157ms
+Merge sort: 394.934ms
+Parallel Intro sort: 302.418ms
+aips2o sort: 208.906ms
+distribution: mix_gauss
+STL sort: 414.421ms
+Merge sort: 435.74ms
+Parallel Intro sort: 264.581ms
+aips2o sort: 245.679ms
+distribution: exponential
+STL sort: 417.824ms
+Merge sort: 374.294ms
+Parallel Intro sort: 244.113ms
+aips2o sort: 184.534ms
+distribution: chi_squard
+STL sort: 417.709ms
+Merge sort: 423.777ms
+Parallel Intro sort: 194.435ms
+aips2o sort: 231.327ms
+distribution: root_dups
+STL sort: 379.899ms
+Merge sort: 327.198ms
+Parallel Intro sort: 300.963ms
+aips2o sort: 335.929ms
+distribution: two_dups
+STL sort: 459.336ms
+Merge sort: 489.202ms
+Parallel Intro sort: 333.788ms
+aips2o sort: 267.295ms
+distribution: STL sort: 410.861ms
+Merge sort: 222.095ms
+Parallel Intro sort: 311.583ms
+aips2o sort: 27.3ms
+size: 8218962
+distribution: uniform
+STL sort: 2.992s
+Merge sort: 3.38s
+Parallel Intro sort: 1.602s
+aips2o sort: 1.59s
+distribution: normal
+STL sort: 2.701s
+Merge sort: 2.535s
+Parallel Intro sort: 1.275s
+aips2o sort: 589.395ms
+distribution: log_normal
+STL sort: 2.713s
+Merge sort: 2.521s
+Parallel Intro sort: 1.184s
+aips2o sort: 558.188ms
+distribution: mix_gauss
+STL sort: 2.72s
+Merge sort: 2.753s
+Parallel Intro sort: 1.272s
+aips2o sort: 1.083s
+distribution: exponential
+STL sort: 2.647s
+Merge sort: 2.395s
+Parallel Intro sort: 1.24s
+aips2o sort: 559.247ms
+distribution: chi_squard
+STL sort: 2.712s
+Merge sort: 2.685s
+Parallel Intro sort: 1.169s
+aips2o sort: 834.859ms
+distribution: root_dups
+STL sort: 2.587s
+Merge sort: 2.057s
+Parallel Intro sort: 1.553s
+aips2o sort: 1.319s
+distribution: two_dups
+STL sort: 2.957s
+Merge sort: 3.162s
+Parallel Intro sort: 2.564s
+aips2o sort: 1.596s
+distribution: STL sort: 2.605s
+Merge sort: 1.415s
+Parallel Intro sort: 1.275s
+aips2o sort: 160.539ms
+size: 6232982
+distribution: uniform
+STL sort: 2.223s
+Merge sort: 2.52s
+Parallel Intro sort: 1.355s
+aips2o sort: 1.102s
+distribution: normal
+STL sort: 2.028s
+Merge sort: 1.9s
+Parallel Intro sort: 974.71ms
+aips2o sort: 516.801ms
+distribution: log_normal
+STL sort: 2.003s
+Merge sort: 1.89s
+Parallel Intro sort: 1.016s
+aips2o sort: 499.464ms
+distribution: mix_gauss
+STL sort: 2.009s
+Merge sort: 2.066s
+Parallel Intro sort: 1.355s
+aips2o sort: 775.207ms
+distribution: exponential
+STL sort: 2.008s
+Merge sort: 1.792s
+Parallel Intro sort: 987.95ms
+aips2o sort: 422.318ms
+distribution: chi_squard
+STL sort: 2.049s
+Merge sort: 2.015s
+Parallel Intro sort: 1.163s
+aips2o sort: 629.207ms
+distribution: root_dups
+STL sort: 1.925s
+Merge sort: 1.543s
+Parallel Intro sort: 1.442s
+aips2o sort: 841.295ms
+distribution: two_dups
+STL sort: 2.19s
+Merge sort: 2.346s
+Parallel Intro sort: 1.102s
+aips2o sort: 1.102s
+distribution: STL sort: 1.987s
+Merge sort: 1.07s
+Parallel Intro sort: 955.125ms
+aips2o sort: 121.679ms
+size: 9174934
+distribution: uniform
+STL sort: 3.349s
+Merge sort: 3.759s
+Parallel Intro sort: 2.222s
+aips2o sort: 1.913s
+distribution: normal
+STL sort: 3.006s
+Merge sort: 2.823s
+Parallel Intro sort: 1.951s
+aips2o sort: 2.583s
+distribution: log_normal
+STL sort: 10.409s
+Merge sort: 9.648s
+Parallel Intro sort: 2.383s
+aips2o sort: 622.428ms
+distribution: mix_gauss
+STL sort: 3.056s
+Merge sort: 3.066s
+Parallel Intro sort: 2.351s
+aips2o sort: 1.05s
+distribution: exponential
+STL sort: 2.98s
+Merge sort: 2.665s
+Parallel Intro sort: 1.734s
+aips2o sort: 835.499ms
+distribution: chi_squard
+STL sort: 4.41s
+Merge sort: 8.991s
+Parallel Intro sort: 2.498s
+aips2o sort: 3.045s
+distribution: root_dups
+STL sort: 9.863s
+Merge sort: 7.863s
+Parallel Intro sort: 3.03s
+aips2o sort: 1.476s
+distribution: two_dups
+STL sort: 3.335s
+Merge sort: 3.499s
+Parallel Intro sort: 2.099s
+aips2o sort: 1.915s
+distribution: STL sort: 3.086s
+Merge sort: 1.561s
+Parallel Intro sort: 1.426s
+aips2o sort: 178.677ms
+size: 382896
+distribution: uniform
+STL sort: 113.72ms
+Merge sort: 128.33ms
+Parallel Intro sort: 101.637ms
+aips2o sort: 94.404ms
+distribution: normal
+STL sort: 100.044ms
+Merge sort: 96.836ms
+Parallel Intro sort: 67.378ms
+aips2o sort: 78.146ms
+distribution: log_normal
+STL sort: 136.568ms
+Merge sort: 280.676ms
+Parallel Intro sort: 93.728ms
+aips2o sort: 171.975ms
+distribution: mix_gauss
+STL sort: 342.335ms
+Merge sort: 367.138ms
+Parallel Intro sort: 107.944ms
+aips2o sort: 227.293ms
+distribution: exponential
+STL sort: 344.93ms
+Merge sort: 310.706ms
+Parallel Intro sort: 74.968ms
+aips2o sort: 172.932ms
+distribution: chi_squard
+STL sort: 341.886ms
+Merge sort: 355.97ms
+Parallel Intro sort: 152.732ms
+aips2o sort: 206.525ms
+distribution: root_dups
+STL sort: 337.787ms
+Merge sort: 275.271ms
+Parallel Intro sort: 78.287ms
+aips2o sort: 273.679ms
+distribution: two_dups
+STL sort: 379.188ms
+Merge sort: 408.371ms
+Parallel Intro sort: 79.861ms
+aips2o sort: 315.597ms
+distribution: STL sort: 343.678ms
+Merge sort: 189.679ms
+Parallel Intro sort: 92.813ms
+aips2o sort: 26.702ms
+size: 9146064
+distribution: uniform
+STL sort: 8.635s
+Merge sort: 12.872s
+Parallel Intro sort: 2.683s
+aips2o sort: 1.911s
+distribution: normal
+STL sort: 3.007s
+Merge sort: 2.814s
+Parallel Intro sort: 2.012s
+aips2o sort: 733.957ms
+distribution: log_normal
+STL sort: 3.049s
+Merge sort: 2.801s
+Parallel Intro sort: 1.77s
+aips2o sort: 862.482ms
+distribution: mix_gauss
+STL sort: 10.441s
+Merge sort: 10.501s
+Parallel Intro sort: 2.298s
+aips2o sort: 1.066s
+distribution: exponential
+STL sort: 2.964s
+Merge sort: 2.658s
+Parallel Intro sort: 1.777s
+aips2o sort: 604.689ms
+distribution: chi_squard
+STL sort: 3.028s
+Merge sort: 2.982s
+Parallel Intro sort: 2.373s
+aips2o sort: 906.076ms
+distribution: root_dups
+STL sort: 2.809s
+Merge sort: 2.276s
+Parallel Intro sort: 1.791s
+aips2o sort: 1.486s
+distribution: two_dups
+STL sort: 3.263s
+Merge sort: 3.481s
+Parallel Intro sort: 1.533s
+aips2o sort: 1.86s
+distribution: STL sort: 3.081s
+Merge sort: 1.559s
+Parallel Intro sort: 1.538s
+aips2o sort: 175.835ms
+size: 8974673
+distribution: uniform
+STL sort: 3.318s
+Merge sort: 3.693s
+Parallel Intro sort: 2.034s
+aips2o sort: 5.033s
+distribution: normal
+STL sort: 10.199s
+Merge sort: 9.568s
+Parallel Intro sort: 2.832s
+aips2o sort: 1.982s
+distribution: log_normal
+STL sort: 8.324s
+Merge sort: 5.505s
+Parallel Intro sort: 2.332s
+aips2o sort: 1.114s
+distribution: mix_gauss
+STL sort: 8.911s
+Merge sort: 10.379s
+Parallel Intro sort: 2.988s
+aips2o sort: 3.529s
+distribution: exponential
+STL sort: 10.055s
+Merge sort: 7.971s
+Parallel Intro sort: 2.166s
+aips2o sort: 598.774ms
+distribution: chi_squard
+STL sort: 3s
+Merge sort: 2.958s
+Parallel Intro sort: 1.863s
+aips2o sort: 891.005ms
+distribution: root_dups
+STL sort: 2.757s
+Merge sort: 2.26s
+Parallel Intro sort: 1.573s
+aips2o sort: 1.443s
+distribution: two_dups
+STL sort: 3.28s
+Merge sort: 3.447s
+Parallel Intro sort: 1.777s
+aips2o sort: 6.306s
+distribution: STL sort: 10.49s
+Merge sort: 3.932s
+Parallel Intro sort: 1.738s
+aips2o sort: 172.943ms
+size: 9044566
+distribution: uniform
+STL sort: 3.306s
+Merge sort: 3.71s
+Parallel Intro sort: 1.422s
+aips2o sort: 1.863s
+distribution: normal
+STL sort: 2.973s
+Merge sort: 2.785s
+Parallel Intro sort: 1.795s
+aips2o sort: 725.464ms
+distribution: log_normal
+STL sort: 2.983s
+Merge sort: 2.773s
+Parallel Intro sort: 1.363s
+aips2o sort: 721.803ms
+distribution: mix_gauss
+STL sort: 2.998s
+Merge sort: 3.024s
+Parallel Intro sort: 1.978s
+aips2o sort: 1.023s
+distribution: exponential
+STL sort: 2.958s
+Merge sort: 2.628s
+Parallel Intro sort: 1.273s
+aips2o sort: 596.927ms
+distribution: chi_squard
+STL sort: 2.997s
+Merge sort: 2.95s
+Parallel Intro sort: 1.362s
+aips2o sort: 886.732ms
+distribution: root_dups
+STL sort: 2.883s
+Merge sort: 2.254s
+Parallel Intro sort: 3.291s
+aips2o sort: 1.465s
+distribution: two_dups
+STL sort: 3.277s
+Merge sort: 3.451s
+Parallel Intro sort: 1.373s
+aips2o sort: 1.874s
+distribution: STL sort: 3.076s
+Merge sort: 1.546s
+Parallel Intro sort: 1.904s
+aips2o sort: 176.254ms
+size: 519407
+distribution: uniform
+STL sort: 157.915ms
+Merge sort: 179.845ms
+Parallel Intro sort: 75.651ms
+aips2o sort: 126.158ms
+distribution: normal
+STL sort: 138.214ms
+Merge sort: 135.133ms
+Parallel Intro sort: 85.714ms
+aips2o sort: 74.943ms
+distribution: log_normal
+STL sort: 139.012ms
+Merge sort: 136.276ms
+Parallel Intro sort: 87.014ms
+aips2o sort: 68.534ms
+distribution: mix_gauss
+STL sort: 143.071ms
+Merge sort: 149.082ms
+Parallel Intro sort: 87.286ms
+aips2o sort: 90.225ms
+distribution: exponential
+STL sort: 135.578ms
+Merge sort: 130.176ms
+Parallel Intro sort: 95.142ms
+aips2o sort: 67.268ms
+distribution: chi_squard
+STL sort: 139.138ms
+Merge sort: 144.939ms
+Parallel Intro sort: 91.567ms
+aips2o sort: 82.523ms
+distribution: root_dups
+STL sort: 130.9ms
+Merge sort: 111.327ms
+Parallel Intro sort: 89.185ms
+aips2o sort: 105.246ms
+distribution: two_dups
+STL sort: 154.589ms
+Merge sort: 165.4ms
+Parallel Intro sort: 74.061ms
+aips2o sort: 126.211ms
+distribution: STL sort: 133.288ms
+Merge sort: 76.826ms
+Parallel Intro sort: 98.667ms
+aips2o sort: 10.055ms
+size: 2718410
+distribution: uniform
+STL sort: 920.362ms
+Merge sort: 1.021s
+Parallel Intro sort: 430.085ms
+aips2o sort: 484.776ms
+distribution: normal
+STL sort: 820.631ms
+Merge sort: 763.682ms
+Parallel Intro sort: 508.125ms
+aips2o sort: 396.9ms
+distribution: log_normal
+STL sort: 828.691ms
+Merge sort: 758.54ms
+Parallel Intro sort: 628.691ms
+aips2o sort: 396.019ms
+distribution: mix_gauss
+STL sort: 830.038ms
+Merge sort: 838.328ms
+Parallel Intro sort: 618.716ms
+aips2o sort: 510.7ms
+distribution: exponential
+STL sort: 828.409ms
+Merge sort: 717.909ms
+Parallel Intro sort: 442.056ms
+aips2o sort: 389.674ms
+distribution: chi_squard
+STL sort: 830.314ms
+Merge sort: 815.829ms
+Parallel Intro sort: 556.02ms
+aips2o sort: 474.187ms
+distribution: root_dups
+STL sort: 786.767ms
+Merge sort: 621.224ms
+Parallel Intro sort: 491.944ms
+aips2o sort: 1.563s
+distribution: two_dups
+STL sort: 3.109s
+Merge sort: 3.257s
+Parallel Intro sort: 876.801ms
+aips2o sort: 1.671s
+distribution: STL sort: 2.846s
+Merge sort: 918.479ms
+Parallel Intro sort: 698.334ms
+aips2o sort: 109.507ms
+size: 4646191
+distribution: uniform
+STL sort: 3.028s
+Merge sort: 3.227s
+Parallel Intro sort: 1.313s
+aips2o sort: 1.556s
+distribution: normal
+STL sort: 4.026s
+Merge sort: 4.896s
+Parallel Intro sort: 1.166s
+aips2o sort: 1.095s
+distribution: log_normal
+STL sort: 5.047s
+Merge sort: 4.924s
+Parallel Intro sort: 1.409s
+aips2o sort: 582.06ms
+distribution: mix_gauss
+STL sort: 4.53s
+Merge sort: 2.984s
+Parallel Intro sort: 1.211s
+aips2o sort: 1.103s
+distribution: exponential
+STL sort: 3.117s
+Merge sort: 3.041s
+Parallel Intro sort: 1.342s
+aips2o sort: 308.364ms
+distribution: chi_squard
+STL sort: 1.463s
+Merge sort: 1.512s
+Parallel Intro sort: 661.895ms
+aips2o sort: 475.438ms
+distribution: root_dups
+STL sort: 4.659s
+Merge sort: 1.169s
+Parallel Intro sort: 4.33s
+aips2o sort: 622.127ms
+distribution: two_dups
+STL sort: 1.643s
+Merge sort: 1.743s
+Parallel Intro sort: 1.02s
+aips2o sort: 827.48ms
+distribution: STL sort: 1.493s
+Merge sort: 817.427ms
+Parallel Intro sort: 694.223ms
+aips2o sort: 89.488ms
+size: 5947450
+distribution: uniform
+STL sort: 2.129s
+Merge sort: 2.402s
+Parallel Intro sort: 1.449s
+aips2o sort: 1.056s
+distribution: normal
+STL sort: 1.931s
+Merge sort: 1.812s
+Parallel Intro sort: 934.279ms
+aips2o sort: 605.768ms
+distribution: log_normal
+STL sort: 5.524s
+Merge sort: 6.199s
+Parallel Intro sort: 1.71s
+aips2o sort: 1.378s
+distribution: mix_gauss
+STL sort: 6.576s
+Merge sort: 6.766s
+Parallel Intro sort: 1.323s
+aips2o sort: 757.905ms
+distribution: exponential
+STL sort: 1.937s
+Merge sort: 1.709s
+Parallel Intro sort: 855.574ms
+aips2o sort: 410.489ms
+distribution: chi_squard
+STL sort: 1.927s
+Merge sort: 1.921s
+Parallel Intro sort: 1.431s
+aips2o sort: 592.394ms
+distribution: root_dups
+STL sort: 1.851s
+Merge sort: 1.477s
+Parallel Intro sort: 982.862ms
+aips2o sort: 807.965ms
+distribution: two_dups
+STL sort: 2.107s
+Merge sort: 2.235s
+Parallel Intro sort: 994.661ms
+aips2o sort: 1.05s
+distribution: STL sort: 1.898s
+Merge sort: 1.008s
+Parallel Intro sort: 1.225s
+aips2o sort: 240.402ms
+size: 5295837
+distribution: uniform
+STL sort: 3.691s
+Merge sort: 7.366s
+Parallel Intro sort: 1.428s
+aips2o sort: 1.773s
+distribution: normal
+STL sort: 3.602s
+Merge sort: 3.247s
+Parallel Intro sort: 861.827ms
+aips2o sort: 952.375ms
+distribution: log_normal
+STL sort: 5.848s
+Merge sort: 5.625s
+Parallel Intro sort: 1.434s
+aips2o sort: 359.278ms
+distribution: mix_gauss
+STL sort: 1.684s
+Merge sort: 1.762s
+Parallel Intro sort: 886.229ms
+aips2o sort: 647.561ms
+distribution: exponential
+STL sort: 1.715s
+Merge sort: 1.567s
+Parallel Intro sort: 1.07s
+aips2o sort: 363.1ms
+distribution: chi_squard
+STL sort: 1.695s
+Merge sort: 1.723s
+Parallel Intro sort: 1.127s
+aips2o sort: 539.384ms
+distribution: root_dups
+STL sort: 1.613s
+Merge sort: 1.327s
+Parallel Intro sort: 1.039s
+aips2o sort: 712.815ms
+distribution: two_dups
+STL sort: 1.861s
+Merge sort: 1.991s
+Parallel Intro sort: 1.013s
+aips2o sort: 2.245s
+distribution: STL sort: 5.866s
+Merge sort: 3.151s
+Parallel Intro sort: 1.453s
+aips2o sort: 350.675ms
+size: 4290672
+distribution: uniform
+STL sort: 5.146s
+Merge sort: 5.886s
+Parallel Intro sort: 1.215s
+aips2o sort: 2.61s
+distribution: normal
+STL sort: 4.633s
+Merge sort: 4.457s
+Parallel Intro sort: 1.364s
+aips2o sort: 1.221s
+distribution: log_normal
+STL sort: 4.653s
+Merge sort: 4.415s
+Parallel Intro sort: 1.194s
+aips2o sort: 297.365ms
+distribution: mix_gauss
+STL sort: 1.346s
+Merge sort: 1.41s
+Parallel Intro sort: 754.012ms
+aips2o sort: 545.532ms
+distribution: exponential
+STL sort: 1.323s
+Merge sort: 1.225s
+Parallel Intro sort: 785.167ms
+aips2o sort: 294.802ms
+distribution: chi_squard
+STL sort: 1.362s
+Merge sort: 1.378s
+Parallel Intro sort: 860.603ms
+aips2o sort: 444.406ms
+distribution: root_dups
+STL sort: 1.285s
+Merge sort: 1.065s
+Parallel Intro sort: 854.126ms
+aips2o sort: 582.974ms
+distribution: two_dups
+STL sort: 1.456s
+Merge sort: 1.585s
+Parallel Intro sort: 771.41ms
+aips2o sort: 742.999ms
+distribution: STL sort: 1.345s
+Merge sort: 737.621ms
+Parallel Intro sort: 963.23ms
+aips2o sort: 85.822ms
+size: 9965908
+distribution: uniform
+STL sort: 3.668s
+Merge sort: 4.077s
+Parallel Intro sort: 1.902s
+aips2o sort: 2.12s
+distribution: normal
+STL sort: 3.265s
+Merge sort: 3.051s
+Parallel Intro sort: 1.976s
+aips2o sort: 826.815ms
+distribution: log_normal
+STL sort: 3.335s
+Merge sort: 3.032s
+Parallel Intro sort: 1.544s
+aips2o sort: 673.824ms
+distribution: mix_gauss
+STL sort: 3.314s
+Merge sort: 3.315s
+Parallel Intro sort: 3.269s
+aips2o sort: 1.183s
+distribution: exponential
+STL sort: 3.37s
+Merge sort: 2.881s
+Parallel Intro sort: 1.572s
+aips2o sort: 680.806ms
+distribution: chi_squard
+STL sort: 3.316s
+Merge sort: 3.234s
+Parallel Intro sort: 1.828s
+aips2o sort: 969.187ms
+distribution: root_dups
+STL sort: 3.131s
+Merge sort: 2.475s
+Parallel Intro sort: 2.286s
+aips2o sort: 2.319s
+distribution: two_dups

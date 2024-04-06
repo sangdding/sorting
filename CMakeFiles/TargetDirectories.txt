@@ -1,8 +1,8 @@
-/root/lsm/sorting/CMakeFiles/Main.dir
-/root/lsm/sorting/CMakeFiles/Learn.dir
-/root/lsm/sorting/CMakeFiles/Test.dir
-/root/lsm/sorting/CMakeFiles/edit_cache.dir
-/root/lsm/sorting/CMakeFiles/rebuild_cache.dir
-/root/lsm/sorting/utility/CMakeFiles/Utility.dir
-/root/lsm/sorting/utility/CMakeFiles/edit_cache.dir
-/root/lsm/sorting/utility/CMakeFiles/rebuild_cache.dir
+/home/syslab/bigdatalab/sorting/CMakeFiles/Main.dir
+/home/syslab/bigdatalab/sorting/CMakeFiles/Learn.dir
+/home/syslab/bigdatalab/sorting/CMakeFiles/Test.dir
+/home/syslab/bigdatalab/sorting/CMakeFiles/edit_cache.dir
+/home/syslab/bigdatalab/sorting/CMakeFiles/rebuild_cache.dir
+/home/syslab/bigdatalab/sorting/utility/CMakeFiles/Utility.dir
+/home/syslab/bigdatalab/sorting/utility/CMakeFiles/edit_cache.dir
+/home/syslab/bigdatalab/sorting/utility/CMakeFiles/rebuild_cache.dir

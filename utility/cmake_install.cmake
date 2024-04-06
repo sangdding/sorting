@@ -1,4 +1,4 @@
-# Install script for directory: /root/lsm/sorting/utility
+# Install script for directory: /home/syslab/bigdatalab/sorting/utility
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

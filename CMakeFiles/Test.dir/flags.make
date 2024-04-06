@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/lsm/sorting/includes
+CXX_INCLUDES = -I/home/syslab/bigdatalab/sorting/includes
 
 CXX_FLAGS = -fopenmp -std=gnu++20
 
