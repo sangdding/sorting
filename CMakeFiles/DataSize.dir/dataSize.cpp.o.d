@@ -1,4 +1,4 @@
-CMakeFiles/Main.dir/main.cpp.o: /root/lsm/sorting/main.cpp \
+CMakeFiles/DataSize.dir/dataSize.cpp.o: /root/lsm/sorting/dataSize.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -154,7 +154,31 @@ CMakeFiles/Main.dir/main.cpp.o: /root/lsm/sorting/main.cpp \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/stdlib.h \
+ /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/limits \
+ /usr/include/c++/11/tr1/gamma.tcc \
+ /usr/include/c++/11/tr1/special_function_util.h \
+ /usr/include/c++/11/tr1/bessel_function.tcc \
+ /usr/include/c++/11/tr1/beta_function.tcc \
+ /usr/include/c++/11/tr1/ell_integral.tcc \
+ /usr/include/c++/11/tr1/exp_integral.tcc \
+ /usr/include/c++/11/tr1/hypergeometric.tcc \
+ /usr/include/c++/11/tr1/legendre_function.tcc \
+ /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/11/tr1/poly_hermite.tcc \
+ /usr/include/c++/11/tr1/poly_laguerre.tcc \
+ /usr/include/c++/11/tr1/riemann_zeta.tcc \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
  /root/lsm/sorting/includes/aips2o.hpp \
  /root/lsm/sorting/includes/aips2o/aips2o.hpp \
  /usr/include/c++/11/functional /usr/include/c++/11/tuple \
@@ -223,8 +247,8 @@ CMakeFiles/Main.dir/main.cpp.o: /root/lsm/sorting/main.cpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/omp.h \
  /root/lsm/sorting/includes/aips2o/synchronization.hpp \
  /usr/include/c++/11/condition_variable /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/limits \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
+ /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
+ /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/unique_lock.h /usr/include/c++/11/stop_token \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/semaphore /usr/include/c++/11/bits/semaphore_base.h \
@@ -285,7 +309,6 @@ CMakeFiles/Main.dir/main.cpp.o: /root/lsm/sorting/main.cpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
- /usr/include/c++/11/stdlib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/pmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h \
@@ -354,28 +377,6 @@ CMakeFiles/Main.dir/main.cpp.o: /root/lsm/sorting/main.cpp \
  /root/lsm/sorting/includes/aips2o/base_case.hpp \
  /root/lsm/sorting/includes/aips2o/../ska_sort/ska_sort.hpp \
  /root/lsm/sorting/includes/aips2o/memory.hpp /usr/include/c++/11/random \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/11/bits/specfun.h /usr/include/c++/11/tr1/gamma.tcc \
- /usr/include/c++/11/tr1/special_function_util.h \
- /usr/include/c++/11/tr1/bessel_function.tcc \
- /usr/include/c++/11/tr1/beta_function.tcc \
- /usr/include/c++/11/tr1/ell_integral.tcc \
- /usr/include/c++/11/tr1/exp_integral.tcc \
- /usr/include/c++/11/tr1/hypergeometric.tcc \
- /usr/include/c++/11/tr1/legendre_function.tcc \
- /usr/include/c++/11/tr1/modified_bessel_func.tcc \
- /usr/include/c++/11/tr1/poly_hermite.tcc \
- /usr/include/c++/11/tr1/poly_laguerre.tcc \
- /usr/include/c++/11/tr1/riemann_zeta.tcc \
  /usr/include/c++/11/bits/random.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc \
@@ -460,4 +461,5 @@ CMakeFiles/Main.dir/main.cpp.o: /root/lsm/sorting/main.cpp \
  /root/lsm/sorting/includes/ips4o/local_classification.hpp \
  /root/lsm/sorting/includes/ips4o/empty_block_movement.hpp \
  /root/lsm/sorting/includes/ips4o/block_permutation.hpp \
- /root/lsm/sorting/includes/ips4o/cleanup_margins.hpp
+ /root/lsm/sorting/includes/ips4o/cleanup_margins.hpp \
+ /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h

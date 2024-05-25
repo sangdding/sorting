@@ -61,5 +61,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Main.dir/DependInfo.cmake"
   "CMakeFiles/Learn.dir/DependInfo.cmake"
   "CMakeFiles/Test.dir/DependInfo.cmake"
+  "CMakeFiles/DataSize.dir/DependInfo.cmake"
+  "CMakeFiles/Parallel.dir/DependInfo.cmake"
   "utility/CMakeFiles/Utility.dir/DependInfo.cmake"
   )

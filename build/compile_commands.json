@@ -15,18 +15,28 @@
   "file": "/root/lsm/sorting/test.cpp"
 },
 {
-  "directory": "/root/lsm/sorting/build/utility",
-  "command": "/usr/bin/g++  -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Utility.dir/data_generator.cpp.o -c /root/lsm/sorting/utility/data_generator.cpp",
+  "directory": "/root/lsm/sorting/build",
+  "command": "/usr/bin/g++ -DTBB_USE_DEBUG -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/DataSize.dir/dataSize.cpp.o -c /root/lsm/sorting/dataSize.cpp",
+  "file": "/root/lsm/sorting/dataSize.cpp"
+},
+{
+  "directory": "/root/lsm/sorting/build",
+  "command": "/usr/bin/g++ -DTBB_USE_DEBUG -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Parallel.dir/parallel.cpp.o -c /root/lsm/sorting/parallel.cpp",
+  "file": "/root/lsm/sorting/parallel.cpp"
+},
+{
+  "directory": "/root/lsm/sorting/build",
+  "command": "/usr/bin/g++ -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/data_generator.cpp.o -c /root/lsm/sorting/utility/data_generator.cpp",
   "file": "/root/lsm/sorting/utility/data_generator.cpp"
 },
 {
-  "directory": "/root/lsm/sorting/build/utility",
-  "command": "/usr/bin/g++  -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Utility.dir/thread_pool.cpp.o -c /root/lsm/sorting/utility/thread_pool.cpp",
+  "directory": "/root/lsm/sorting/build",
+  "command": "/usr/bin/g++ -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/thread_pool.cpp.o -c /root/lsm/sorting/utility/thread_pool.cpp",
   "file": "/root/lsm/sorting/utility/thread_pool.cpp"
 },
 {
-  "directory": "/root/lsm/sorting/build/utility",
-  "command": "/usr/bin/g++  -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o CMakeFiles/Utility.dir/utility.cpp.o -c /root/lsm/sorting/utility/utility.cpp",
+  "directory": "/root/lsm/sorting/build",
+  "command": "/usr/bin/g++ -I/root/lsm/sorting/includes -g -fopenmp -std=gnu++20 -o utility/CMakeFiles/Utility.dir/utility.cpp.o -c /root/lsm/sorting/utility/utility.cpp",
   "file": "/root/lsm/sorting/utility/utility.cpp"
 }
 ]

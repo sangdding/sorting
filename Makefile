@@ -156,6 +156,32 @@ Test/fast:
 .PHONY : Test/fast
 
 #=============================================================================
+# Target rules for targets named DataSize
+
+# Build rule for target.
+DataSize: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DataSize
+.PHONY : DataSize
+
+# fast build rule for target.
+DataSize/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataSize.dir/build.make CMakeFiles/DataSize.dir/build
+.PHONY : DataSize/fast
+
+#=============================================================================
+# Target rules for targets named Parallel
+
+# Build rule for target.
+Parallel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Parallel
+.PHONY : Parallel
+
+# fast build rule for target.
+Parallel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/build
+.PHONY : Parallel/fast
+
+#=============================================================================
 # Target rules for targets named Utility
 
 # Build rule for target.
@@ -167,6 +193,30 @@ Utility: cmake_check_build_system
 Utility/fast:
 	$(MAKE) $(MAKESILENT) -f utility/CMakeFiles/Utility.dir/build.make utility/CMakeFiles/Utility.dir/build
 .PHONY : Utility/fast
+
+dataSize.o: dataSize.cpp.o
+.PHONY : dataSize.o
+
+# target to build an object file
+dataSize.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataSize.dir/build.make CMakeFiles/DataSize.dir/dataSize.cpp.o
+.PHONY : dataSize.cpp.o
+
+dataSize.i: dataSize.cpp.i
+.PHONY : dataSize.i
+
+# target to preprocess a source file
+dataSize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataSize.dir/build.make CMakeFiles/DataSize.dir/dataSize.cpp.i
+.PHONY : dataSize.cpp.i
+
+dataSize.s: dataSize.cpp.s
+.PHONY : dataSize.s
+
+# target to generate assembly for a file
+dataSize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DataSize.dir/build.make CMakeFiles/DataSize.dir/dataSize.cpp.s
+.PHONY : dataSize.cpp.s
 
 learn.o: learn.cpp.o
 .PHONY : learn.o
@@ -216,6 +266,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+parallel.o: parallel.cpp.o
+.PHONY : parallel.o
+
+# target to build an object file
+parallel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/parallel.cpp.o
+.PHONY : parallel.cpp.o
+
+parallel.i: parallel.cpp.i
+.PHONY : parallel.i
+
+# target to preprocess a source file
+parallel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/parallel.cpp.i
+.PHONY : parallel.cpp.i
+
+parallel.s: parallel.cpp.s
+.PHONY : parallel.s
+
+# target to generate assembly for a file
+parallel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/parallel.cpp.s
+.PHONY : parallel.cpp.s
+
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -248,16 +322,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... DataSize"
 	@echo "... Learn"
 	@echo "... Main"
+	@echo "... Parallel"
 	@echo "... Test"
 	@echo "... Utility"
+	@echo "... dataSize.o"
+	@echo "... dataSize.i"
+	@echo "... dataSize.s"
 	@echo "... learn.o"
 	@echo "... learn.i"
 	@echo "... learn.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... parallel.o"
+	@echo "... parallel.i"
+	@echo "... parallel.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

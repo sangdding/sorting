@@ -63,8 +63,8 @@ int main(int argc, char *argv[])
     int size = atoi(argv[1]);
     int num = atoi(argv[2]);
 
-    std::vector<int> I(size);
-    skim_generator<int> *gen_i = new skim_generator<int>(I);
+    std::vector<double> I(size);
+    skim_generator<double> *gen_i = new skim_generator<double>(I);
     switch (num)
     {
     case 1:

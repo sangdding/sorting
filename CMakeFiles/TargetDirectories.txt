@@ -1,6 +1,8 @@
 /root/lsm/sorting/CMakeFiles/Main.dir
 /root/lsm/sorting/CMakeFiles/Learn.dir
 /root/lsm/sorting/CMakeFiles/Test.dir
+/root/lsm/sorting/CMakeFiles/DataSize.dir
+/root/lsm/sorting/CMakeFiles/Parallel.dir
 /root/lsm/sorting/CMakeFiles/edit_cache.dir
 /root/lsm/sorting/CMakeFiles/rebuild_cache.dir
 /root/lsm/sorting/utility/CMakeFiles/Utility.dir
